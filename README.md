@@ -25,8 +25,8 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 
 ### 📊 GitHub Metrics
 <p align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=yigitsarpavci&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="yigitsarpavci stats" height="180px"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yigitsarpavci&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="yigitsarpavci top langs" height="180px"/>
+<img src="https://github-readme-stats.vercel.app/api?username=yigitsarpavci&show_icons=true&theme=radical&hide_border=true&count_private=true&v=1" alt="yigitsarpavci stats" height="180px"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yigitsarpavci&layout=compact&theme=radical&hide_border=true&v=1" alt="yigitsarpavci top langs" height="180px"/>
 </p>
 
 ---
