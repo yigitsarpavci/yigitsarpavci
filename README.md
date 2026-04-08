@@ -23,20 +23,16 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 
 ---
 
-### 💼 Highlighted Engineering Projects
-Below are curated implementations demonstrating my focus on algorithmic complexity and system efficiency.
+### 💼 Engineering Portfolio: The Algorithmic Excellence Series
+*Curated implementations from Boğaziçi University courses, focusing on computational complexity and system-level performance.*
 
-#### [MatrixNet: The Operator's Console](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)
-> High-performance graph analysis tool implementing Tarjan's SCC algorithm for network topology mapping.
+#### 🛠️ Systems Programming & Interpreter Design
+- **[Spireslayer Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter)**: A robust C-based shell/interpreter using an autonomous backtracking lexical parser. Focus on memory safety and data internalization.
 
-#### [GigMatch-Pro](https://github.com/yigitsarpavci/GigMatch-Pro)
-> A scalable matching engine utilizing optimized Max-Heaps for efficient task-to-worker allocation.
-
-#### [Nightpass Survival](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)
-> A strategy-based survival game engine focused on efficient state management and randomized event queuing.
-
-#### [Spireslayer Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter)
-> A robust C-based shell/interpreter focused on precise command parsing and semantic constraints.
+#### 🧠 Advanced Algorithms & Graph Theory
+- **[MatrixNet: The Operator's Console](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)**: High-stakes network graph analysis project implementing **Tarjan's SCC Algorithm** and Articulation Point detection ($O(V+E)$ complexity).
+- **[GigMatch-Pro](https://github.com/yigitsarpavci/GigMatch-Pro)**: A scalable worker-to-task matching engine utilizing optimized **Max-Heaps** and efficient priority allocation strategies.
+- **[Nightpass Survival](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)**: A strategy-based survival card game engine focusing on **state-machine transitions** and efficient event queue management.
 
 ---
 
