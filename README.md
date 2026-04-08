@@ -1,6 +1,5 @@
 # 👨‍💻 Yiğit Sarp Avcı
 
-![Elite Banner](assets/banner.png)
 
 ### 🚀 Bridging the Gap Between Athletic Discipline & Engineering Precision
 
@@ -21,13 +20,6 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 | **Algos** | Graph Theory, Dynamic Programming, SCC (Tarjan's) |
 | **Tools** | Git, Makefile, Linux/Unix, VS Code, JetBrains IDEs |
 
----
-
-### 📊 GitHub Metrics
-<p align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=yigitsarpavci&show_icons=true&theme=radical&hide_border=true&count_private=true&v=1" alt="yigitsarpavci stats" height="180px"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yigitsarpavci&layout=compact&theme=radical&hide_border=true&v=1" alt="yigitsarpavci top langs" height="180px"/>
-</p>
 
 ---
 
