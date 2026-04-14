@@ -1,4 +1,4 @@
-# # Yi# Yigit Sarp Avci
+# Yigit Sarp Avci
 
 ### Bridging the Gap Between Athletic Discipline & Engineering Precision
 
