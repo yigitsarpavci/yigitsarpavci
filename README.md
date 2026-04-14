@@ -2,51 +2,63 @@
 
 ### Bridging the Gap Between Athletic Discipline & Engineering Precision
 
-I am a Computer Engineering student at Bogazici University with a deep passion for low-level systems, high-performance algorithms, and robust backend architectures. My journey is defined by the same discipline I apply to my athletic pursuits: a commitment to excellence, continuous optimization, and the drive to push boundaries.
+I am a Computer Engineering student at Bogazici University with a deep passion for low-level systems, data structures, and the intersection of hardware and software. My approach to engineering is grounded in the same discipline I apply to athletics: a commitment to excellence, continuous optimization, and the grit to solve complex problems.
 
 ---
 
 ### Academic & Personal Foundation
 
-Education: Pursuing Computer Engineering at Bogazici University (CMPE 2.2)
-Background: Proud alumnus of Kabatas High School
-Experience: Gained valuable international exposure through the USA Work & Travel program
-Philosophy: I believe that software engineering is an endurance sport. Every byte managed and every algorithm optimized is a step toward a high-performance system.
+Sophomore Computer Engineering @ Bogazici University (CMPE 2.2)
 
-### Core Stack & Expertise
+My academic journey is focused on building a rock-solid foundation in both theoretical and applied computer science:
 
-| Area | Technologies |
-| :--- | :--- |
-| Languages | Java, C, Python, JavaScript, x86-64 ASM, VHDL, Scheme, Prolog |
-| Systems | Memory Management, CPU Optimization, Multithreading, Digital Logic Design |
-| Algos | Graph Theory, Dynamic Programming, SCC (Tarjan's) |
-| Tools | Git, Makefile, Linux/Unix, VS Code, JetBrains IDEs, Qt Creator |
-
----
-
-### Engineering Portfolio: The Algorithmic Excellence Series
-
-#### Systems Programming & Interpreter Design
-Spireslayer Command Interpreter: A robust C-based shell/interpreter using an autonomous backtracking lexical parser. Focus on memory safety and data internalization.
-
-#### Advanced Algorithms & Graph Theory
-MatrixNet: The Operator's Console: High-stakes network graph analysis project implementing Tarjan's SCC Algorithm and Articulation Point detection.
-GigMatch-Pro: A scalable worker-to-task matching engine utilizing optimized Max-Heaps and efficient priority allocation strategies.
-Nightpass Survival: A strategy-based survival card game engine focusing on state-machine transitions and efficient event queue management.
-
----
-
-### Beyond the Terminal
-Athlete: Representing sports clubs with the same persistence I bring to debugging complex systems.
-Musician: Finding harmony in both sound and syntax; performing at community and university events.
-Languages: Turkish (Native), English (Fluent), German (Elementary).
-Community: Active volunteer in Bogazici's vibrant club ecosystem, focusing on social impact and peer mentorship.
-
----
-
-### Let's Connect
-Institutional: yigit.avci@boun.edu.tr
-LinkedIn: https://www.linkedin.com/in/yigitsarpavci
-
----
-"The code you write today is the foundation for the systems of tomorrow."
+* Systems & Hardware Architecture:
+*     * Systems Programming (CMPE 230): Mastering x86-64 Assembly and C for low-level memory management and Unix-based system calls.
+*     * Digital Systems (CMPE 240): Designing logic circuits and finite state machines (FSMs) using VHDL and FPGA logic.
+*     * Electronics (EE 210/212): Understanding the physics of computation (transistors, circuit analysis).
+* * Algorithms & Mathematical Rigor:
+  *     * Data Structures & Algorithms (CMPE 160/250): Expertise in Java and C++ implementations, focusing on computational complexity (Big O) and recursive optimization.
+  *     * Math Excellence: Solid foundations in Matrix Theory (Linear Algebra), Differential Equations, and Discrete Mathematics.
+  * * Programming Paradigms: Exploring diverse computation models including Functional (Scheme/Racket) and Logic (Prolog) programming models.
+   
+    * ---
+   
+    * ### Technical Arsenal & Competencies
+   
+    * | Category | Skills |
+    * | :--- | :--- |
+    * | **Primary Languages** | `C++`, `C`, `Java`, `Python`, `x86-64 ASM`, `VHDL` |
+    * | **Logic & Paradigms** | `Scheme / Racket`, `Prolog`, `Functional`, `Logic`, `OOP` |
+    * | **Systems & Tools** | `Linux / Unix`, `Bash`, `Git / GitHub`, `Qt Creator`, `Pthreads` |
+    * | **Theoretical Focus** | `Graph Theory`, `Complexity Analysis`, `Digital Design`, `Linear Algebra` |
+   
+    * ---
+   
+    * ### Engineering Portfolio: The Algorithmic Excellence Series
+   
+    * #### Systems & Interpreter Design
+    * * [Spireslayer Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter): A robust C-based shell/interpreter using an autonomous backtracking lexical parser.
+      * * [Aether Nexus](https://github.com/yigitsarpavci/Aether-Nexus): A real-time 1v1 lane battler game engine developed with a focus on optimized unit pathfinding and state management.
+       
+        * #### Data Structures & Graph Algorithms
+        * * [MatrixNet](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console): Network graph analysis implementing Tarjan's SCC Algorithm and Articulation Point detection ($O(V+E)$).
+          * * [GigMatch-Pro](https://github.com/yigitsarpavci/GigMatch-Pro): A scalable task matching engine utilizing optimized Max-Heaps for efficient priority allocation.
+           
+            * ---
+           
+            * ### Beyond the Terminal
+           
+            * * Athletic Discipline: Competitive athlete representing multiple sports clubs; I bring a high-performance mindset to collaborative software projects.
+              * * Creative Harmony: Keen interest in music performance, regularly performing at events.
+                * * Global Experience: USA Work & Travel participant; gained international cultural experience and honed teamwork in high-stakes environments.
+                  * * Languages: Turkish (Native), English (Fluent), German (Elementary).
+                   
+                    * ---
+                   
+                    * ### Curriculum Vitae & Contact
+                    * * [Download CV (PDF)](./cv/CV_Yigit_Sarp_Avci.pdf) | [Download CV (Word)](./cv/CV_Yigit_Sarp_Avci.docx)
+                      * * [LinkedIn](https://www.linkedin.com/in/yi%C4%9Fit-sarp-avc%C4%B1-658808299/) | [yigit.avci@boun.edu.tr](mailto:yigit.avci@boun.edu.tr)
+                       
+                        * ---
+                        * *"Dedicated to crafting efficient, logical, and impactful solutions."*
+                        * 
