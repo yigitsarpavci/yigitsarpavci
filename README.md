@@ -40,7 +40,6 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 
 #### 🛠️ Systems & Interpreter Design
 - **[Spireslayer Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter)**: A robust C-based shell/interpreter using an autonomous backtracking lexical parser.
-- **[Aether Nexus](https://github.com/yigitsarpavci/Aether-Nexus)**: A real-time 1v1 lane battler game engine developed with a focus on optimized unit pathfinding and state management.
 
 #### 🧠 Data Structures & Graph Algorithms
 - **[MatrixNet](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)**: Network graph analysis implementing **Tarjan's SCC Algorithm** and Articulation Point detection ($O(V+E)$).
