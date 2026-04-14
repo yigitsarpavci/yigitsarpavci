@@ -1,54 +1,52 @@
-# Merhaba, I'm Yigit Sarp Avci
+# # Yigit Sarp Avci
 
-### Bridging the Gap Between Athletic Discipline and Engineering Precision
+### Bridging the Gap Between Athletic Discipline & Engineering Precision
 
-I am a results-oriented Computer Engineering student at **Bogazici University**, dedicated to mastering low-level systems, logic design, and diverse programming paradigms. My background as an athlete and musician fuels my discipline, creativity, and drive for excellence in every line of code I write.
+I am a **Computer Engineering** student at **Bogazici University** with a deep passion for low-level systems, high-performance algorithms, and robust backend architectures. My journey is defined by the same discipline I apply to my athletic pursuits: a commitment to excellence, continuous optimization, and the drive to push boundaries.
 
 ---
 
-### Academic Foundation
+### Academic & Personal Foundation
+- **Education**: Pursuing Computer Engineering at **Bogazici University (CMPE 2.2)**.
+- - **Background**: Proud alumnus of **Kabatas High School**.
+  - - **Experience**: Gained valuable international exposure through the **USA Work & Travel** program, improving communication and teamwork.
+    - - **Philosophy**: I believe that software engineering is an endurance sport. Every byte managed and every algorithm optimized is a step toward a high-performance system.
+     
+      - ### Core Stack & Expertise
+      - | Area | Technologies |
+      - | :--- | :--- |
+      - | **Languages** | Java, C, Python, JavaScript, **x86-64 ASM, VHDL, Scheme, Prolog** |
+      - | **Systems** | Memory Management, CPU Optimization, Multithreading, **Digital Logic Design** |
+      - | **Algos** | Graph Theory, Dynamic Programming, SCC (Tarjan's) |
+      - | **Tools** | Git, Makefile, Linux/Unix, VS Code, JetBrains IDEs, **Qt Creator** |
+     
+    - ---
 
-**Computer Engineering Student at Bogazici University (CMPE 2.2)**  
-*Ex-Kabatas Erkek Lisesi*
+    ### Engineering Portfolio: The Algorithmic Excellence Series
+    *Curated implementations from Bogazici University courses, focusing on computational complexity and system-level performance.*
 
-Focusing on the core pillars of computer science in the current semester:
-- **Systems Programming**: Deep-diving into **C** and **x86-64 Assembly**. Exploring multithreading, process management, and memory safety.
-- - **Digital Systems**: Designing complex logic circuits and Finite State Machines (FSMs) using **VHDL**.
-  - - **Programming Paradigms**: Mastering Functional (Scheme/Racket) and Logic (Prolog) programming models.
+    #### Systems Programming & Interpreter Design
+    - **[Spireslayer Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter)**: A robust C-based shell/interpreter using an autonomous backtracking lexical parser. Focus on memory safety and data internalization.
    
-    - ### Global Perspective and Languages
-   
-    - - **Intercultural Experience**: Participated in the **USA Work and Travel** program, developing strong communication, teamwork, and problem-solving skills in a high-paced, international environment.
-      - - **Spoken Languages**:
-        -     - **Turkish** (Native)
-        -     - **English** (Fluent)
-        -     - **German** (Elementary)
-       
-        - ### Toolset and Competencies
-       
-        - | Category | Skills |
-        - | :--- | :--- |
-        - | **Languages** | `C`, `C++`, `x86-64 ASM`, `VHDL`, `Python`, `JavaScript`, `Java`, `Scheme`, `Prolog` |
-        - | **Frameworks and Tools** | `Git`, `Linux / Bash`, `Multithreading (Pthreads)`, `Qt`, `Docker` |
-        - | **Paradigms** | `Imperative`, `Procedural`, `Functional`, `Logic Programming` |
-       
-        - ### Beyond the Terminal
-       
-        - - **Athletic Discipline**: Competitive athlete for multiple sports clubs, bringing the grit and teamwork of sports to the engineering world.
-          - - **Creative Expression**: Keen interest in music performance and creative expression, regularly performing at events.
-            - - **Leadership and Volunteering**: Active in prominent student clubs and community-focused volunteering initiatives.
-             
-              - ---
+    - #### Advanced Algorithms & Graph Theory
+    - - **[MatrixNet: The Operator's Console](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)**: High-stakes network graph analysis project implementing **Tarjan's SCC Algorithm** and Articulation Point detection ($O(V+E)$ complexity).
+      - - **[GigMatch-Pro](https://github.com/yigitsarpavci/GigMatch-Pro)**: A scalable worker-to-task matching engine utilizing optimized **Max-Heaps** and efficient priority allocation strategies.
+        - - **[Nightpass Survival](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)**: A strategy-based survival card game engine focusing on **state-machine transitions** and efficient event queue management.
+         
+          - ---
 
-              <p align="center">
-                <img src="https://github-readme-stats.vercel.app/api?username=yigitsarpavci&show_icons=true&theme=transparent" alt="Stats" />
-              </p>p>
+          ### Beyond the Terminal
+          - **Athlete**: Representing sports clubs with the same persistence I bring to debugging complex systems.
+          - - **Musician**: Finding harmony in both sound and syntax; performing at community and university events.
+            - - **Languages**: Turkish (Native), English (Fluent), German (Elementary).
+              - - **Community**: Active volunteer in Bogazici's vibrant club ecosystem, focusing on social impact and peer mentorship.
+               
+                - ---
 
-              <p align="center">
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yigitsarpavci&layout=compact&theme=transparent" alt="Top Languages" />
-              </p>p>
-
-              ---
-              <p align="center">
-                <i>"Committed to building impactful technology through logic and grit."</i>i>
-              </p>p></i>
+                ### Let's Connect
+                - **Institutional**: [yigit.avci@boun.edu.tr](mailto:yigit.avci@boun.edu.tr)
+                - - **LinkedIn**: [Yigit Sarp Avci](https://www.linkedin.com/in/yi%C4%9Fit-sarp-avc%C4%B1-658808299/)
+                 
+                  - ---
+                  *"The code you write today is the foundation for the systems of tomorrow."*
+                  
