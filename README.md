@@ -29,7 +29,7 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 | :--- | :--- |
 | **Languages** | `C++`, `C`, `Java`, `Python`, `x86-64 ASM`, `VHDL` |
 | **Paradigms** | `Scheme / Racket`, `Prolog`, `Functional`, `Logic`, `OOP` |
-| **Systems & Tools** | `Linux / Unix`, `Bash`, `Git / GitHub`, `Qt Creator`, `Pthreads` |
+| **Systems & Tools** | `Linux / Unix`, `Bash`, `Git / GitHub`, `Linux Syscalls`, `Pthreads`, `Process Scheduling` |
 | **Math & Theory**| `Graph Theory`, `Linear Algebra`, `Complexity Analysis`, `Discrete Math` |
 
 ---
@@ -38,6 +38,7 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 
 #### 🛠️ Systems & Interpreter Design
 - **[Spireslayer Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter)**: A robust C-based shell/interpreter using an autonomous backtracking lexical parser.
+- **[SchedSim CPU Scheduler](https://github.com/yigitsarpavci/SchedSim-CPU-Scheduler)**: A high-performance CPU scheduling simulation engine (FCFS, SJF, SRTF, PF, RR) built with **x86-64 GNU Assembly**, zero libc dependencies, and direct Linux syscalls.
 
 #### 🧠 Data Structures & Graph Algorithms
 - **[MatrixNet](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)**: Network graph analysis implementing **Tarjan's SCC Algorithm** and Articulation Point detection ($O(V+E)$).
