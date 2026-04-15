@@ -46,6 +46,13 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 
 ---
 
+### 🚀 Currently Learning
+
+- Exploring advanced **Embedded Systems** concepts and low-level **Linux Kernel Architecture**.
+- Deepening my understanding of High-Performance Computing and CPU Cache Optimization strategies.
+
+---
+
 ### 🌟 Beyond the Terminal
 
 - 🏃 **Athletic Discipline**: Competitive athlete representing multiple sports clubs; I bring a high-performance mindset to collaborative software projects.
