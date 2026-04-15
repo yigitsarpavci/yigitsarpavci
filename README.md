@@ -1,7 +1,5 @@
 # 👨‍💻 Yiğit Sarp Avcı
 
-### 🚀 Bridging the Gap Between Athletic Discipline & Engineering Precision
-
 I am a **Computer Engineering** student at **Boğaziçi University** with a deep passion for low-level systems, high-performance algorithms, and the intersection of hardware and software. My approach to engineering is grounded in the same discipline I apply to athletics: a commitment to excellence, continuous optimization, and the grit to solve complex problems.
 
 ---
