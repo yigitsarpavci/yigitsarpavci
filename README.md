@@ -30,6 +30,7 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 | **Languages** | `C++`, `C`, `Java`, `Python`, `x86-64 ASM`, `VHDL` |
 | **Paradigms** | `Scheme / Racket`, `Prolog`, `Functional`, `Logic`, `OOP` |
 | **Systems & Tools** | `Linux / Unix`, `Bash`, `Git / GitHub`, `Linux Syscalls`, `Pthreads`, `Process Scheduling` |
+| **AI & Tooling** | `Vibecode`, `Autonomous Coding`, `AI-Assisted Architecture`, `LLM Prompting` |
 | **Math & Theory**| `Graph Theory`, `Linear Algebra`, `Complexity Analysis`, `Discrete Math` |
 
 ---
@@ -43,6 +44,7 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 #### 🧠 Data Structures & Graph Algorithms
 - **[MatrixNet](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)**: Network graph analysis implementing **Tarjan's SCC Algorithm** and Articulation Point detection ($O(V+E)$).
 - **[GigMatch-Pro](https://github.com/yigitsarpavci/GigMatch-Pro)**: A scalable task matching engine utilizing optimized **Max-Heaps** for efficient priority allocation.
+- **[Nightpass Survival Game](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)**: An algorithmic implementation of a complex rule engine governing strategic deck, hand, and resource economics in a terminal environment.
 
 ---
 
