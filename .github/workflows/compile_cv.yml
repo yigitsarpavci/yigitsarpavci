@@ -1,0 +1,30 @@
+name: Build and Sync CV PDF
+
+on:
+  push:
+    paths:
+      - 'cv/*.tex'
+  workflow_dispatch:
+
+jobs:
+  build_cv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Compile LaTeX CV
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: cv/*.tex
+          working_directory: cv/
+
+      - name: Rename and Commit PDF
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          # İsmi standardize et (Türkçe karakter sorununu önlemek için)
+          mv cv/*.pdf "cv/Yigit_Sarp_Avci_CV.pdf"
+          git add "cv/Yigit_Sarp_Avci_CV.pdf"
+          git commit -m "docs: auto-generate CV PDF from LaTeX source" || echo "No changes to commit"
+          git push origin main
