@@ -6,6 +6,9 @@ on:
       - 'cv/cv.tex'
   workflow_dispatch:
 
+permissions:
+  contents: write  # DÜZELTME: Yazma izni eklendi
+
 jobs:
   build_cv:
     runs-on: ubuntu-latest
@@ -16,7 +19,7 @@ jobs:
       - name: Compile LaTeX CV
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: cv.tex  # DÜZELTME: working_directory içinde olduğu için direkt dosya adı
+          root_file: cv.tex
           working_directory: cv/
 
       - name: Rename and Commit PDF
