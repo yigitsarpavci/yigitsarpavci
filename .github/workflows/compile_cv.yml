@@ -3,7 +3,7 @@ name: Build and Sync CV PDF
 on:
   push:
     paths:
-      - 'cv/*.tex'
+      - 'cv/cv.tex'
   workflow_dispatch:
 
 jobs:
@@ -16,15 +16,20 @@ jobs:
       - name: Compile LaTeX CV
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: cv/*.tex
+          root_file: cv/cv.tex
           working_directory: cv/
 
       - name: Rename and Commit PDF
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # İsmi standardize et (Türkçe karakter sorununu önlemek için)
-          mv cv/*.pdf "cv/Yigit_Sarp_Avci_CV.pdf"
-          git add "cv/Yigit_Sarp_Avci_CV.pdf"
-          git commit -m "docs: auto-generate CV PDF from LaTeX source" || echo "No changes to commit"
-          git push origin main
+          # PDF'in oluştuğundan emin ol ve isimlendir
+          if [ -f cv/cv.pdf ]; then
+            mv cv/cv.pdf cv/Yigit_Sarp_Avci_CV.pdf
+            git add cv/Yigit_Sarp_Avci_CV.pdf
+            git commit -m "docs: auto-generate CV PDF [Aura Update]"
+            git push origin main
+          else
+            echo "PDF not found!"
+            exit 1
+          fi

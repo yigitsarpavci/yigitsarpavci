@@ -1,0 +1,168 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[margin=1.37cm, top=2.06cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\pagestyle{empty} % no page number
+
+\setlength{\parindent}{0pt}
+
+\newcommand{\sechead}[1]{
+    \vspace{10pt}
+    {\fontsize{12}{14}\bfseries #1} \par
+    \vspace{4pt}
+}
+
+\newcommand{\entry}[2]{
+    {\fontsize{10}{12}\fontseries{sb}\selectfont #1} \hfill {\fontsize{8}{10}\selectfont #2} \par
+}
+
+\newcommand{\desc}[1]{
+    {\fontsize{8}{11}\selectfont #1}
+}
+
+\newcommand{\contactrow}[2]{
+    {\fontsize{10}{14}\bfseries #1} {\fontsize{10}{14}\selectfont : #2} \par
+}
+
+\renewcommand{\labelitemi}{\fontsize{8}{10}\selectfont\textbullet}
+
+\begin{document}
+
+\begin{center}
+    {\fontsize{20.5}{24}\bfseries Yi\u{g}it Sarp Avc\i{}}
+\end{center}
+\vspace{0.8em} % approx spacing
+
+\contactrow{Address}{Istanbul, Turkey}
+\contactrow{Phone}{+90 535 361 71 91}
+\contactrow{Email}{yigitsarpavci@gmail.com}
+\contactrow{LinkedIn}{www.linkedin.com/in/yigit-sarp-avc\i-658808299/}
+\contactrow{GitHub}{https://github.com/yigitsarpavci}
+
+\sechead{Education}
+
+\entry{Bo\u{g}azi\c{c}i University - B.Sc. in Computer Engineering}{09/2023 -- Present}
+\vspace{2pt}
+
+\entry{Kabata\c{s} Boys' High School}{09/2018 -- 06/2023}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+    \item \desc{Graduated with a GPA of 3.78/4.00.}
+    \item \desc{Actively participated in various extracurricular activities and student societies, including \\
+    Debate, Model United Nations, Entrepreneurship, and the Coding Club.}
+\end{itemize}
+
+\sechead{Experience}
+
+\entry{Executive Board Member at Radyo Bo\u{g}azi\c{c}i}{09/2023 -- Present}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+   \item \desc{Developed strong skills in team coordination, social media management, budget planning,\\ event organization, communication, and operational decision-making.}
+\end{itemize}
+\vspace{2pt}
+
+\entry{Work and Travel Program Participant}{06/2025 -- 09/2025}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+   \item \desc{Gained valuable international experience through the cultural exchange and work program in the\\ USA which improved my communication, English, teamwork and problem-solving skills.}
+\end{itemize}
+\vspace{2pt}
+
+\entry{Regional Organizational Team Member at ESTIEM}{09/2023 -- Present}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+   \item \desc{Contributed to the planning and coordination of events, team communication, and organizational\\ processes within ESTIEM, an international network connecting Industrial Engineering and\\ Management students across Europe.}
+\end{itemize}
+
+\sechead{Technical Projects}
+
+\entry{SchedSim CPU Scheduler --- \textmd{x86-64 Assembly, GNU Toolchain, Linux Syscalls}}{}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
+   \item \desc{High-performance CPU scheduling simulation engine (FCFS, SJF, SRTF, PF, RR) built with zero standard library dependencies, utilizing direct Linux syscalls for I/O and process management.}
+\end{itemize}
+\vspace{2pt}
+
+\entry{Spireslayer Command Interpreter --- \textmd{C, Custom Backtracking Lexer}}{}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
+   \item \desc{Robust CLI-based interpreter replicating fantasy RPG REPL mechanics; implemented an autonomous backtracking lexical parser to handle non-deterministic grammar and complex command resolution.}
+\end{itemize}
+\vspace{2pt}
+\entry{Aura Functional Interpreter --- \textmd{Python, Functional Paradigms, Dual Scoping Engine}}{}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
+   \item \desc{Advanced interpreter for a custom functional language supporting first-class closures, higher-order function patterns, and toggleable lexical/dynamic scoping engines for complex variable resolution.}
+\end{itemize}
+\vspace{2pt}
+
+\entry{MatrixNet --- \textmd{Java, Tarjan's SCC Algorithm, Graph Theory}}{}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
+   \item \desc{Network graph analysis tool implementing Tarjan's SCC and Articulation Point detection ($O(V+E)$); optimized with Open Addressing to eliminate internal JVM string allocation overheads.}
+\end{itemize}
+\vspace{2pt}
+
+\entry{GigMatch-Pro --- \textmd{Java, Memory-Optimized Heaps}}{}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
+   \item \desc{Scalable task-matching marketplace engine utilizing optimized dynamic Max-Heaps for high-efficiency priority allocation and candidate-to-job matching algorithms.}
+\end{itemize}
+\vspace{2pt}
+
+\entry{Nightpass Survival Game --- \textmd{Java, Rule Engine Architecture}}{}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
+   \item \desc{Algorithmic implementation of a complex rule engine governing strategic deck, hand, and resource economics in a terminal-based survival card game environment.}
+\end{itemize}
+
+\sechead{Volunteer Experience}
+
+\entry{Education Mentor at TO\c{C}EV}{09/2019 -- 03/2020}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+   \item \desc{Provided volunteer tutoring and mentoring for children from disadvantaged backgrounds.}
+\end{itemize}
+\vspace{2pt}
+
+\entry{Volunteer at Kabata\c{s} Boys' High School Community Involvement Projects Club}{09/2018 -- 06/2023}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+   \item \desc{Carried out various volunteer projects aimed at helping and supporting people in need\\ through community involvement initiatives.}
+\end{itemize}
+\vspace{2pt}
+
+\entry{Volunteering Division Member at Bo\u{g}azi\c{c}i University Industrial Engineering Club}{09/2023 -- 06/2024}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+   \item \desc{Supported the organization and execution of volunteer initiatives and community-oriented\\ projects within the club.}
+\end{itemize}
+\vspace{2pt}
+
+\entry{Education Mentor at Derece Kamp\u{u}s\u{u}}{}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+   \item \desc{Mentored high school students for the university entrance exams, providing academic guidance\\ and exam strategy support.}
+\end{itemize}
+
+\sechead{Technical Skills}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+   \item \desc{\textbf{Languages:} C, C++, Java, Python, x86-64 Assembly, VHDL, Scheme, Racket, Prolog, Bash}
+   \item \desc{\textbf{Low-Level \& Systems:} Pthreads, Linux Syscalls, Memory Management, Process Scheduling, Interpreter Design, FPGA}
+   \item \desc{\textbf{AI \& Modern Engineering:} Vibecoding, Autonomous Coding, LLM Prompting, AI-Assisted Architecture}
+   \item \desc{\textbf{Core Theory:} Data Structures \& Algorithms, Complexity Analysis (Big O), Graph Theory, Discrete Math}
+   \item \desc{\textbf{Software \& Ecosystem:} Linux/Unix, Git, GitHub, LaTeX, MS Excel, PowerPoint, Canva, Adobe Photoshop}
+\end{itemize}
+
+\vspace{5pt}
+\begin{minipage}[t]{0.35\textwidth}
+    \sechead{Languages}
+    \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+       \item \desc{Turkish (native)}
+       \item \desc{English (fluent)}
+       \item \desc{German (elementary)}
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.60\textwidth}
+    \sechead{Extracurricular Activities}
+    \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+       \item \desc{DJ, Radyo Bo\u{g}azi\c{c}i}
+       \item \desc{Student-Athlete, Bo\u{g}azi\c{c}i University Sailing Team}
+       \item \desc{Student-Athlete, Bo\u{g}azi\c{c}i University Ski Team}
+       \item \desc{Windsurf Athlete, Competing Individually}
+    \end{itemize}
+\end{minipage}
+
+\end{document}
