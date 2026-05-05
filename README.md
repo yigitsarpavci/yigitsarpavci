@@ -38,6 +38,7 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 ### 💼 Engineering Portfolio: The Algorithmic Excellence Series
 
 #### 🛠️ Systems & Interpreter Design
+- **[Aura Functional Interpreter](https://github.com/yigitsarpavci/Aura-Functional-Interpreter)**: A robust Python-based interpreter for a custom functional language featuring first-class closures, higher-order function patterns, and toggleable scoping engines.
 - **[Spireslayer Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter)**: A robust C-based shell/interpreter using an autonomous backtracking lexical parser.
 - **[SchedSim CPU Scheduler](https://github.com/yigitsarpavci/SchedSim-CPU-Scheduler)**: A high-performance CPU scheduling simulation engine (FCFS, SJF, SRTF, PF, RR) built with **x86-64 GNU Assembly**, zero libc dependencies, and direct Linux syscalls.
 
