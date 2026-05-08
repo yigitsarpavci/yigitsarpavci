@@ -43,9 +43,9 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 - **[SchedSim CPU Scheduler](https://github.com/yigitsarpavci/SchedSim-CPU-Scheduler)**: A high-performance CPU scheduling simulation engine (FCFS, SJF, SRTF, PF, RR) built with **x86-64 GNU Assembly**, zero libc dependencies, and direct Linux syscalls.
 
 #### 🧠 Data Structures & Graph Algorithms
-- **[MatrixNet](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)**: Network graph analysis implementing **Tarjan's SCC Algorithm** and Articulation Point detection ($O(V+E)$).
-- **[GigMatch-Pro](https://github.com/yigitsarpavci/GigMatch-Pro)**: A scalable task matching engine utilizing optimized **Max-Heaps** for efficient priority allocation.
-- **[Nightpass Survival Game](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)**: An algorithmic implementation of a complex rule engine governing strategic deck, hand, and resource economics in a terminal environment.
+- **[MatrixNet](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)**: Network graph analysis implementing **Tarjan's SCC Algorithm** and Articulation Point detection, achieving **$O(V+E)$** time complexity for identifying critical infrastructure vulnerabilities in dense networks.
+- **[GigMatch-Pro](https://github.com/yigitsarpavci/GigMatch-Pro)**: A scalable task matching engine utilizing optimized **Max-Heaps** for efficient priority allocation, handling high-throughput job queue insertions and extractions in strictly **$O(\log N)$** time.
+- **[Nightpass Survival Game](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)**: An algorithmic implementation of a complex rule engine governing strategic deck, hand, and resource economics in a terminal environment, showcasing robust state-machine management.
 
 #### 💹 Full-Stack & Algorithmic FinTech
 - **[FinTech Intelligence Platform](https://github.com/yigitsarpavci/fintech-intelligence-platform)**: A high-performance, containerized financial dashboard engineered with **Next.js** and **FastAPI**. Features an asynchronous **Price-Time Priority limit-order matching engine**, a mathematical portfolio risk evaluator, and a fault-tolerant AI insight generator utilizing OpenAI with secure, in-house NLP fallbacks.
