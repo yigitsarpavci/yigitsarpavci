@@ -4,8 +4,6 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 
 ---
 
----
-
 ### 🛠️ Technical Arsenal & Competencies
 
 | Domain | Competencies & Technologies |
@@ -39,22 +37,6 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 
 ---
 
-### 🚀 Currently Learning
-
-- Exploring advanced **Embedded Systems** concepts and low-level **Linux Kernel Architecture**.
-- Deepening my understanding of High-Performance Computing and CPU Cache Optimization strategies.
-
----
-
-### 🌟 Beyond the Terminal
-
-- 🏃 **Athletic Discipline**: Competitive athlete representing multiple sports clubs; I bring a high-performance mindset to collaborative software projects.
-- 🎸 **Creative Harmony**: Keen interest in music performance, regularly performing at community and university events.
-- 🌍 **Global Experience**: **USA Work & Travel** participant; honed teamwork and communication in high-stakes international environments.
-- 🇹🇷🇺🇸🇩🇪 **Languages**: Turkish (Native), English (Fluent), German (Elementary).
-
----
-
 ### 📄 Curriculum Vitae & Contact
 
 - 💼 **[Visit LinkedIn Profile](https://www.linkedin.com/in/yi%C4%9Fit-sarp-avc%C4%B1-658808299/)**
@@ -62,4 +44,3 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 - 📧 **[yigit.avci@boun.edu.tr](mailto:yigit.avci@boun.edu.tr)** | 📧 **[yigitsarpavci@gmail.com](mailto:yigitsarpavci@gmail.com)**
 
 ---
-*"Dedicated to crafting efficient, logical, and impactful solutions."*
