@@ -4,6 +4,13 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 
 ---
 
+### 🏛️ Academic & Personal Foundation
+
+**Sophomore Computer Engineering @ Boğaziçi University (CMPE 2.2)**  
+*Ex-Kabataş Erkek Lisesi Alumnus*
+
+---
+
 ### 🛠️ Technical Arsenal & Competencies
 
 | Domain | Competencies & Technologies |
