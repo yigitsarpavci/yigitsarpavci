@@ -4,23 +4,6 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 
 ---
 
-### 🏛️ Academic & Personal Foundation
-
-**Sophomore Computer Engineering @ Boğaziçi University (CMPE 2.2)**  
-*Ex-Kabataş Erkek Lisesi Alumnus*
-
-#### 🏗️ Systems & Hardware Architecture
-- **Systems Programming (CMPE 230)**: Mastering **x86-64 Assembly** and **C** for low-level memory management, Unix-based system calls, and multithreaded performance.
-- **Digital Systems (CMPE 240)**: Designing logic circuits and finite state machines (FSMs) using **VHDL** and FPGA logic.
-- **Electronics & Devices (EE 210/212)**: Understanding the physical foundations of computation and circuit analysis.
-
-#### 🧠 Algorithms & Mathematical Rigor
-- **Data Structures & Algorithms (CMPE 160/250)**: Expertise in **Java** and **C++** implementations, focusing on computational complexity (Big O), recursive optimization, and graph theory.
-- **Mathematics for CS**: Solid foundations in **Matrix Theory (MATH 201)**, **Differential Equations (MATH 202)**, and **Discrete Mathematics (CMPE 220)**.
-
-#### 💻 Programming Paradigms
-- Exploring diverse computation models including **Functional (Scheme/Racket)**, **Logic (Prolog)**, and **Object-Oriented (Java/C++)** programming models.
-
 ---
 
 ### 🛠️ Technical Arsenal & Competencies
