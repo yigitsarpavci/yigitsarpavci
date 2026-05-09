@@ -27,15 +27,19 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 
 | Category | Skills |
 | :--- | :--- |
-| **Languages** | `C++`, `C`, `Java`, `Python`, `x86-64 ASM`, `VHDL` |
+| **Languages** | `C++`, `C`, `Java`, `Python`, `x86-64 ASM`, `Typescript`, `Javascript`, `VHDL` |
+| **Web Tech** | `Next.js 15+`, `React`, `Prisma (ORM)`, `Tailwind CSS`, `Framer Motion`, `API Design` |
 | **Paradigms** | `Scheme / Racket`, `Prolog`, `Functional`, `Logic`, `OOP` |
-| **Systems & Tools** | `Linux / Unix`, `Bash`, `Git / GitHub`, `Linux Syscalls`, `Pthreads`, `Process Scheduling` |
-| **AI & Tooling** | `Vibecode`, `Autonomous Coding`, `AI-Assisted Architecture`, `LLM Prompting` |
+| **Systems & Tools** | `Linux / Unix`, `Bash`, `Git / GitHub`, `PostgreSQL`, `SQLite`, `Pthreads`, `Process Scheduling` |
+| **AI & Tooling** | `Advanced Agentic Coding`, `Vibecode`, `Autonomous Architecture`, `LLM Prompting` |
 | **Math & Theory**| `Graph Theory`, `Linear Algebra`, `Complexity Analysis`, `Discrete Math` |
 
 ---
 
 ### 💼 Engineering Portfolio: The Algorithmic Excellence Series
+
+#### 🏛️ Administrative & Enterprise Systems
+- **[Performo Enterprise Admin](https://github.com/yigitsarpavci/Performo-Enterprise-Admin)**: A high-density, real-time administrative intelligence dashboard engineered with **Next.js 15+** and **Prisma**. Features a "Triple Elite" 3-column layout, server-side synchronized operational metrics, sub-second data refresh cycles via **force-dynamic** rendering, and a professional "Linear Elite" design system for high-intensity operational workflows.
 
 #### 🛠️ Systems & Interpreter Design
 - **[Aura Functional Interpreter](https://github.com/yigitsarpavci/Aura-Functional-Interpreter)**: A robust Python-based interpreter for a custom functional language featuring first-class closures, higher-order function patterns, and toggleable scoping engines.
