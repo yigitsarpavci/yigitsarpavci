@@ -1,8 +1,6 @@
 # 👨‍💻 Yiğit Sarp Avcı
 
-**Computer Engineering @ Bogazici | Low-Level Systems & Enterprise Full-Stack Architect | Specializing in x86-64 ASM, Next.js 15+ & Agentic AI**
-
-I am a **Computer Engineering** student at **Boğaziçi University** with a deep passion for the intersection of low-level hardware constraints and high-performance software architecture. From mastering **x86-64 Assembly** to engineering high-density **Next.js 15+** enterprise systems, my approach is grounded in a commitment to algorithmic excellence, continuous optimization, and sarsılmaz discipline.
+I am a **Computer Engineering** student at **Boğaziçi University** with a deep passion for low-level systems, high-performance algorithms, and the intersection of hardware and software. My approach to engineering is grounded in the same discipline I apply to athletics: a commitment to excellence, continuous optimization, and the grit to solve complex problems.
 
 ---
 
