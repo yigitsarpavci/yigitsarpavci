@@ -2,6 +2,8 @@
 
 I am a **Computer Engineering** student at **Boğaziçi University** with a deep passion for low-level systems, high-performance algorithms, and the intersection of hardware and software. My approach to engineering is grounded in the same discipline I apply to athletics: a commitment to excellence, continuous optimization, and the grit to solve complex problems.
 
+From architecting **AI-Powered Intelligence Platforms** and **High-Performance Schedulers** in **x86-64 Assembly** to engineering high-density **Next.js 15+** enterprise systems like **Performo**, I specialize in crafting efficient, logical, and impactful solutions that bridge the gap between physical hardware constraints and modern software complexity.
+
 ---
 
 ### 🏛️ Academic & Personal Foundation
