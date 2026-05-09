@@ -25,14 +25,14 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 
 ### 🛠️ Technical Arsenal & Competencies
 
-| Category | Skills |
+| Domain | Competencies & Technologies |
 | :--- | :--- |
-| **Languages** | `C++`, `C`, `Java`, `Python`, `x86-64 ASM`, `Typescript`, `Javascript`, `VHDL` |
-| **Web Tech** | `Next.js 15+`, `React`, `Prisma (ORM)`, `Tailwind CSS`, `Framer Motion`, `API Design` |
-| **Paradigms** | `Scheme / Racket`, `Prolog`, `Functional`, `Logic`, `OOP` |
-| **Systems & Tools** | `Linux / Unix`, `Bash`, `Git / GitHub`, `PostgreSQL`, `SQLite`, `Pthreads`, `Process Scheduling` |
-| **AI & Tooling** | `Advanced Agentic Coding`, `Vibecode`, `Autonomous Architecture`, `LLM Prompting` |
-| **Math & Theory**| `Graph Theory`, `Linear Algebra`, `Complexity Analysis`, `Discrete Math` |
+| **Low-Level & Systems** | `x86-64 Assembly`, `C`, `Linux Syscalls`, `Process Scheduling`, `Multithreading (Pthreads)`, `Memory Management` |
+| **Enterprise Full-Stack** | `Next.js 15+`, `Typescript`, `React`, `Prisma (ORM)`, `FastAPI`, `Tailwind CSS`, `Framer Motion`, `PostgreSQL`, `SQLite` |
+| **Data Structures & Algos** | `Tarjan's SCC`, `Articulation Points`, `Max-Heaps`, `Computational Complexity Analysis`, `Graph Theory`, `Recursive Optimization` |
+| **Paradigms & Models** | `Functional (Scheme/Racket)`, `Logic (Prolog)`, `OOP (Java/C++)`, `Interpreter Design`, `State Machines` |
+| **Engineering Tools** | `Docker`, `Git / GitHub`, `Bash / Unix Shell`, `Alembic`, `CI/CD Concepts`, `Makefile` |
+| **AI & Autonomous** | `Advanced Agentic Coding`, `LLM Prompting`, `AI-Assisted Architecture`, `Autonomous Feature Deployment` |
 
 ---
 
