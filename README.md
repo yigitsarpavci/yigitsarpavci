@@ -44,7 +44,7 @@ I am a **Computer Engineering** student at **Boğaziçi University** with a deep
 
 ---
 
-### 📄 Curriculum Vitae & Contact
+### 📄 Contact
 
 - 💼 **[Visit LinkedIn Profile](https://www.linkedin.com/in/yi%C4%9Fit-sarp-avc%C4%B1-658808299/)**
 - 📘 **[Download Short CV](./cv/CV_Yigit_Sarp_Avci.pdf)** | 📜 **[Download Detailed CV](./cv/Detailed_CV_Yigit_Sarp_Avci.pdf)** | 📂 **[Professional Bio](./cv/Professional_Bio_Yigit_Sarp_Avci.docx)**
