@@ -42,6 +42,7 @@ From architecting **AI-Powered Intelligence Platforms** and **High-Performance S
 - **[Nightpass Survival Game](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)**: An algorithmic implementation of a complex rule engine governing strategic deck, hand, and resource economics in a terminal environment, showcasing robust state-machine management.
 
 #### 💹 Full-Stack & Algorithmic FinTech
+- **[AlphaTrigger AI](https://github.com/yigitsarpavci/AlphaTrigger-AI)**: An autonomous, high-frequency trading simulation engine featuring a deterministic V8 Risk-First strategy, dynamic volatility-adjusted position sizing, and a real-time WebSocket-driven Next.js terminal.
 - **[FinTech Intelligence Platform](https://github.com/yigitsarpavci/fintech-intelligence-platform)**: A high-performance, containerized financial dashboard engineered with **Next.js** and **FastAPI**. Features an asynchronous **Price-Time Priority limit-order matching engine**, a mathematical portfolio risk evaluator, and a fault-tolerant AI insight generator utilizing OpenAI with secure, in-house NLP fallbacks.
 
 ---
