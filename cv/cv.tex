@@ -3,9 +3,22 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \renewcommand{\familydefault}{\sfdefault}
-\usepackage[margin=1.37cm, top=2.06cm]{geometry}
+\usepackage[a4paper, margin=1.3cm, top=1.8cm, bottom=1.5cm]{geometry}
+\setlength{\paperwidth}{210mm}
+\setlength{\paperheight}{297mm}
+\sloppy
 \usepackage{enumitem}
+\usepackage{xcolor}
+\definecolor{darkblue}{rgb}{0,0,0.5}
 \usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=darkblue,
+    pdfstartview={FitH},
+    pdfpagemode={UseNone}
+}
 
 \pagestyle{empty} % no page number
 
@@ -38,11 +51,14 @@
 \end{center}
 \vspace{0.8em} % approx spacing
 
-\contactrow{Address}{Istanbul, Turkey}
-\contactrow{Phone}{+90 535 361 71 91}
-\contactrow{Email}{yigitsarpavci@gmail.com}
-\contactrow{LinkedIn}{www.linkedin.com/in/yigit-sarp-avc\i-658808299/}
-\contactrow{GitHub}{https://github.com/yigitsarpavci}
+\begin{center}
+    {\fontsize{10}{12}\selectfont Istanbul, Turkey \quad \textbullet \quad +90 535 361 71 91 \quad \textbullet \quad yigitsarpavci@gmail.com}
+\end{center}
+\vspace{-0.5em}
+\begin{center}
+    {\fontsize{10}{12}\selectfont LinkedIn: \href{https://www.linkedin.com/in/yiğit-sarp-avcı-658808299/}{linkedin.com/in/yi\u{g}it-sarp-avc\i-658808299/} \quad \textbullet \quad GitHub: \href{https://github.com/yigitsarpavci}{github.com/yigitsarpavci}}
+\end{center}
+\vspace{-1em}
 
 \sechead{Education}
 
@@ -51,120 +67,104 @@
 
 \entry{Kabata\c{s} Boys' High School}{09/2018 -- 06/2023}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
-    \item \desc{Graduated with a GPA of 3.78/4.00.}
-    \item \desc{Actively participated in various extracurricular activities and student societies, including \\
-    Debate, Model United Nations, Entrepreneurship, and the Coding Club.}
+    \item \desc{Graduated with a GPA of 3.78/4.00; Extracurriculars: Debate, Model United Nations, Entrepreneurship, and Coding Club.}
 \end{itemize}
 
 \sechead{Experience}
 
 \entry{Executive Board Member at Radyo Bo\u{g}azi\c{c}i}{09/2023 -- Present}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
-   \item \desc{Developed strong skills in team coordination, social media management, budget planning,\\ event organization, communication, and operational decision-making.}
+   \item \desc{Developed strong skills in team coordination, social media management, budget planning, event organization, communication, and operational decision-making.}
 \end{itemize}
 \vspace{2pt}
 
 \entry{Work and Travel Program Participant}{06/2025 -- 09/2025}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
-   \item \desc{Gained valuable international experience through the cultural exchange and work program in the\\ USA which improved my communication, English, teamwork and problem-solving skills.}
+   \item \desc{Gained international work experience in the USA, improving English communication, teamwork, and adaptability in a multicultural environment.}
 \end{itemize}
 \vspace{2pt}
 
 \entry{Regional Organizational Team Member at ESTIEM}{09/2023 -- Present}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
-   \item \desc{Contributed to the planning and coordination of events, team communication, and organizational\\ processes within ESTIEM, an international network connecting Industrial Engineering and\\ Management students across Europe.}
+   \item \desc{Contributed to the planning, coordination of events, and organizational processes within ESTIEM, an international network for Industrial Engineering and Management students.}
 \end{itemize}
 
 \sechead{Technical Projects}
 
-\entry{AlphaTrigger AI Terminal --- \textmd{Python, FastAPI, Next.js, WebSockets}}{}
+\entry{AlphaTrigger AI Terminal --- \textmd{Python, FastAPI, Next.js, WebSockets}}{\href{https://github.com/yigitsarpavci/AlphaTrigger-AI}{\fontsize{8}{10}\selectfont GitHub Link}}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
-   \item \desc{Autonomous high-frequency trading simulation engine featuring a deterministic V8 Risk-First strategy, dynamic volatility-adjusted position sizing, and a real-time WebSocket-driven dashboard.}
+   \item \desc{Autonomous high-frequency trading simulation engine featuring deterministic risk-management strategies, dynamic volatility-adjusted position sizing, and a real-time WebSocket-driven dashboard.}
 \end{itemize}
 \vspace{2pt}
 
-\entry{Performo Enterprise Admin --- \textmd{Next.js 15+, Prisma, Tailwind CSS, Framer Motion}}{}
+\entry{Performo Enterprise Admin --- \textmd{Next.js 15+, Prisma, Tailwind CSS, Framer Motion}}{\href{https://github.com/yigitsarpavci/Performo-Enterprise-Admin}{\fontsize{8}{10}\selectfont GitHub Link}}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
-   \item \desc{Engineered a high-density administrative intelligence dashboard with real-time operational metrics and server-side synchronized state management for high-intensity monitoring.}
-   \item \desc{Implemented a professional "Triple Elite" design system with sub-second data refresh cycles via force-dynamic rendering and optimized SQL indexing for administrative stability.}
+   \item \desc{Developed an administrative dashboard with real-time operational metrics and server-side synchronized state management for system monitoring; implemented a design system with sub-second data refresh cycles via force-dynamic rendering and optimized SQL indexing for database stability.}
 \end{itemize}
 \vspace{2pt}
 
-\entry{AI-Powered FinTech Intelligence Platform --- \textmd{Next.js, FastAPI, PostgreSQL, Docker}}{}
+\entry{AI-Powered FinTech Intelligence Platform --- \textmd{Next.js, FastAPI, PostgreSQL, Docker}}{\href{https://github.com/yigitsarpavci/fintech-intelligence-platform}{\fontsize{8}{10}\selectfont GitHub Link}}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
-   \item \desc{Architected a full-stack, deployment-ready financial dashboard combining personal finance analytics, an algorithmic portfolio risk evaluator, and OpenAI-generated insights with secure NLP fallbacks.}
-   \item \desc{Engineered a live limit-order trading simulator featuring a synchronous Price-Time Priority matching engine and achieved 100\% backend test coverage with automated CI/CD pipelines.}
+   \item \desc{Built a full-stack, deployment-ready financial dashboard combining personal finance analytics, a portfolio risk evaluator, and OpenAI-generated insights with secure NLP fallbacks; engineered a live limit-order trading simulator featuring a synchronous Price-Time Priority matching engine with automated CI/CD pipelines and high test coverage.}
 \end{itemize}
 \vspace{2pt}
 
-\entry{SchedSim CPU Scheduler --- \textmd{x86-64 Assembly, GNU Toolchain, Linux Syscalls}}{}
+\entry{SchedSim CPU Scheduler --- \textmd{x86-64 Assembly, GNU Toolchain, Linux Syscalls}}{\href{https://github.com/yigitsarpavci/SchedSim-CPU-Scheduler}{\fontsize{8}{10}\selectfont GitHub Link}}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
    \item \desc{High-performance CPU scheduling simulation engine (FCFS, SJF, SRTF, PF, RR) built with zero standard library dependencies, utilizing direct Linux syscalls for I/O and process management.}
 \end{itemize}
 \vspace{2pt}
 
-\entry{Spireslayer Command Interpreter --- \textmd{C, Custom Backtracking Lexer}}{}
+\entry{Spireslayer Command Interpreter --- \textmd{C, Custom Backtracking Lexer}}{\href{https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter}{\fontsize{8}{10}\selectfont GitHub Link}}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
-   \item \desc{Robust CLI-based interpreter replicating fantasy RPG REPL mechanics; implemented an autonomous backtracking lexical parser to handle non-deterministic grammar and complex command resolution.}
+   \item \desc{CLI-based interpreter replicating fantasy RPG REPL mechanics; implemented an autonomous backtracking lexical parser to handle non-deterministic grammar and command resolution.}
 \end{itemize}
 \vspace{2pt}
-\entry{Aura Functional Interpreter --- \textmd{Python, Functional Paradigms, Dual Scoping Engine}}{}
+\entry{Aura Functional Interpreter --- \textmd{Python, Functional Paradigms, Dual Scoping Engine}}{\href{https://github.com/yigitsarpavci/Aura-Functional-Interpreter}{\fontsize{8}{10}\selectfont GitHub Link}}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
-   \item \desc{Advanced interpreter for a custom functional language supporting first-class closures, higher-order function patterns, and toggleable lexical/dynamic scoping engines for complex variable resolution.}
+   \item \desc{Interpreter for a custom functional language supporting first-class closures, higher-order function patterns, and toggleable lexical/dynamic scoping engines.}
 \end{itemize}
 \vspace{2pt}
 
-\entry{MatrixNet --- \textmd{Java, Tarjan's SCC Algorithm, Graph Theory}}{}
+\entry{MatrixNet --- \textmd{Java, Tarjan's SCC Algorithm, Graph Theory}}{\href{https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console}{\fontsize{8}{10}\selectfont GitHub Link}}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
    \item \desc{Network graph analysis tool implementing Tarjan's SCC and Articulation Point detection ($O(V+E)$); optimized with Open Addressing to eliminate internal JVM string allocation overheads.}
 \end{itemize}
 \vspace{2pt}
 
-\entry{GigMatch-Pro --- \textmd{Java, Memory-Optimized Heaps}}{}
+\entry{GigMatch-Pro --- \textmd{Java, Memory-Optimized Heaps}}{\href{https://github.com/yigitsarpavci/GigMatch-Pro}{\fontsize{8}{10}\selectfont GitHub Link}}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
-   \item \desc{Scalable task-matching marketplace engine utilizing optimized dynamic Max-Heaps for high-efficiency priority allocation and candidate-to-job matching algorithms.}
+   \item \desc{Scalable task-matching marketplace engine utilizing optimized dynamic Max-Heaps for priority allocation and candidate-to-job matching algorithms.}
 \end{itemize}
 \vspace{2pt}
 
-\entry{Nightpass Survival Game --- \textmd{Java, Rule Engine Architecture}}{}
+\entry{Nightpass Survival Game --- \textmd{Java, Rule Engine Architecture}}{\href{https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game}{\fontsize{8}{10}\selectfont GitHub Link}}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
-   \item \desc{Algorithmic implementation of a complex rule engine governing strategic deck, hand, and resource economics in a terminal-based survival card game environment.}
+   \item \desc{Algorithmic implementation of a rule engine governing strategic deck, hand, and resource economics in a terminal-based survival card game.}
+\end{itemize}
+
+\newpage
+\sechead{Technical Skills}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+   \item \desc{\textbf{Programming:} Python, Java, C/C++, TypeScript, JavaScript, SQL, x86-64 Assembly, Bash}
+   \item \desc{\textbf{Low-Level \& Systems:} Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management}
+   \item \desc{\textbf{Enterprise Full-Stack:} Next.js 15+, React, Prisma (ORM), SQLAlchemy (ORM), FastAPI, Tailwind CSS, Framer Motion, PostgreSQL, SQLite}
+   \item \desc{\textbf{Data Structures \& Algos:} Tarjan's SCC, Articulation Points, Max-Heaps, Complexity Analysis (Big O), Graph Theory, Recursive Optimization}
+   \item \desc{\textbf{Paradigms \& Models:} Functional (Scheme/Racket), Logic (Prolog), OOP, Interpreter Design, State Machines}
+   \item \desc{\textbf{AI \& Modern Engineering:} OpenAI API Integration, Advanced Agentic Coding, LLM Prompting, AI-Assisted Architecture, Autonomous Feature Deployment, Data Analysis Basics}
+   \item \desc{\textbf{Tools \& Ecosystem:} Linux/Unix, Git/GitHub, Docker, Alembic, Pytest (Testing), CI/CD, Makefile, LaTeX, Adobe Photoshop, Microsoft Excel, PowerPoint, Canva}
 \end{itemize}
 
 \sechead{Volunteer Experience}
 
-\entry{Education Mentor at TO\c{C}EV}{09/2019 -- 03/2020}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
-   \item \desc{Provided volunteer tutoring and mentoring for children from disadvantaged backgrounds.}
+   \item \desc{\textbf{Derece Kamp\"us\"u}: Mentored high school students for university entrance exams, providing academic guidance. \hfill (09/2023 -- 09/2025)}
+   \item \desc{\textbf{TO\c{C}EV}: Provided volunteer tutoring and mentoring for children from disadvantaged backgrounds. \hfill (09/2019 -- 03/2020)}
+   \item \desc{\textbf{Bo\u{g}azi\c{c}i University Industrial Engineering Club}: Actively contributed to the Volunteering Division. \hfill (09/2023 -- 06/2024)}
+   \item \desc{\textbf{Kabata\c{s} Boys' High School CIP Club}: Organized and executed various community-oriented projects. \hfill (09/2018 -- 06/2023)}
 \end{itemize}
 \vspace{2pt}
 
-\entry{Volunteer at Kabata\c{s} Boys' High School Community Involvement Projects Club}{09/2018 -- 06/2023}
-\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
-   \item \desc{Carried out various volunteer projects aimed at helping and supporting people in need\\ through community involvement initiatives.}
-\end{itemize}
-\vspace{2pt}
-
-\entry{Volunteering Division Member at Bo\u{g}azi\c{c}i University Industrial Engineering Club}{09/2023 -- 06/2024}
-\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
-   \item \desc{Supported the organization and execution of volunteer initiatives and community-oriented\\ projects within the club.}
-\end{itemize}
-\vspace{2pt}
-
-\entry{Education Mentor at Derece Kamp\u{u}s\u{u}}{09/2023 -- 09/2025}
-\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
-   \item \desc{Mentored high school students for the university entrance exams, providing academic guidance\\ and exam strategy support.}
-\end{itemize}
-
-\sechead{Technical Skills}
-\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
-   \item \desc{\textbf{Low-Level \& Systems:} x86-64 Assembly, C, Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management}
-   \item \desc{\textbf{Enterprise Full-Stack:} Next.js 15+, TypeScript, React, Prisma (ORM), SQLAlchemy (ORM), FastAPI, Tailwind CSS, Framer Motion, PostgreSQL, SQLite}
-   \item \desc{\textbf{Data Structures \& Algos:} Tarjan's SCC, Articulation Points, Max-Heaps, Complexity Analysis (Big O), Graph Theory, Recursive Optimization}
-   \item \desc{\textbf{Paradigms \& Models:} Functional (Scheme/Racket), Logic (Prolog), OOP (Java/C++), Interpreter Design, State Machines}
-   \item \desc{\textbf{AI \& Modern Engineering:} OpenAI API Integration, Advanced Agentic Coding, LLM Prompting, AI-Assisted Architecture, Autonomous Feature Deployment}
-   \item \desc{\textbf{Tools \& Ecosystem:} Linux/Unix, Git/GitHub, Docker, Bash, Alembic, Pytest (Testing), CI/CD, Makefile, LaTeX, Adobe Photoshop}
-\end{itemize}
 
 \vspace{5pt}
 \begin{minipage}[t]{0.35\textwidth}
