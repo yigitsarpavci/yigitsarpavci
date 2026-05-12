@@ -15,14 +15,6 @@ From architecting **AI-Powered Intelligence Platforms** and **High-Performance S
 
 ### 🛠️ Technical Arsenal & Competencies
 
-| Domain | Competencies & Technologies |
-| :--- | :--- |
-| **Low-Level & Systems** | `x86-64 Assembly`, `C`, `C++`, `Qt Framework`, `Linux Syscalls`, `Process Scheduling`, `Multithreading (Pthreads)`, `Memory Management` |
-| **Enterprise Full-Stack** | `Next.js 15+`, `Typescript`, `React`, `Prisma (ORM)`, `FastAPI`, `Tailwind CSS`, `Framer Motion`, `PostgreSQL`, `SQLite` |
-| **Data Structures & Algos** | `Tarjan's SCC`, `Articulation Points`, `Max-Heaps`, `Computational Complexity Analysis`, `Graph Theory`, `Recursive Optimization` |
-| **Paradigms & Models** | `Functional (Scheme/Racket)`, `Logic (Prolog)`, `OOP (Java/C++)`, `Interpreter Design`, `State Machines` |
-| **Engineering Tools** | `Docker`, `Git / GitHub`, `Bash / Unix Shell`, `Alembic`, `CI/CD Concepts`, `Makefile`, `WebAssembly (WASM)`, `ccache` |
-| **AI & Autonomous** | `Advanced Agentic Coding`, `LLM Prompting`, `AI-Assisted Architecture`, `Autonomous Feature Deployment` |
 
 ---
 
