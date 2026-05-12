@@ -40,6 +40,7 @@ From architecting **AI-Powered Intelligence Platforms** and **High-Performance S
 - **[MatrixNet](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)**: Network graph analysis implementing **Tarjan's SCC Algorithm** and Articulation Point detection, achieving **$O(V+E)$** time complexity for identifying critical infrastructure vulnerabilities in dense networks.
 - **[GigMatch-Pro](https://github.com/yigitsarpavci/GigMatch-Pro)**: A scalable task matching engine utilizing optimized **Max-Heaps** for efficient priority allocation, handling high-throughput job queue insertions and extractions in strictly **$O(\log N)$** time.
 - **[Nightpass Survival Game](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)**: An algorithmic implementation of a complex rule engine governing strategic deck, hand, and resource economics in a terminal environment, showcasing robust state-machine management.
+- **[Qt 2048 WebAssembly](https://github.com/yigitsarpavci/qt-2048-wasm)**: A high-performance 2048 clone engineered with **C++** and **Qt6**, featuring an (N^2)$ grid merging engine and cross-compiled for the web via **WebAssembly**. Includes infinite state-history for undos and a deterministic Hard Mode timer.
 
 #### 💹 Full-Stack & Algorithmic FinTech
 - **[AlphaTrigger AI](https://github.com/yigitsarpavci/AlphaTrigger-AI)**: An autonomous, high-frequency trading simulation engine featuring a deterministic V8 Risk-First strategy, dynamic volatility-adjusted position sizing, and a real-time WebSocket-driven Next.js terminal.
