@@ -49,7 +49,7 @@ From architecting **AI-Powered Intelligence Platforms** and **High-Performance S
 
 ### 📄 Contact
 
-- 💼 **[Visit LinkedIn Profile](https://www.linkedin.com/in/yi%C4%9Fit-sarp-avc%C4%B1-658808299/)**
+- 💼 **[Visit LinkedIn Profile](https://www.linkedin.com/in/yigitsarpavci/)**
 - 📘 **[View / Download Engineering CV](./cv/Yigit_Sarp_Avci_CV.pdf)** 
 - 📧 **[yigit.avci@boun.edu.tr](mailto:yigit.avci@boun.edu.tr)** | 📧 **[yigitsarpavci@gmail.com](mailto:yigitsarpavci@gmail.com)**
 
