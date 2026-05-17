@@ -17,10 +17,8 @@ From architecting **AI-Powered Intelligence Platforms** and **High-Performance S
 
 - **Programming:** Python, Java, C/C++, Qt6, WebAssembly (WASM), TypeScript, JavaScript, SQL, x86-64 Assembly, Bash
 - **Low-Level & Systems:** Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management, Qt Framework
-- **Enterprise Full-Stack:** Next.js 15+, React, Prisma (ORM), SQLAlchemy (ORM), FastAPI, Tailwind CSS, Framer Motion, PostgreSQL, SQLite
+- **Enterprise Full-Stack & AI:** Next.js 15+, React, Prisma (ORM), SQLAlchemy, FastAPI, Tailwind CSS, PostgreSQL, Advanced Agentic Coding
 - **Data Structures & Algos:** Tarjan's SCC, Articulation Points, Max-Heaps, Complexity Analysis (Big O), Graph Theory, Recursive Optimization
-- **Paradigms & Models:** Functional (Scheme/Racket), Logic (Prolog), OOP, Interpreter Design, State Machines
-- **AI & Modern Engineering:** OpenAI API Integration, Advanced Agentic Coding, LLM Prompting, AI-Assisted Architecture, Autonomous Feature Deployment, Data Analysis Basics
 - **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Alembic, ccache, Pytest (Testing), CI/CD, Makefile, LaTeX, Adobe Photoshop, Microsoft Excel, PowerPoint, Canva
 
 ---
