@@ -19,7 +19,7 @@ From architecting **AI-Powered Intelligence Platforms** and **High-Performance S
 - **Low-Level & Systems:** Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management, Qt Framework
 - **Enterprise Full-Stack & AI:** Next.js 15+, React, Prisma (ORM), SQLAlchemy, FastAPI, Tailwind CSS, PostgreSQL, Advanced Agentic Coding
 - **Data Structures & Algos:** Tarjan's SCC, Articulation Points, Max-Heaps, Complexity Analysis (Big O), Graph Theory, Recursive Optimization
-- **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Alembic, ccache, Pytest (Testing), CI/CD, Makefile, LaTeX, Adobe Photoshop, MS Office, Canva
+- **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Alembic, ccache, Pytest (Testing), CI/CD, Makefile, LaTeX, MS Office
 
 ---
 
