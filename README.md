@@ -15,10 +15,10 @@ From architecting **AI-Powered Intelligence Platforms** and **High-Performance S
 
 ### 🛠 Technical Arsenal & Competencies
 
-- **Programming:** Python, Java, C/C++, Qt6, WebAssembly (WASM), TypeScript, JavaScript, SQL, x86-64 Assembly, Bash
+- **Programming:** Python, Java, C/C++, Qt6, WebAssembly, TypeScript, JavaScript, SQL, x86-64 Assembly, Bash
 - **Low-Level & Systems:** Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management, Qt Framework
-- **Enterprise Full-Stack & AI:** Next.js 15+, React, Prisma (ORM), SQLAlchemy, FastAPI, Tailwind CSS, PostgreSQL, Advanced Agentic Coding
-- **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Alembic, ccache, Pytest (Testing), CI/CD, Makefile, LaTeX, MS Office
+- **Enterprise Full-Stack & AI:** Next.js 15+, React, Prisma, SQLAlchemy, FastAPI, Tailwind CSS, PostgreSQL, Advanced Agentic Coding
+- **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Alembic, ccache, Pytest, CI/CD, Makefile, LaTeX, MS Office
 
 ---
 
