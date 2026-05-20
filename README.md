@@ -11,6 +11,7 @@ Alongside my technical work, I am actively involved in student organizations suc
 ### 🏛️ Education
 
 Boğaziçi University - B.Sc. in Computer Engineering
+
 Kabataş Boys’ High School
 
 ---
