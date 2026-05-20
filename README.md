@@ -1,15 +1,17 @@
 # 👨‍💻 Yiğit Sarp Avcı
 
-I am a **Computer Engineering** student at **Boğaziçi University** with a deep passion for low-level systems, high-performance algorithms, and the intersection of hardware and software. My approach to engineering is grounded in the same discipline I apply to athletics: a commitment to excellence, continuous optimization, and the grit to solve complex problems.
+I am a Computer Engineering student at Boğaziçi University, interested in software engineering, fintech, AI-assisted development, and systems programming.
 
-From architecting **AI-Powered Intelligence Platforms** and **High-Performance Schedulers** in **x86-64 Assembly** to engineering high-density **Next.js 15+** enterprise systems like **Performo**, I specialize in crafting efficient, logical, and impactful solutions that bridge the gap between physical hardware constraints and modern software complexity.
+I have worked on projects involving full-stack financial platforms, trading simulations, interpreters, graph algorithms, CPU scheduling, and WebAssembly applications. Through these projects, I gained experience with Python, Java, C/C++, TypeScript, Next.js, FastAPI, PostgreSQL, Docker, Qt, and low-level programming.
+
+Alongside my technical work, I am actively involved in student organizations such as Radyo Boğaziçi and ESTIEM, where I developed skills in teamwork, communication, event organization, and operational planning.
 
 ---
 
-### 🏛️ Academic & Personal Foundation
+### 🏛️ Education
 
-**Sophomore Computer Engineering @ Boğaziçi University (CMPE 2.2)**  
-*Ex-Kabataş Erkek Lisesi Alumnus*
+Boğaziçi University - B.Sc. in Computer Engineering
+Kabataş Boys’ High School
 
 ---
 
@@ -23,7 +25,7 @@ From architecting **AI-Powered Intelligence Platforms** and **High-Performance S
 
 ---
 
-### 💼 Engineering Portfolio: The Algorithmic Excellence Series
+### 💼 Engineering Portfolio: 
 
 #### 🏛️ Administrative & Enterprise Systems
 - **[Performo Enterprise Admin](https://github.com/yigitsarpavci/Performo-Enterprise-Admin)**: A high-density, real-time administrative intelligence dashboard engineered with **Next.js 15+** and **Prisma**. Features a "Triple Elite" 3-column layout, server-side synchronized operational metrics, sub-second data refresh cycles via **force-dynamic** rendering, and a professional "Linear Elite" design system for high-intensity operational workflows.
