@@ -1,60 +1,58 @@
-# 👨‍💻 Yiğit Sarp Avcı
+# Yiğit Sarp Avcı
 
-I am a Computer Engineering student at Boğaziçi University, interested in software engineering, fintech, AI-assisted development, and systems programming.
+Computer Engineering student at Boğaziçi University, focused on software engineering, fintech, AI-assisted development, and systems programming.
 
-I have worked on projects involving full-stack financial platforms, trading simulations, interpreters, graph algorithms, CPU scheduling, and WebAssembly applications. Through these projects, I gained experience with Python, Java, C/C++, TypeScript, Next.js, FastAPI, PostgreSQL, Docker, Qt, and low-level programming.
+I have worked on projects spanning full-stack financial platforms, trading simulations, language interpreters, graph algorithms, CPU scheduling, and WebAssembly applications. Through these, I gained hands-on experience with Python, Java, C/C++, TypeScript, Next.js, FastAPI, PostgreSQL, Docker, Qt, and low-level systems programming.
 
-Alongside my technical work, I am actively involved in student organizations such as Radyo Boğaziçi and ESTIEM, where I developed skills in teamwork, communication, event organization, and operational planning.
-
----
-
-### 🏛️ Education
-
-Boğaziçi University - B.Sc. in Computer Engineering
-
-Kabataş Boys’ High School
+I am also actively involved in student organizations — Radyo Boğaziçi and ESTIEM — where I developed skills in teamwork, communication, and event coordination.
 
 ---
 
-### 🛠 Skills
+### Education
 
-- **Programming:** Python, Java, C/C++, Qt6, WebAssembly, TypeScript, JavaScript, SQL, x86-64 Assembly, Bash
-- **Low-Level & Systems:** Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management, Qt Framework
-- **Enterprise Full-Stack, Mobile & AI:** Next.js 15+, React Native, Expo, React, Prisma, SQLAlchemy, FastAPI, Tailwind CSS, PostgreSQL, Advanced Agentic Coding
-- **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Alembic, ccache, Pytest, CI/CD, Makefile, LaTeX, MS Office
-- **Languages:** Turkish (native), English (fluent), German (elementary)
+**Boğaziçi University** — B.Sc. in Computer Engineering
+
+**Kabataş Boys' High School**
 
 ---
 
-### 💼 Engineering Portfolio: 
+### Technical Skills
 
-#### 🏛️ Administrative & Enterprise Systems
-- **[Performo Enterprise Admin](https://github.com/yigitsarpavci/Performo-Enterprise-Admin)**: A high-density, real-time administrative intelligence dashboard engineered with **Next.js 15+** and **Prisma**. Features a "Triple Elite" 3-column layout, server-side synchronized operational metrics, sub-second data refresh cycles via **force-dynamic** rendering, and a professional "Linear Elite" design system for high-intensity operational workflows.
-
-#### 🛠️ Systems & Interpreter Design
-- **[Aura Functional Interpreter](https://github.com/yigitsarpavci/Aura-Functional-Interpreter)**: A robust Python-based interpreter for a custom functional language featuring first-class closures, higher-order function patterns, and toggleable scoping engines.
-- **[Spireslayer Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter)**: A robust C-based shell/interpreter using an autonomous backtracking lexical parser.
-- **[SchedSim CPU Scheduler](https://github.com/yigitsarpavci/SchedSim-CPU-Scheduler)**: A high-performance CPU scheduling simulation engine (FCFS, SJF, SRTF, PF, RR) built with **x86-64 GNU Assembly**, zero libc dependencies, and direct Linux syscalls.
-
-#### 📱 Mobile & Game Engineering
-- **[Smash Minesweeper](https://github.com/yigitsarpavci/smash-mate-minesweeper)**: A modern, AAA-studio quality implementation of the classic Minesweeper game built with **React Native** and **Expo**. Engineered with a pure reducer-driven state engine decoupled from React, an optimized iterative BFS flood-fill algorithm to bypass recursion stack limits, custom-synthesized 16-bit audio, 60fps/120fps hardware-accelerated animations, and deep screen-reader accessibility (A11y) integration.
-- **[Qt 2048 WebAssembly](https://github.com/yigitsarpavci/qt-2048-wasm)**: A high-performance 2048 clone engineered with **C++** and **Qt6**, featuring an $O(N^2)$ grid merging engine and cross-compiled for the web via **WebAssembly**. Includes infinite state-history for undos and a deterministic Hard Mode timer.
-- **[Nightpass Survival Game](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)**: An algorithmic implementation of a complex rule engine governing strategic deck, hand, and resource economics in a terminal environment, showcasing robust state-machine management.
-
-#### 🧠 Data Structures & Graph Algorithms
-- **[MatrixNet](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)**: Network graph analysis implementing **Tarjan's SCC Algorithm** and Articulation Point detection, achieving **$O(V+E)$** time complexity for identifying critical infrastructure vulnerabilities in dense networks.
-- **[GigMatch-Pro](https://github.com/yigitsarpavci/GigMatch-Pro)**: A scalable task matching engine utilizing optimized **Max-Heaps** for efficient priority allocation, handling high-throughput job queue insertions and extractions in strictly **$O(\log N)$** time.
-
-#### 💹 Full-Stack & Algorithmic FinTech
-- **[AlphaTrigger AI](https://github.com/yigitsarpavci/AlphaTrigger-AI)**: An autonomous, high-frequency trading simulation engine featuring a deterministic V8 Risk-First strategy, dynamic volatility-adjusted position sizing, and a real-time WebSocket-driven Next.js terminal.
-- **[FinTech Intelligence Platform](https://github.com/yigitsarpavci/fintech-intelligence-platform)**: A high-performance, containerized financial dashboard engineered with **Next.js** and **FastAPI**. Features an asynchronous **Price-Time Priority limit-order matching engine**, a mathematical portfolio risk evaluator, and a fault-tolerant AI insight generator utilizing OpenAI with secure, in-house NLP fallbacks.
+- **Languages:** Python, Java, C/C++, TypeScript, JavaScript, SQL, x86-64 Assembly, Bash
+- **Systems & Low-Level:** Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management, Qt6, WebAssembly
+- **Full-Stack & Mobile:** Next.js, React Native, Expo, React, Prisma, SQLAlchemy, FastAPI, Tailwind CSS, PostgreSQL
+- **Tools:** Linux/Unix, Git/GitHub, Docker, Alembic, ccache, Pytest, CI/CD, Makefile, LaTeX
+- **Languages (Spoken):** Turkish (native), English (fluent), German (elementary)
 
 ---
 
-### 📄 Contact
+### Projects
 
-- 💼 **[Visit LinkedIn Profile](https://www.linkedin.com/in/yigitsarpavci/)**
-- 📘 **[View / Download Engineering CV](./cv/Yigit_Sarp_Avci_CV.pdf)** 
-- 📧 **[yigit.avci@boun.edu.tr](mailto:yigit.avci@boun.edu.tr)** | 📧 **[yigitsarpavci@gmail.com](mailto:yigitsarpavci@gmail.com)**
+#### Administrative & Enterprise Systems
+- **[Performo Enterprise Admin](https://github.com/yigitsarpavci/Performo-Enterprise-Admin)** — An internal admin dashboard built with **Next.js 15+** and **Prisma**. Features a 3-column layout with server-rendered operational metrics, role-based access control, task management, and a clean professional design system.
+
+#### Systems & Interpreter Design
+- **[Aura Functional Interpreter](https://github.com/yigitsarpavci/Aura-Functional-Interpreter)** — A Python-based interpreter for a custom functional language supporting first-class closures, higher-order functions, and configurable scoping (static/dynamic).
+- **[Spireslayer Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter)** — A C-based shell interpreter with a custom recursive descent parser and backtracking support.
+- **[SchedSim CPU Scheduler](https://github.com/yigitsarpavci/SchedSim-CPU-Scheduler)** — A CPU scheduling simulator (FCFS, SJF, SRTF, PF, RR) written entirely in **x86-64 GNU Assembly** using only direct Linux syscalls — no libc dependency.
+
+#### Mobile & Game Development
+- **[Smash Minesweeper](https://github.com/yigitsarpavci/smash-mate-minesweeper)** — A polished Minesweeper implementation built with **React Native** and **Expo**. Features an iterative BFS flood-fill algorithm, custom sound effects, smooth animations via Reanimated, and accessibility support.
+- **[Qt 2048 WebAssembly](https://github.com/yigitsarpavci/qt-2048-wasm)** — A 2048 clone built with **C++17** and **Qt6**, cross-compiled for the browser via **WebAssembly**. Includes multiple game modes, infinite undo history, and a countdown-based Hard Mode.
+- **[Nightpass Survival Game](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)** — A terminal-based card game implementing a rule engine for deck management, hand strategies, and resource economics using state-machine logic.
+
+#### Data Structures & Graph Algorithms
+- **[MatrixNet](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)** — A Java-based graph analysis tool implementing **Tarjan's SCC algorithm** and articulation point detection for identifying critical nodes in network topologies.
+- **[GigMatch-Pro](https://github.com/yigitsarpavci/GigMatch-Pro)** — A job matching engine using **max-heap** data structures for priority-based candidate-to-job allocation with O(log N) insertions and extractions.
+
+#### Full-Stack FinTech
+- **[AlphaTrigger AI](https://github.com/yigitsarpavci/AlphaTrigger-AI)** — A real-time trading simulation built with **Next.js**, **FastAPI**, and **WebSocket**. Implements a Z-Score mean-reversion strategy with dynamic volatility-adjusted position sizing, trailing stops, and a multi-factor entry scoring engine.
+- **[FinTech Intelligence Platform](https://github.com/yigitsarpavci/fintech-intelligence-platform)** — A containerized financial dashboard built with **Next.js** and **FastAPI**. Features a limit-order matching engine, portfolio risk analyzer, and an AI insight generator with rule-based NLP fallbacks.
 
 ---
+
+### Contact
+
+- **LinkedIn:** [linkedin.com/in/yigitsarpavci](https://www.linkedin.com/in/yigitsarpavci/)
+- **CV:** [View / Download](./cv/Yigit_Sarp_Avci_CV.pdf)
+- **Email:** [yigit.avci@boun.edu.tr](mailto:yigit.avci@boun.edu.tr) · [yigitsarpavci@gmail.com](mailto:yigitsarpavci@gmail.com)
