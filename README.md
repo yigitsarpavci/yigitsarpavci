@@ -2,9 +2,9 @@
 
 Computer Engineering student at Boğaziçi University, focused on software engineering, fintech, AI-assisted development, and systems programming.
 
-I have worked on projects spanning full-stack financial platforms, trading simulations, language interpreters, graph algorithms, CPU scheduling, and WebAssembly applications. Through these, I gained hands-on experience with Python, Java, C/C++, TypeScript, Next.js, FastAPI, PostgreSQL, Docker, Qt, and low-level systems programming.
+I have worked on projects spanning full-stack financial platforms, trading simulations, language interpreters, graph algorithms, CPU scheduling, mobile applications, and WebAssembly games. Through these, I gained hands-on experience with Python, Java, C/C++, TypeScript, Next.js, React Native, Expo, FastAPI, PostgreSQL, Docker, Qt, and low-level systems programming.
 
-I am also actively involved in student organizations — Radyo Boğaziçi and ESTIEM — where I developed skills in teamwork, communication, and event coordination.
+I am also actively involved in student organizations — Radyo Boğaziçi and ESTIEM — where I developed skills in teamwork, communication, and event coordination, alongside competing as a student-athlete in sailing, skiing, and windsurfing.
 
 ---
 
