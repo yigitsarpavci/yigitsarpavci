@@ -19,9 +19,10 @@ I am also actively involved in student organizations — Radyo Boğaziçi and ES
 ### Technical Skills
 
 - **Languages:** Python, Java, C/C++, TypeScript, JavaScript, SQL, x86-64 Assembly, Bash
-- **Systems & Low-Level:** Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management, Qt6, WebAssembly
-- **Full-Stack & Mobile:** Next.js, React Native, Expo, React, Prisma, SQLAlchemy, FastAPI, Tailwind CSS, PostgreSQL
-- **Tools:** Linux/Unix, Git/GitHub, Docker, Alembic, ccache, Pytest, CI/CD, Makefile, LaTeX
+- **Systems, Low-Level & WebAssembly:** Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management, Qt6, WebAssembly, GNU Toolchain
+- **Full-Stack, Mobile & AI:** Next.js, React Native, Expo, React, Prisma, FastAPI, Tailwind CSS, Framer Motion, PostgreSQL, SQLAlchemy, WebSockets, Reanimated, Audio API, AI-Assisted Development
+- **Algorithms, Design & Analysis:** Graph Theory, Heaps, Complexity Analysis, Lexer Design, Functional Paradigms
+- **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Alembic, ccache, Pytest, CI/CD, Makefile, LaTeX, MS Office
 - **Languages (Spoken):** Turkish (native), English (fluent), German (elementary)
 
 ---
