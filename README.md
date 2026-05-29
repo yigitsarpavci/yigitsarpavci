@@ -54,6 +54,6 @@ I am also actively involved in student organizations — Radyo Boğaziçi and ES
 
 ### Contact
 
-- **LinkedIn:** [linkedin.com/in/yigitsarpavci](https://www.linkedin.com/in/yigitsarpavci/)
+- **LinkedIn:** [linkedin.com/in/yigitsarpavci](https://www.linkedin.com/in/yigitsarpavci)
 - **CV:** [View / Download](./cv/Yigit_Sarp_Avci_CV.pdf)
 - **Email:** [yigit.avci@boun.edu.tr](mailto:yigit.avci@boun.edu.tr) · [yigitsarpavci@gmail.com](mailto:yigitsarpavci@gmail.com)
