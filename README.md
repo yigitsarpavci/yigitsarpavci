@@ -31,6 +31,7 @@ I am also actively involved in student organizations — Radyo Boğaziçi and ES
 
 #### Administrative & Enterprise Systems
 - **[Performo Enterprise Admin](https://github.com/yigitsarpavci/Performo-Enterprise-Admin)** — An internal admin dashboard built with **Next.js 15+** and **Prisma**. Features a 3-column layout with server-rendered operational metrics, role-based access control, task management, and a clean professional design system.
+- **[FAQ Fullstack Module](https://github.com/yigitsarpavci/faq-project)** — A production-ready FAQ management system built with **Next.js**, **Express**, **SQLite/TypeORM**, and **SWR**. Features robust API validation, database indexing, and seamless optimistic UI updates.
 
 #### Systems & Interpreter Design
 - **[Aura Functional Interpreter](https://github.com/yigitsarpavci/Aura-Functional-Interpreter)** — A Python-based interpreter for a custom functional language supporting first-class closures, higher-order functions, and configurable scoping (static/dynamic).
