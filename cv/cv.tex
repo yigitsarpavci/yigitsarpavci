@@ -3,12 +3,13 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \renewcommand{\familydefault}{\sfdefault}
-\usepackage[a4paper, margin=1.3cm, top=1.8cm, bottom=1.5cm]{geometry}
+\usepackage[a4paper, margin=1.3cm, top=1.2cm, bottom=1.2cm]{geometry}
 \setlength{\paperwidth}{210mm}
 \setlength{\paperheight}{297mm}
 \sloppy
 \usepackage{enumitem}
 \usepackage{xcolor}
+\usepackage{graphicx}
 \definecolor{darkblue}{rgb}{0,0,0.5}
 \usepackage{hyperref}
 \hypersetup{
@@ -25,9 +26,9 @@
 \setlength{\parindent}{0pt}
 
 \newcommand{\sechead}[1]{
-    \vspace{12pt}
+    \vspace{8pt}
     {\fontsize{13}{15}\bfseries #1} \par
-    \vspace{5pt}
+    \vspace{3pt}
 }
 
 \newcommand{\entry}[2]{
@@ -46,19 +47,17 @@
 
 \begin{document}
 
-\begin{center}
-    {\fontsize{20.5}{24}\bfseries Yi\u{g}it Sarp Avc\i{}}
-\end{center}
-\vspace{0.8em} % approx spacing
-
-\begin{center}
-    {\fontsize{10}{12}\selectfont Istanbul, Turkey \quad \textbullet \quad +90 535 361 71 91 \quad \textbullet \quad yigitsarpavci@gmail.com}
-\end{center}
-\vspace{-0.5em}
-\begin{center}
+\begin{minipage}[c]{0.75\textwidth}
+    {\fontsize{24}{28}\bfseries Yi\u{g}it Sarp Avc\i{}} \\[0.4em]
+    {\fontsize{10}{12}\selectfont Istanbul, Turkey \quad \textbullet \quad +90 535 361 71 91 \quad \textbullet \quad yigitsarpavci@gmail.com} \\[0.3em]
     {\fontsize{10}{12}\selectfont LinkedIn: \href{https://www.linkedin.com/in/yigitsarpavci}{linkedin.com/in/yigitsarpavci} \quad \textbullet \quad GitHub: \href{https://github.com/yigitsarpavci}{github.com/yigitsarpavci}}
-\end{center}
-\vspace{-1em}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{0.22\textwidth}
+    \raggedleft
+    \includegraphics[width=2.5cm]{photocv.jpg}
+\end{minipage}
+\vspace{0.4em}
 
 \sechead{Education}
 
@@ -74,6 +73,12 @@
 \end{itemize}
 
 \sechead{Experience}
+
+\entry{Mobile Developer Intern at Smash Mate}{06/2026 -- Present}
+\begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
+   \item \desc{Joined a fast-moving sports-tech startup to develop a cross-platform mobile application for the padel community. Contributing to the product's core features using React, React Native, and Java.}
+\end{itemize}
+\vspace{2pt}
 
 \entry{Work and Travel Program Participant}{06/2025 -- 09/2025}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=2pt]
@@ -94,7 +99,7 @@
 \end{itemize}
 \vspace{4pt}
 
-\entry{Enterprise Dashboards \& Fullstack --- \textmd{Next.js 15+, TypeScript, Prisma, TypeORM, Tailwind CSS, SWR, Express}}{}
+\entry{Enterprise Dashboards \& Fullstack --- \textmd{Next.js 15+, TypeScript, Express, Prisma, TypeORM, Tailwind CSS, SWR}}{}
 \begin{itemize}[leftmargin=1.1em, itemsep=0pt, parsep=0pt, topsep=1pt]
    \item \desc{Developed \textbf{Performo}, a real-time administrative dashboard with role-based access control, task management, and optimized database queries, alongside an \textbf{Enterprise FAQ System} featuring SWR-powered optimistic UI updates, Express backend, and robust API error boundaries.}
 \end{itemize}
