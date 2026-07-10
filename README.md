@@ -23,7 +23,7 @@ I am also actively involved in student organizations — Radyo Boğaziçi and ES
 - **Full-Stack, Mobile & AI:** Next.js, React Native, Expo, React, Express, Prisma, TypeORM, FastAPI, Tailwind CSS, Framer Motion, PostgreSQL, SQLite, SWR, WebSockets, Reanimated, Audio API, AI-Assisted Development
 - **Algorithms, Design & Analysis:** Graph Theory, Heaps, Complexity Analysis, Lexer Design, Functional Paradigms
 - **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Alembic, ccache, Pytest, CI/CD, Makefile, LaTeX, MS Office
-- **Languages (Spoken):** Turkish (native), English (fluent), German (elementary)
+
 
 ---
 
