@@ -22,9 +22,9 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 
 - **Languages:** Python, Java, C/C++, TypeScript, JavaScript, SQL, x86-64 Assembly, Bash
 - **Systems, Low-Level & WebAssembly:** Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management, Qt6, WebAssembly, GNU Toolchain
-- **Full-Stack, Mobile & AI:** Next.js, React Native, Expo, React, Express, Prisma, TypeORM, FastAPI, Tailwind CSS, Framer Motion, PostgreSQL, SQLite, SWR, WebSockets, Reanimated, Audio API, AI-Assisted Development
+- **Full-Stack, Mobile & AI:** Next.js, React Native, Expo, React, Express, Prisma, TypeORM, FastAPI, Tailwind CSS, Framer Motion, PostgreSQL, SQLite, SWR, WebSockets, Reanimated, Audio API, Next-Auth, JWT, OpenAI API, AI-Assisted Development
 - **Algorithms, Design & Analysis:** Graph Theory, Heaps, Complexity Analysis, Lexer Design, Functional Paradigms
-- **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Alembic, ccache, Pytest, CI/CD, Makefile, LaTeX, MS Office
+- **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Redis, Celery, Alembic, Pandas, ccache, Jest, Pytest, CI/CD, Makefile, LaTeX, MS Office
 
 
 ---
@@ -32,8 +32,8 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 ### Projects
 
 #### Administrative & Enterprise Systems
-- **[Performo Enterprise Admin](https://github.com/yigitsarpavci/Performo-Enterprise-Admin)** — An internal admin dashboard built with **Next.js 15+** and **Prisma**. Features a 3-column layout with server-rendered operational metrics, role-based access control, task management, and a clean professional design system.
-- **[FAQ Fullstack Module](https://github.com/yigitsarpavci/faq-project)** — A production-ready FAQ management system built with **Next.js**, **Express**, **SQLite/TypeORM**, and **SWR**. Features robust API validation, database indexing, and seamless optimistic UI updates.
+- **[Performo Enterprise Admin](https://github.com/yigitsarpavci/Performo-Enterprise-Admin)** — An internal admin dashboard built with **Next.js 15+**, **Prisma**, and **Tailwind CSS**. Features a 3-column layout with server-rendered operational metrics using **Recharts**, smooth transitions via **Framer Motion**, role-based access control, task management, and a clean professional design system.
+- **[FAQ Fullstack Module](https://github.com/yigitsarpavci/faq-project)** — A production-ready FAQ management system built with **Next.js**, **Express**, **SQLite/TypeORM**, and **SWR**. Secured with **Next-Auth**, featuring robust API validation, database indexing, seamless optimistic UI updates, and comprehensive test coverage via **Jest**.
 
 #### Systems & Interpreter Design
 - **[Aura Functional Interpreter](https://github.com/yigitsarpavci/Aura-Functional-Interpreter)** — A Python-based interpreter for a custom functional language supporting first-class closures, higher-order functions, and configurable scoping (static/dynamic).
@@ -41,7 +41,7 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 - **[SchedSim CPU Scheduler](https://github.com/yigitsarpavci/SchedSim-CPU-Scheduler)** — A CPU scheduling simulator (FCFS, SJF, SRTF, PF, RR) written entirely in **x86-64 GNU Assembly** using only direct Linux syscalls — no libc dependency.
 
 #### Mobile & Game Development
-- **[Smash Minesweeper](https://github.com/yigitsarpavci/smash-mate-minesweeper)** — A polished Minesweeper implementation built with **React Native** and **Expo**. Features an iterative BFS flood-fill algorithm, custom sound effects, smooth animations via Reanimated, and accessibility support.
+- **[Smash Minesweeper](https://github.com/yigitsarpavci/smash-mate-minesweeper)** — A polished Minesweeper implementation built with **React Native** and **Expo**. Features an iterative BFS flood-fill algorithm, custom sound effects, **Expo Haptics** feedback, local state persistence via **Async Storage**, smooth animations via Reanimated, and accessibility support.
 - **[Qt 2048 WebAssembly](https://github.com/yigitsarpavci/qt-2048-wasm)** — A 2048 clone built with **C++17** and **Qt6**, cross-compiled for the browser via **WebAssembly**. Includes multiple game modes, infinite undo history, and a countdown-based Hard Mode.
 - **[Nightpass Survival Game](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)** — A terminal-based card game implementing a rule engine for deck management, hand strategies, and resource economics using state-machine logic.
 
@@ -50,8 +50,8 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 - **[GigMatch-Pro](https://github.com/yigitsarpavci/GigMatch-Pro)** — A job matching engine using **max-heap** data structures for priority-based candidate-to-job allocation with O(log N) insertions and extractions.
 
 #### Full-Stack FinTech
-- **[AlphaTrigger AI](https://github.com/yigitsarpavci/AlphaTrigger-AI)** — A real-time trading simulation built with **Next.js**, **FastAPI**, and **WebSocket**. Implements a Z-Score mean-reversion strategy with dynamic volatility-adjusted position sizing, trailing stops, and a multi-factor entry scoring engine.
-- **[FinTech Intelligence Platform](https://github.com/yigitsarpavci/fintech-intelligence-platform)** — A containerized financial dashboard built with **Next.js** and **FastAPI**. Features a limit-order matching engine, portfolio risk analyzer, and an AI insight generator with rule-based NLP fallbacks.
+- **[AlphaTrigger AI](https://github.com/yigitsarpavci/AlphaTrigger-AI)** — A real-time trading simulation built with **Next.js**, **FastAPI**, **Redis**, **Celery**, and **WebSocket**. Implements a Z-Score mean-reversion strategy with dynamic volatility-adjusted position sizing, trailing stops, and a multi-factor entry scoring engine.
+- **[FinTech Intelligence Platform](https://github.com/yigitsarpavci/fintech-intelligence-platform)** — A containerized financial dashboard built with **Next.js** and **FastAPI**. Features a limit-order matching engine, portfolio risk analyzer, and an AI insight generator powered by the **OpenAI API** with rule-based NLP fallbacks.
 
 ---
 
