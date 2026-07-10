@@ -2,9 +2,11 @@
 
 Computer Engineering student at Boğaziçi University, focused on software engineering, fintech, AI-assisted development, and systems programming.
 
-I have worked on projects spanning full-stack financial platforms, trading simulations, language interpreters, graph algorithms, CPU scheduling, mobile applications, and WebAssembly games. Through these, I gained hands-on experience with Python, Java, C/C++, TypeScript, Next.js, React Native, Expo, FastAPI, PostgreSQL, Docker, Qt, and low-level systems programming.
+I am joining the Site Reliability Engineering team at Akbank as a Summer Intern, where I will contribute to the scalability and performance of mission-critical banking systems. Previously, I interned as a Software Engineer at Smash Mate, building complex backend microservices and mobile features during their critical pre-launch phase.
 
-I am also actively involved in student organizations — Radyo Boğaziçi and ESTIEM — where I developed skills in teamwork, communication, and event coordination, alongside competing as a student-athlete in sailing, skiing, and windsurfing.
+I have worked on diverse projects spanning full-stack financial platforms, trading simulations, language interpreters, graph algorithms, CPU scheduling, mobile applications, and WebAssembly games. Through these, I gained hands-on experience with Python, Java, C/C++, TypeScript, Next.js, React Native, Expo, FastAPI, PostgreSQL, Docker, Qt, and low-level systems programming.
+
+Beyond tech, I am actively involved in student organizations — Radyo Boğaziçi and ESTIEM — where I developed skills in teamwork, communication, and event coordination, alongside competing as a student-athlete in sailing, skiing, and windsurfing.
 
 ---
 
