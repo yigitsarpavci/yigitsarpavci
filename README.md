@@ -60,3 +60,4 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 - **LinkedIn:** [linkedin.com/in/yigitsarpavci](https://www.linkedin.com/in/yigitsarpavci)
 - **CV:** [View / Download](./cv/Yigit_Sarp_Avci_CV.pdf)
 - **Email:** [yigit.avci@boun.edu.tr](mailto:yigit.avci@boun.edu.tr) · [yigitsarpavci@gmail.com](mailto:yigitsarpavci@gmail.com)
+
