@@ -1,1 +1,9 @@
+# LaTeX intermediate build artifacts
 cv.pdf
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
