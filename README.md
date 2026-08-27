@@ -2,7 +2,7 @@
 
 Computer Engineering student at Boğaziçi University, focused on software engineering, fintech, AI-assisted development, and systems programming.
 
-I am joining the Site Reliability Engineering team at Akbank as a Summer Intern, where I will contribute to the scalability and performance of mission-critical banking systems. Previously, I interned as a Software Engineer at Smash Mate, building complex backend microservices and mobile features during their critical pre-launch phase.
+I am joining the backend development team at DefineX to contribute to the design and implementation of scalable enterprise software solutions. Previously, I interned as a Site Reliability Engineer at Akbank ensuring the performance of mission-critical systems, and as a Software Engineer at Smash Mate building complex backend microservices and mobile features during their critical pre-launch phase.
 
 I have worked on diverse projects spanning full-stack financial platforms, trading simulations, language interpreters, graph algorithms, CPU scheduling, mobile applications, and WebAssembly games. Through these, I gained hands-on experience with Python, Java, C/C++, TypeScript, Next.js, React Native, Expo, FastAPI, PostgreSQL, Docker, Qt, and low-level systems programming.
 
