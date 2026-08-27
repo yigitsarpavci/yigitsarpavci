@@ -32,6 +32,7 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 ### Projects
 
 #### Administrative & Enterprise Systems
+- **[Seated](https://github.com/yigitsarpavci/seated)** — A multi-tenant SaaS platform for restaurant floor plan and live-ops management. Built with **Next.js 16**, **Prisma**, **PostgreSQL**, and **Zustand**. Features an interactive drag-and-drop floor plan builder via `react-rnd`, advanced table merging capabilities, and real-time operational queues.
 - **[Performo Enterprise Admin](https://github.com/yigitsarpavci/Performo-Enterprise-Admin)** — An internal admin dashboard built with **Next.js 15+**, **Prisma**, and **Tailwind CSS**. Features a 3-column layout with server-rendered operational metrics using **Recharts**, smooth transitions via **Framer Motion**, role-based access control, task management, and a clean professional design system.
 - **[FAQ Fullstack Module](https://github.com/yigitsarpavci/faq-project)** — A production-ready FAQ management system built with **Next.js**, **Express**, **SQLite/TypeORM**, and **SWR**. Secured with **Next-Auth**, featuring robust API validation, database indexing, seamless optimistic UI updates, and comprehensive test coverage via **Jest**.
 
