@@ -1,5 +1,5 @@
 # LaTeX intermediate build artifacts
-cv.pdf
+
 *.aux
 *.log
 *.out
