@@ -4,7 +4,7 @@ Computer Engineering student at Boğaziçi University, focused on software engin
 
 I am joining the backend development team at DefineX to contribute to the design and implementation of scalable enterprise software solutions. Previously, I interned as a Site Reliability Engineer at Akbank ensuring the performance of mission-critical systems, and as a Software Engineer at Smash Mate building complex backend microservices and mobile features during their critical pre-launch phase.
 
-I have worked on diverse projects spanning full-stack financial platforms, trading simulations, language interpreters, graph algorithms, CPU scheduling, mobile applications, and WebAssembly games. Through these, I gained hands-on experience with Python, Java, C/C++, TypeScript, Next.js, React Native, Expo, FastAPI, PostgreSQL, Docker, Qt, and low-level systems programming.
+I have worked on diverse projects spanning full-stack financial platforms, trading simulations, processor benchmarking, bare-metal RISC-V simulations, language interpreters, graph algorithms, CPU scheduling, mobile applications, and WebAssembly games. Through these, I gained hands-on experience with Python, Java, C/C++, TypeScript, Next.js, React Native, Expo, FastAPI, PostgreSQL, Docker, Qt, and low-level systems programming.
 
 Beyond tech, I am actively involved in student organizations — Radyo Boğaziçi and ESTIEM — where I developed skills in teamwork, communication, and event coordination, alongside competing as a student-athlete in sailing, skiing, and windsurfing.
 
@@ -20,8 +20,8 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 
 ### Technical Skills
 
-- **Languages:** Python, Java, C/C++, TypeScript, JavaScript, SQL, x86-64 Assembly, Bash
-- **Systems, Low-Level & WebAssembly:** Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management, Qt6, WebAssembly, GNU Toolchain
+- **Languages:** Python, Java, C/C++, TypeScript, JavaScript, SQL, x86-64 Assembly, RISC-V Assembly (RV32I), Bash
+- **Systems, Low-Level & WebAssembly:** Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management, Computer Architecture, Processor Benchmarking (CoreMark), Spike ISA Simulator, Custom Linker Scripts, Qt6, WebAssembly, GNU Toolchain
 - **Full-Stack, Mobile & AI:** Next.js, React Native, Expo, React, Express, Prisma, TypeORM, FastAPI, Tailwind CSS, Framer Motion, PostgreSQL, SQLite, SWR, WebSockets, Reanimated, Audio API, Next-Auth, JWT, OpenAI API, AI-Assisted Development
 - **Algorithms, Design & Analysis:** Graph Theory, Heaps, Complexity Analysis, Lexer Design, Functional Paradigms
 - **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Redis, Celery, Alembic, Pandas, ccache, Jest, Pytest, CI/CD, Makefile, LaTeX, MS Office
@@ -36,10 +36,12 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 - **[Performo Enterprise Admin](https://github.com/yigitsarpavci/Performo-Enterprise-Admin)** — An internal admin dashboard built with **Next.js 15+**, **Prisma**, and **Tailwind CSS**. Features a 3-column layout with server-rendered operational metrics using **Recharts**, smooth transitions via **Framer Motion**, role-based access control, task management, and a clean professional design system.
 - **[FAQ Fullstack Module](https://github.com/yigitsarpavci/faq-project)** — A production-ready FAQ management system built with **Next.js**, **Express**, **SQLite/TypeORM**, and **SWR**. Secured with **Next-Auth**, featuring robust API validation, database indexing, seamless optimistic UI updates, and comprehensive test coverage via **Jest**.
 
-#### Systems & Interpreter Design
+#### Systems Programming & Computer Architecture
+- **[CoreMark Workload Profiling](https://github.com/yigitsarpavci/CoreMark-Workload-Profiling)** — An architectural benchmarking study and automated evaluation suite assessing compiler optimization levels (`-O0` to `-Ofast`, `-march=native`), instruction-level parallelism, and RISC-V ISA extensions (**RV32I, RV32IM, RV32IMC, RV32GC, RV64I**) using **EEMBC CoreMark v1.0**.
+- **[Solar-Escape RISC-V Navigator](https://github.com/yigitsarpavci/Solar-Escape-RISCV-Navigator)** — A bare-metal **RISC-V (RV32I)** assembly simulation modeling fuel-constrained autonomous aircraft navigation under solar radiation crisis. Features custom ROM/RAM linker scripting, manual stack framing, and greedy westward trajectory optimization evaluated on the **Spike ISA simulator**.
+- **[SchedSim CPU Scheduler](https://github.com/yigitsarpavci/SchedSim-CPU-Scheduler)** — A CPU scheduling simulator (FCFS, SJF, SRTF, PF, RR) written entirely in **x86-64 GNU Assembly** using only direct Linux syscalls — no libc dependency.
 - **[Aura Functional Interpreter](https://github.com/yigitsarpavci/Aura-Functional-Interpreter)** — A Python-based interpreter for a custom functional language supporting first-class closures, higher-order functions, and configurable scoping (static/dynamic).
 - **[Spireslayer Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter)** — A C-based shell interpreter with a custom recursive descent parser and backtracking support.
-- **[SchedSim CPU Scheduler](https://github.com/yigitsarpavci/SchedSim-CPU-Scheduler)** — A CPU scheduling simulator (FCFS, SJF, SRTF, PF, RR) written entirely in **x86-64 GNU Assembly** using only direct Linux syscalls — no libc dependency.
 
 #### Mobile & Game Development
 - **[Smash Minesweeper](https://github.com/yigitsarpavci/smash-mate-minesweeper)** — A polished Minesweeper implementation built with **React Native** and **Expo**. Features an iterative BFS flood-fill algorithm, custom sound effects, **Expo Haptics** feedback, local state persistence via **Async Storage**, smooth animations via Reanimated, and accessibility support.
