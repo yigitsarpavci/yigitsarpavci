@@ -3,7 +3,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \renewcommand{\familydefault}{\sfdefault}
-\usepackage[a4paper, margin=1.0cm, top=1.25cm, bottom=1.25cm]{geometry}
+\usepackage[a4paper, margin=1.0cm, top=1.0cm, bottom=1.0cm]{geometry}
 \setlength{\paperwidth}{210mm}
 \setlength{\paperheight}{297mm}
 \sloppy
@@ -26,9 +26,9 @@
 \setlength{\parindent}{0pt}
 
 \newcommand{\sechead}[1]{
-    \vspace{11pt}
+    \vspace{8pt}
     {\centering\fontsize{12}{15}\bfseries #1\par}
-    \vspace{4.5pt}
+    \vspace{3.5pt}
 }
 
 \newcommand{\entry}[2]{
@@ -48,7 +48,7 @@
     {\fontsize{10}{13}\selectfont Istanbul, Turkey \quad \textbullet \quad +90 535 361 71 91 \quad \textbullet \quad yigitsarpavci@gmail.com} \\[0.3em]
     {\fontsize{10}{13}\selectfont linkedin.com/in/yigitsarpavci \quad \textbullet \quad github.com/yigitsarpavci} \par
 }
-\vspace{0.7em}
+\vspace{0.4em}
 
 \sechead{Education}
 
@@ -59,7 +59,7 @@
     \item \desc{Extracurriculars: Executive Board Member \& DJ at Radyo Bo\u{g}azi\c{c}i; Regional Organizational Team Member at ESTIEM; Work and Travel USA participant; Student-Athlete (sailing, skiing \& windsurfing), doing wakeboarding, kiteboarding, surfing, bouldering, running, fitness, and traveling as hobbies.}
     \item \desc{Volunteer: Volunteering Division Member at Industrial Engineering Club (B\"{U}YAK); provided educational mentorship to high school students.}
 \end{itemize}
-\vspace{4.5pt}
+\vspace{3.5pt}
 
 \entry{Kabata\c{s} Boys' High School}{09/2018 -- 06/2023}
 \begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=2pt]
@@ -74,44 +74,46 @@
 \begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=2pt]
    \item \desc{Joining the backend development team to contribute to scalable enterprise software solutions, robust backend architecture, RESTful API design, and system optimizations in a dynamic enterprise environment.}
 \end{itemize}
-\vspace{4.5pt}
+\vspace{3.5pt}
 
 \entry{Site Reliability Engineering Intern at Akbank}{07/2026 -- 09/2026}
 \begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=2pt]
    \item \desc{Completed a 2-month internship with the SRE team, contributing to the reliability, scalability, and performance of mission-critical banking systems. Engaged in Linux systems engineering, operational monitoring, and high-availability systems management.}
 \end{itemize}
-\vspace{4.5pt}
+\vspace{3.5pt}
 
 \entry{Software Engineering Intern at Smash Mate}{06/2026 -- 07/2026}
 \begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=2pt]
    \item \desc{Completed an intensive 1-month internship during the critical pre-launch phase, contributing to a complex microservices-oriented backend (Java, Quarkus) and a mobile frontend application (React Native). Developed core backend features, resolved high-priority issues, and authored comprehensive unit/integration tests to ensure zero-defect deployments. Played an active role in agile workflows, code reviews, and system optimizations, leading directly to the product's successful official launch.}
 \end{itemize}
 
-\sechead{Technical Skills \& Projects}
+\sechead{Technical Projects}
 
-\begin{itemize}[leftmargin=1.1em, itemsep=2.3pt, parsep=0pt, topsep=1.5pt]
-   \item \desc{\textbf{AlphaTrigger} (\textmd{Python, FastAPI, Next.js, WebSockets}) --- Autonomous trading simulator with Z-Score mean reversion \& volatility sizing.}
-   \item \desc{\textbf{FinTech Platform} (\textmd{Python, FastAPI, Next.js}) --- Real-time dashboard with limit-order matching engine \& portfolio risk analytics.}
-   \item \desc{\textbf{Seated} (\textmd{Next.js 15+, TypeScript, Prisma, PostgreSQL}) --- Multi-tenant SaaS for real-time restaurant floor plans, reservations \& operations.}
-   \item \desc{\textbf{Performo} (\textmd{TypeScript, Next.js, Express, Tailwind CSS}) --- Administrative console with role-based access control (RBAC) \& task workflows.}
-   \item \desc{\textbf{Enterprise FAQ} (\textmd{Next.js, TypeScript, Express, SWR}) --- Enterprise knowledge base with optimistic UI updates, caching \& error boundaries.}
-   \item \desc{\textbf{Space Shooter IPC} (\textmd{C11, POSIX FIFOs, Signals, dlopen}) --- Asynchronous 60 FPS input engine using non-blocking FIFOs and signals.}
-   \item \desc{\textbf{SchedSim} (\textmd{x86-64 GNU Assembly, Linux Syscalls}) --- Low-level CPU scheduling simulator executing FCFS, SJF, SRTF, and Round Robin.}
-   \item \desc{\textbf{Solar Escape} (\textmd{RISC-V RV32I Assembly, Spike}) --- Bare-metal pathfinding algorithm with greedy route selection \& manual stack framing.}
-   \item \desc{\textbf{CoreMark Profiling} (\textmd{RISC-V, CoreMark}) --- Benchmarking study assessing compiler optimizations and ISA pipeline throughput.}
-   \item \desc{\textbf{Spireslayer} (\textmd{C, POSIX, Makefile}) --- Unix command interpreter featuring a custom backtracking recursive descent parser.}
-   \item \desc{\textbf{Aura} (\textmd{Python}) --- Functional programming language interpreter supporting closures, lexical scoping, and currying.}
-   \item \desc{\textbf{MatrixNet} (\textmd{Java, Graph Theory}) --- Network topology analysis tool implementing Tarjan's SCC algorithm \& articulation points.}
-   \item \desc{\textbf{GigMatch-Pro} (\textmd{Java, Priority Queues}) --- Algorithmic job-matching engine leveraging max-heaps for priority-based candidate allocation.}
-   \item \desc{\textbf{Smash Minesweeper} (\textmd{React Native, TypeScript, Expo}) --- Mobile puzzle game built with reducer-driven state engine and BFS flood-fill.}
-   \item \desc{\textbf{Qt 2048} (\textmd{C++, Qt6, WebAssembly}) --- Cross-platform game compiled to WebAssembly for browser deployment with state undo.}
-   \item \desc{\textbf{Nightpass} (\textmd{Java}) --- Terminal-based strategy survival card game driven by a deterministic finite state machine.}
+\begin{itemize}[leftmargin=1.1em, itemsep=1.3pt, parsep=0pt, topsep=1.2pt]
+   \item \desc{\textbf{AlphaTrigger} --- Autonomous trading simulator with Z-Score mean reversion \& volatility sizing.}
+   \item \desc{\textbf{FinTech Platform} --- Real-time dashboard with limit-order matching engine \& portfolio risk analytics.}
+   \item \desc{\textbf{Seated} --- Multi-tenant SaaS for real-time restaurant floor plans, reservations \& operations.}
+   \item \desc{\textbf{Performo} --- Administrative console with role-based access control (RBAC) \& task workflows.}
+   \item \desc{\textbf{Enterprise FAQ} --- Enterprise knowledge base with optimistic UI updates, caching \& error boundaries.}
+   \item \desc{\textbf{Space Shooter IPC} --- Asynchronous 60 FPS input engine using non-blocking FIFOs and signals.}
+   \item \desc{\textbf{SchedSim} --- Low-level CPU scheduling simulator executing FCFS, SJF, SRTF, and Round Robin.}
+   \item \desc{\textbf{Solar Escape} --- Bare-metal pathfinding algorithm with greedy route selection \& manual stack framing.}
+   \item \desc{\textbf{CoreMark Profiling} --- Benchmarking study assessing compiler optimizations and ISA pipeline throughput.}
+   \item \desc{\textbf{Spireslayer} --- Unix command interpreter featuring a custom backtracking recursive descent parser.}
+   \item \desc{\textbf{Aura} --- Functional programming language interpreter supporting closures, lexical scoping, and currying.}
+   \item \desc{\textbf{MatrixNet} --- Network topology analysis tool implementing Tarjan's SCC algorithm \& articulation points.}
+   \item \desc{\textbf{GigMatch-Pro} --- Algorithmic job-matching engine leveraging max-heaps for priority-based candidate allocation.}
+   \item \desc{\textbf{Smash Minesweeper} --- Mobile puzzle game built with reducer-driven state engine and BFS flood-fill.}
+   \item \desc{\textbf{Qt 2048} --- Cross-platform game compiled to WebAssembly for browser deployment with state undo.}
+   \item \desc{\textbf{Nightpass} --- Terminal-based strategy survival card game driven by a deterministic finite state machine.}
 \end{itemize}
 
-\sechead{Tools \& Languages}
+\sechead{Skills, Tools \& Languages}
 
 \begin{itemize}[leftmargin=1.1em, itemsep=2.0pt, parsep=0pt, topsep=1.5pt]
-    \item \desc{\textbf{Tools \& Software:} Git/GitHub, AI-Assisted Development, MS Office}
+    \item \desc{\textbf{Programming Languages:} Python, Java, C (C11), C++ (C++17), TypeScript, JavaScript, SQL, x86-64 Assembly, RISC-V Assembly (RV32I)}
+    \item \desc{\textbf{Technologies \& Frameworks:} Next.js, React Native, Quarkus, FastAPI, Express, Tailwind CSS, Prisma, PostgreSQL, Redis, Docker, WebSockets, WebAssembly, Qt6}
+    \item \desc{\textbf{Tools \& Software:} Git/GitHub, Linux/POSIX, AI-Assisted Development, MS Office}
     \item \desc{\textbf{Languages:} Turkish (Native), English (Advanced), German (Beginner)}
 \end{itemize}
 
