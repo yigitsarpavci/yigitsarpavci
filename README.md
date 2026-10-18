@@ -21,7 +21,7 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 ### Technical Skills
 
 - **Languages:** Python, Java, C/C++, TypeScript, JavaScript, SQL, x86-64 Assembly, RISC-V Assembly (RV32I), Bash
-- **Systems, Low-Level & WebAssembly:** Linux Syscalls, Process Scheduling, Multithreading (Pthreads), Memory Management, Computer Architecture, Processor Benchmarking (CoreMark), Spike ISA Simulator, Custom Linker Scripts, Qt6, WebAssembly, GNU Toolchain
+- **Systems, Low-Level & WebAssembly:** Linux Syscalls, Process Scheduling, Inter-Process Communication (IPC, FIFOs, POSIX Signals), Dynamic Loading (dlopen), Multithreading (Pthreads), Memory Management, Computer Architecture, Processor Benchmarking (CoreMark), Spike ISA Simulator, Custom Linker Scripts, Qt6, WebAssembly, GNU Toolchain
 - **Full-Stack, Mobile & AI:** Next.js, React Native, Expo, React, Express, Prisma, TypeORM, FastAPI, Tailwind CSS, Framer Motion, PostgreSQL, SQLite, SWR, WebSockets, Reanimated, Audio API, Next-Auth, JWT, OpenAI API, AI-Assisted Development
 - **Algorithms, Design & Analysis:** Graph Theory, Heaps, Complexity Analysis, Lexer Design, Functional Paradigms
 - **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Redis, Celery, Alembic, Pandas, ccache, Jest, Pytest, CI/CD, Makefile, LaTeX, MS Office
@@ -40,6 +40,7 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 - **[CoreMark Workload Profiling](https://github.com/yigitsarpavci/CoreMark-Workload-Profiling)** — An architectural benchmarking study and automated evaluation suite assessing compiler optimization levels (`-O0` to `-Ofast`, `-march=native`), instruction-level parallelism, and RISC-V ISA extensions (**RV32I, RV32IM, RV32IMC, RV32GC, RV64I**) using **EEMBC CoreMark v1.0**.
 - **[Solar-Escape RISC-V Navigator](https://github.com/yigitsarpavci/Solar-Escape-RISCV-Navigator)** — A bare-metal **RISC-V (RV32I)** assembly simulation modeling fuel-constrained autonomous aircraft navigation under solar radiation crisis. Features custom ROM/RAM linker scripting, manual stack framing, and greedy westward trajectory optimization evaluated on the **Spike ISA simulator**.
 - **[SchedSim CPU Scheduler](https://github.com/yigitsarpavci/SchedSim-CPU-Scheduler)** — A CPU scheduling simulator (FCFS, SJF, SRTF, PF, RR) written entirely in **x86-64 GNU Assembly** using only direct Linux syscalls — no libc dependency.
+- **[Space Shooter IPC Controller](https://github.com/yigitsarpavci/Space-Shooter-IPC-Controller)** — An asynchronous IPC engine and autonomous gameplay controller for a 2D space shooter in **C11 / POSIX**. Features non-blocking named pipes (FIFOs), dynamic shared library loading (**dlopen/dlsym**), POSIX signal interception (**SIGUSR1/SIGTERM**), lock-free circular ring buffers, and concurrent worker process lifecycle management (**fork/exec**).
 - **[Aura Functional Interpreter](https://github.com/yigitsarpavci/Aura-Functional-Interpreter)** — A Python-based interpreter for a custom functional language supporting first-class closures, higher-order functions, and configurable scoping (static/dynamic).
 - **[Spireslayer Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter)** — A C-based shell interpreter with a custom recursive descent parser and backtracking support.
 
