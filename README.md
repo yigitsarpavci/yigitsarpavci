@@ -76,8 +76,29 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 
 ---
 
+### Languages
+
+- **Turkish:** Native
+- **English:** Advanced / Professional Working Proficiency
+- **German:** Beginner / Elementary
+
+---
+
+### Athletics, Leadership & Personal Interests
+
+- **Student-Athlete:** Boğaziçi University Sailing Team, Ski Team, and Competitive Windsurfing
+- **Board Sports & Outdoor:** Wakeboarding, Kiteboarding, Surfing, Bouldering
+- **Fitness & Athletics:** Distance Running, Fitness Training, Traveling
+- **Student Leadership & Media:** Executive Board Member & DJ at **Radyo Boğaziçi**, Regional Organizational Team Member at **ESTIEM**
+- **Community Mentorship:** Educational mentorship for high school students (**BÜYAK** & **Derece Kampüsü**), volunteer mentor at **TOÇEV**
+
+---
+
 ### Contact
 
 - **LinkedIn:** [linkedin.com/in/yigitsarpavci](https://www.linkedin.com/in/yigitsarpavci)
+- **GitHub:** [github.com/yigitsarpavci](https://github.com/yigitsarpavci)
 - **CV:** [View / Download](./cv/cv.pdf)
 - **Email:** [yigit.avci@boun.edu.tr](mailto:yigit.avci@boun.edu.tr) · [yigitsarpavci@gmail.com](mailto:yigitsarpavci@gmail.com)
+- **Location:** Istanbul, Turkey
+- **Phone:** [+90 535 361 71 91](tel:+905353617191)
