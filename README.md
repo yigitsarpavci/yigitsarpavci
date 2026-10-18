@@ -13,8 +13,8 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 ### Education
 
 - **Boğaziçi University** — B.Sc. in Computer Engineering *(09/2023 – Expected 06/2028 · GPA: 2.93/4.00)*
-  - **Extracurriculars & Athletics:** Executive Board Member & DJ at Radyo Boğaziçi, Regional Organizational Team Member at ESTIEM; Work and Travel USA participant; Student-Athlete in Sailing, Skiing, and Windsurfing (also active in wakeboarding, kiteboarding, surfing, bouldering, running, and fitness).
-  - **Volunteering:** Volunteering Division Member at Industrial Engineering Club (BÜYAK), educational mentorship for high school students.
+  - **Extracurriculars & Athletics:** Executive Board Member & DJ at Radyo Boğaziçi, Regional Organizational Team Member at ESTIEM; Work and Travel USA participant; Student-Athlete in Sailing, Skiing, and Windsurfing (also active in wakeboarding, kiteboarding, surfing, bouldering, running, fitness, and traveling).
+  - **Volunteering & Mentorship:** Volunteering Division Member at Industrial Engineering Club (BÜYAK), educational mentorship for high school students (BÜYAK & Derece Kampüsü).
 - **Kabataş Boys' High School** *(09/2018 – 06/2023 · GPA: 3.78/4.00)*
   - **Extracurriculars:** Debate, Model United Nations (MUN), Entrepreneurship, and Coding Club.
   - **Volunteering:** Community Involvement Projects Club and TOÇEV (Tüvana Okuma İstekli Çocuk Eğitim Vakfı).
