@@ -1,10 +1,10 @@
 # Yiğit Sarp Avcı
 
-Computer Engineering student at Boğaziçi University, focused on software engineering, fintech, AI-assisted development, and systems programming.
+Computer Engineering student at Boğaziçi University, focused on software engineering, fintech, AI-assisted development, systems programming, and high-performance computing.
 
-I am joining the backend development team at DefineX to contribute to the design and implementation of scalable enterprise software solutions. Previously, I interned as a Site Reliability Engineer at Akbank ensuring the performance of mission-critical systems, and as a Software Engineer at Smash Mate building complex backend microservices and mobile features during their critical pre-launch phase.
+I am joining the backend development team at DefineX to contribute to the design and implementation of scalable enterprise software solutions. Previously, I interned as a Site Reliability Engineer at Akbank ensuring the reliability and performance of mission-critical banking systems, and as a Software Engineer at Smash Mate building complex backend microservices and mobile features during their critical pre-launch phase.
 
-I have worked on diverse projects spanning full-stack financial platforms, trading simulations, processor benchmarking, bare-metal RISC-V simulations, language interpreters, graph algorithms, CPU scheduling, mobile applications, and WebAssembly games. Through these, I gained hands-on experience with Python, Java, C/C++, TypeScript, Next.js, React Native, Expo, FastAPI, PostgreSQL, Docker, Qt, and low-level systems programming.
+I have engineered diverse projects spanning full-stack financial platforms, autonomous trading simulations, processor benchmarking, bare-metal RISC-V flight navigation, language interpreters, graph algorithms, CPU scheduling, mobile applications, and WebAssembly games. Through these, I gained hands-on experience with Python, Java, C/C++, TypeScript, Next.js, React Native, Expo, FastAPI, PostgreSQL, Docker, Qt, and low-level systems programming.
 
 Beyond tech, I am actively involved in student organizations — Radyo Boğaziçi and ESTIEM — and participated in Work and Travel USA, alongside competing as a student-athlete in sailing, skiing, and windsurfing, doing wakeboarding, kiteboarding, surfing, bouldering, running, fitness, and traveling as hobbies.
 
@@ -12,20 +12,37 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 
 ### Education
 
-**Boğaziçi University** — B.Sc. in Computer Engineering (2023 – Expected 2028 · GPA: 2.93/4.00)
+- **Boğaziçi University** — B.Sc. in Computer Engineering *(09/2023 – Expected 06/2028 · GPA: 2.93/4.00)*
+  - **Extracurriculars & Athletics:** Executive Board Member & DJ at Radyo Boğaziçi, Regional Organizational Team Member at ESTIEM; Work and Travel USA participant; Student-Athlete in Sailing, Skiing, and Windsurfing (also active in wakeboarding, kiteboarding, surfing, bouldering, running, and fitness).
+  - **Volunteering:** Volunteering Division Member at Industrial Engineering Club (BÜYAK), educational mentorship for high school students.
+- **Kabataş Boys' High School** *(09/2018 – 06/2023 · GPA: 3.78/4.00)*
+  - **Extracurriculars:** Debate, Model United Nations (MUN), Entrepreneurship, and Coding Club.
+  - **Volunteering:** Community Involvement Projects Club and TOÇEV (Tüvana Okuma İstekli Çocuk Eğitim Vakfı).
 
-**Kabataş Boys' High School** (2018 – 2023 · GPA: 3.78/4.00)
+---
+
+### Experience
+
+- **Backend Developer Intern** — **DefineX** *(09/2026 – Present)*
+  - Contributing to backend development, scalable enterprise software solutions, RESTful API design, and system optimizations across enterprise environments.
+- **Site Reliability Engineering Intern** — **Akbank** *(07/2026 – 09/2026)*
+  - Completed a 2-month internship with the SRE team, contributing to the reliability, scalability, and performance of mission-critical banking infrastructure. Engaged in Linux systems engineering, operational monitoring, and high-availability systems management.
+- **Software Engineering Intern** — **Smash Mate** *(06/2026 – 07/2026)*
+  - Completed an intensive 1-month internship during the critical pre-launch phase, contributing to a complex microservices backend (**Java**, **Quarkus**) and a cross-platform mobile frontend application (**React Native**). Developed core backend features, authored comprehensive unit and integration tests to ensure zero-defect deployments, and actively participated in agile workflows, code reviews, and performance optimizations leading to the successful official product launch.
 
 ---
 
 ### Technical Skills
 
-- **Languages:** Python, Java, C/C++, TypeScript, JavaScript, SQL, x86-64 Assembly, RISC-V Assembly (RV32I), Bash
-- **Systems, Low-Level & WebAssembly:** Linux Syscalls, Process Scheduling, Inter-Process Communication (IPC, FIFOs, POSIX Signals), Dynamic Loading (dlopen), Multithreading (Pthreads), Memory Management, Computer Architecture, Processor Benchmarking (CoreMark), Spike ISA Simulator, Custom Linker Scripts, Qt6, WebAssembly, GNU Toolchain
-- **Full-Stack, Mobile & AI:** Next.js, React Native, Expo, React, Express, Prisma, TypeORM, FastAPI, Tailwind CSS, Framer Motion, PostgreSQL, SQLite, SWR, WebSockets, Reanimated, Audio API, Next-Auth, JWT, OpenAI API, AI-Assisted Development
-- **Algorithms, Design & Analysis:** Graph Theory, Heaps, Complexity Analysis, Lexer Design, Functional Paradigms
-- **Tools & Ecosystem:** Linux/Unix, Git/GitHub, Docker, Redis, Celery, Alembic, Pandas, ccache, Jest, Pytest, CI/CD, Makefile, LaTeX, MS Office
-
+- **Programming & Scripting Languages:** Python, Java, C (C11), C++ (C++17), TypeScript, JavaScript, SQL, x86-64 GNU Assembly, RISC-V Assembly (RV32I), Bash, VHDL, Scheme / Racket, Prolog
+- **Systems, Operating Systems & Low-Level:** Linux Syscalls, Process Scheduling (FCFS, SJF, SRTF, Priority, Round Robin), Inter-Process Communication (IPC, Non-Blocking FIFOs / Named Pipes, POSIX Signals), Dynamic Shared Objects (`dlopen`/`dlsym`), Multithreading & Synchronization (Pthreads), Memory Management & Virtualization, Lock-Free Circular Ring Buffers, Monotonic Timers (`clock_gettime`), Process Lifecycle (`fork`/`exec`, `waitpid`, reentrant signal handlers), GNU Toolchain (`gcc`, `as`, `ld`), Make / Makefile, CMake
+- **Computer Organization & Architecture:** RISC-V Architecture (RV32I, RV32IM, RV32IMC, RV32GC, RV64I), Spike ISA Simulator, Bare-Metal Firmware Execution, Custom Linker Scripts (`.ld`, ROM/RAM memory layout mapping), Host-Target Interface (HTIF), Processor Benchmarking (EEMBC CoreMark v1.0), Compiler Optimization Profiling (`-O0` to `-Ofast`, `-march=native`), Instruction-Level Parallelism, Digital Logic & Finite State Machines (FSMs), FPGA (VHDL)
+- **Backend, Microservices & Cloud:** Java (Quarkus, Spring principles), Python (FastAPI, Pydantic), Node.js (Express), Microservices Architecture, RESTful API Design & Validation, WebSockets (Full-Duplex Real-Time Streams), Asynchronous Task Queues (Celery), In-Memory Caching (Redis), High Availability, Site Reliability Engineering (SRE) Principles
+- **Databases, ORMs & Data Layer:** PostgreSQL (`psycopg2`), SQLite (`better-sqlite3`), Prisma ORM, TypeORM, SQLAlchemy, Alembic (Automated Database Migrations), In-Memory Data Stores (Redis), Database Indexing, Limit-Order Book Matching Engines, Data Manipulation (Pandas)
+- **Frontend, Mobile & WebAssembly:** Next.js 16 / 15+ (App Router, Server Components, SSR), React, React Native, Expo, WebAssembly (WASM, Emscripten), Zustand, Reducer-Driven State Architecture, Tailwind CSS, Framer Motion (Transitions & Micro-Animations), Reanimated, SWR (Optimistic UI Updates), Recharts (Real-Time Analytics), Expo Audio & Haptics, Canvas Drag-and-Drop (`react-rnd`), Qt6 Framework
+- **Security & Authentication:** Role-Based Access Control (RBAC), JSON Web Tokens (JWT, `jose`, `PyJWT`), Next-Auth, Password Hashing (`bcrypt`, `passlib`), Robust Schema Validation (Zod, `express-validator`, Pydantic Settings)
+- **Algorithms, Language Design & CS Theory:** Graph Theory (Tarjan's Strongly Connected Components, Articulation Points Detection, Adjacency Structures), Priority Allocation (Dynamic Max-Heaps, Priority Queues), Recursive Descent Parsing with Autonomous Backtracking, Abstract Syntax Trees (ASTs), Dual Scoping Engines (Static / Lexical vs. Dynamic Scoping), Closures, Currying, Higher-Order Functions, Iterative Breadth-First Search (BFS Flood-Fill), Deterministic Finite State Machines (FSMs), Algorithmic Trading (Z-Score Mean Reversion, Volatility-Adjusted Sizing), Computational Complexity Rigor (Big-O Analysis)
+- **DevOps, Testing, Ecosystem & Tools:** Docker, Docker Compose, Linux/Unix Environment, Git / GitHub, CI/CD Pipelines (GitHub Actions), Jest, React Testing Library, Pytest, Supertest, ccache, Postman, LaTeX, MS Office, AI-Assisted Architecture & Development
 
 ---
 
@@ -64,5 +81,3 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 - **LinkedIn:** [linkedin.com/in/yigitsarpavci](https://www.linkedin.com/in/yigitsarpavci)
 - **CV:** [View / Download](./cv/cv.pdf)
 - **Email:** [yigit.avci@boun.edu.tr](mailto:yigit.avci@boun.edu.tr) · [yigitsarpavci@gmail.com](mailto:yigitsarpavci@gmail.com)
-
-
