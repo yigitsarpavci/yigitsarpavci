@@ -84,16 +84,6 @@ Beyond tech, I am actively involved in student organizations — Radyo Boğaziç
 
 ---
 
-### Athletics, Leadership & Personal Interests
-
-- **Student-Athlete:** Boğaziçi University Sailing Team, Ski Team, and Competitive Windsurfing
-- **Board Sports & Outdoor:** Wakeboarding, Kiteboarding, Surfing, Bouldering
-- **Fitness & Athletics:** Distance Running, Fitness Training, Traveling
-- **Student Leadership & Media:** Executive Board Member & DJ at **Radyo Boğaziçi**, Regional Organizational Team Member at **ESTIEM**
-- **Community Mentorship:** Educational mentorship for high school students (**BÜYAK** & **Derece Kampüsü**), volunteer mentor at **TOÇEV**
-
----
-
 ### Contact
 
 - **LinkedIn:** [linkedin.com/in/yigitsarpavci](https://www.linkedin.com/in/yigitsarpavci)
