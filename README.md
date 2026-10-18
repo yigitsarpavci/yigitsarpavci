@@ -6,15 +6,15 @@ I am joining the backend development team at DefineX to contribute to the design
 
 I have worked on diverse projects spanning full-stack financial platforms, trading simulations, processor benchmarking, bare-metal RISC-V simulations, language interpreters, graph algorithms, CPU scheduling, mobile applications, and WebAssembly games. Through these, I gained hands-on experience with Python, Java, C/C++, TypeScript, Next.js, React Native, Expo, FastAPI, PostgreSQL, Docker, Qt, and low-level systems programming.
 
-Beyond tech, I am actively involved in student organizations — Radyo Boğaziçi and ESTIEM — where I developed skills in teamwork, communication, and event coordination, alongside competing as a student-athlete in sailing, skiing, and windsurfing.
+Beyond tech, I am actively involved in student organizations — Radyo Boğaziçi and ESTIEM — and participated in Work and Travel USA, alongside competing as a student-athlete in sailing, skiing, and windsurfing, doing wakeboarding, kiteboarding, surfing, bouldering, running, fitness, and traveling as hobbies.
 
 ---
 
 ### Education
 
-**Boğaziçi University** — B.Sc. in Computer Engineering
+**Boğaziçi University** — B.Sc. in Computer Engineering (2023 – Expected 2028 · GPA: 2.93/4.00)
 
-**Kabataş Boys' High School**
+**Kabataş Boys' High School** (2018 – 2023 · GPA: 3.78/4.00)
 
 ---
 

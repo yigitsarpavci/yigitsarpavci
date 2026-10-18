@@ -10,4 +10,6 @@
 
 # Ignore extra CVs and personal images
 *.docx
-IMG_*.JPG
+*.JPG
+*.jpg
+*.jpeg
