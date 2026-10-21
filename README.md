@@ -43,7 +43,7 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 ### Projects
 
-#### Administrative & Enterprise Systems
+#### Full-Stack SaaS & Enterprise Backends
 
 - **[Restaurant Floor Plan SaaS](https://github.com/yigitsarpavci/restaurant-floor-plan-saas)** — Multi-Tenant Table Management & Live-Ops Platform
   - Multi-tenant SaaS platform with slug-based tenant isolation (`/manage/[tenantSlug]`), interactive drag-and-drop floor plan builder (`react-rnd`), and real-time coordinate persistence.
@@ -55,73 +55,7 @@ My focus spans the entire computing stack—from low-level systems programming a
   - Enforces granular RBAC (Admin/User) through custom HTTP-only JWT cookies (`jose`), bcrypt hashing, user directory workflows, and self-deletion safeguards.
   - **Tech Stack:** `Next.js 16`, `TypeScript`, `Prisma`, `SQLite`, `Tailwind CSS`, `Framer Motion`, `Recharts`, `jose (JWT)`, `bcryptjs`
 
-- **[Full-Stack FAQ Module](https://github.com/yigitsarpavci/fullstack-faq-module)** — Knowledge Base & REST Microservice
-  - Decoupled FAQ architecture pairing a Next.js App Router frontend with an Express REST API, SQLite (`better-sqlite3`), TypeORM, database indexing, and SWR optimistic UI updates.
-  - Secured via Next-Auth RBAC and server-side `express-validator`, backed by comprehensive test coverage using Jest, React Testing Library, and Supertest.
-  - **Tech Stack:** `Next.js`, `Express`, `TypeORM`, `SQLite (better-sqlite3)`, `SWR`, `Next-Auth`, `Tailwind CSS`, `Jest`, `Supertest`, `express-validator`
-
-#### Systems Programming & Computer Architecture
-
-- **[CoreMark Performance Profiling](https://github.com/yigitsarpavci/coremark-performance-profiling)** — Architectural Benchmark & Compiler Optimization Study
-  - Evaluated EEMBC CoreMark v1.0 throughput, instruction counts, and compiler vectorization across Apple Silicon (M2 ARM64) and RISC-V (CORE-V Wally) from `-O0` to `-Ofast` (`-march=native`).
-  - Analyzed hardware vs. software multiply/divide and code density across RISC-V ISA extensions (RV32I, RV32IM, RV32IMC, RV32GC, RV64I), using automated Python and Bash benchmarking harnesses.
-  - **Tech Stack:** `C11`, `RISC-V (RV32I/IM/IMC/GC, RV64I)`, `EEMBC CoreMark`, `GNU Toolchain`, `Clang/LLVM`, `Python`, `Bash`
-
-- **[Bare-Metal RISC-V Simulator](https://github.com/yigitsarpavci/bare-metal-riscv-simulator)** — Bare-Metal RV32I Flight Pathfinding on Spike Simulator
-  - Bare-metal RV32I Assembly flight pathfinding simulation executing directly on the Spike ISA Simulator without an operating system or standard library.
-  - Configures memory layouts via custom linker scripts (`.ld`) segmenting ROM (`0x80000000`) and RAM (`0x80010000`), featuring a custom HTIF console driver, manual ABI stack framing, and fuel-constrained airport routing.
-  - **Tech Stack:** `RISC-V Assembly (RV32I)`, `Spike ISA Simulator`, `GNU as / ld`, `Custom Linker Scripts (.ld)`, `HTIF Driver`
-
-- **[x86-64 CPU Scheduler](https://github.com/yigitsarpavci/x86-64-cpu-scheduler)** — Zero-Libc Linux Process Scheduling Simulator
-  - Zero-libc Linux CPU scheduling engine in pure x86-64 assembly implementing FCFS, SJF, SRTF, Priority First, and Round Robin via direct kernel syscalls (`sys_read`, `sys_write`, `sys_open`, `sys_exit`).
-  - Features manual ASCII-to-integer parsing, buffer management, and PCB register tracking, validated against edge cases using an automated Python test harness.
-  - **Tech Stack:** `x86-64 GNU Assembly`, `Linux Syscalls`, `GNU Toolchain (as, ld)`, `Make`, `Python Grader`
-
-- **[Linux IPC Game Subsystem](https://github.com/yigitsarpavci/linux-ipc-game-subsystem)** — Real-Time POSIX IPC Subsystem & Game Architecture
-  - Real-time 60 FPS terminal game architecture cleanly decoupling engine execution from input controllers via non-blocking named pipes (`O_NONBLOCK` FIFOs) and POSIX signals (`SIGUSR1`, `SIGTERM`).
-  - Supports runtime controller hot-swapping via dynamic library loading (`dlopen`/`dlsym`), with monotonic frame timing (`clock_gettime`), lock-free circular ring buffers, and process lifecycle management (`fork`/`exec`, `waitpid`).
-  - **Tech Stack:** `C11`, `Linux / POSIX.1-2008`, `Named Pipes (FIFOs)`, `POSIX Signals`, `dlopen / dlsym`, `Pthreads`, `Make`
-
-- **[Functional Language Interpreter](https://github.com/yigitsarpavci/functional-language-interpreter)** — Multi-Paradigm Functional Language Interpreter
-  - Custom functional language interpreter built in standard Python 3 with zero external dependencies, supporting first-class closures, currying, higher-order functions, and recursive AST evaluation.
-  - Features a switchable dual-scoping execution engine (lexical vs. dynamic scoping via `--scope static`/`--scope dynamic`), source-coordinate error reporting, and automated regression test suites.
-  - **Tech Stack:** `Python 3`, `AST Parsing`, `Language Design`, `Functional Programming Principles`, `Dual Scoping`
-
-- **[Unix Command Interpreter](https://github.com/yigitsarpavci/unix-command-interpreter)** — C-Based Unix Shell with Backtracking Parser
-  - Unix shell and command interpreter engineered in C11, featuring a custom recursive descent parser with grammar backtracking for complex tokenized command sequences.
-  - Modular pipeline cleanly decoupling parsing, state management, and command execution, verified with strict GCC flags (`-std=c11 -Wall -Wextra -pedantic`) and automated I/O redirection test suites.
-  - **Tech Stack:** `C11`, `GNU Make`, `GCC Toolchain`, `Grammar Backtracking`, `POSIX / Unix Shell`
-
-#### Mobile & Game Development
-
-- **[React Native Minesweeper](https://github.com/yigitsarpavci/react-native-minesweeper)** — Mobile Minesweeper with Iterative BFS & Expo Haptics
-  - Mobile Minesweeper game built with React Native and Expo, featuring hardware-accelerated animations via `react-native-reanimated`, Glassmorphism blur effects (`expo-blur`), and custom synthesized 16-bit PCM audio feedback with Expo haptics.
-  - Implements an iterative BFS flood-fill algorithm preventing call-stack overflows, safe-first-click generation, and pure reducer-driven state architecture (`useReducer`).
-  - **Tech Stack:** `React Native`, `Expo`, `TypeScript`, `Reanimated`, `Expo Haptics & Audio`, `AsyncStorage`, `Iterative BFS`
-
-- **[2048 WebAssembly Game](https://github.com/yigitsarpavci/2048-webassembly-game)** — C++/Qt6 Implementation Compiled to WebAssembly · [Live Demo](https://yigitsarpavci.github.io/2048-webassembly-game/)
-  - Cross-platform 2048 puzzle game engineered in C++17 and Qt 6, compiled to WebAssembly via Emscripten and CMake for near-native browser performance, with automated GitHub Pages deployment.
-  - Implements canonical directional grid normalization, an infinite undo history stack (`std::stack`) with deep-copy state snapshots, browser key-event filtering, and a timed Hard Mode.
-  - **Tech Stack:** `C++17`, `Qt 6`, `WebAssembly (WASM)`, `CMake`, `Emscripten`, `std::stack`, `GitHub Actions`
-
-- **[State-Machine Card Game](https://github.com/yigitsarpavci/state-machine-card-game)** — State-Machine-Driven Survival Card Game
-  - Terminal-based survival card game engineered in Java for CMPE 250, driven by a deterministic Finite State Machine (FSM) governing turn phases, encounters, and state loops.
-  - Balances player stamina and health scaling across sequential phases using queue-based event deck randomization, backed by automated difficulty modeling test suites.
-  - **Tech Stack:** `Java`, `Finite State Machines (FSM)`, `Object-Oriented Design`, `Data Structures & Algorithms`
-
-#### Data Structures & Graph Algorithms
-
-- **[Graph Network Analyzer](https://github.com/yigitsarpavci/graph-network-analyzer)** — Network Topology & Fault-Tolerance Analyzer
-  - Network topology analysis platform in Java for CMPE 250, detecting single points of failure in $O(V + E)$ linear time via Tarjan's Strongly Connected Components (SCC) and DFS articulation points.
-  - Employs custom memory-efficient adjacency lists, traversal stacks, and visited bitsets, benchmarked across recursive and iterative traversal implementations.
-  - **Tech Stack:** `Java`, `Graph Theory`, `Tarjan's Algorithm (SCC)`, `Articulation Points (DFS)`, `Network Optimization`
-
-- **[Marketplace Matching Simulation](https://github.com/yigitsarpavci/marketplace-matching-simulation)** — Algorithmic Freelance Marketplace Simulation
-  - Freelance marketplace matching simulation in Java dynamically assigning work orders via custom binary max-heaps with index tracking in $O(\log N)$ extraction time.
-  - Integrates multi-factor composite scoring (skills, ratings, cancellation reliability, burnout penalties), top-$K$ queries, and custom open-addressing hash maps and dynamic arrays.
-  - **Tech Stack:** `Java`, `Dynamic Max-Heaps / Priority Queues`, `Algorithm Design`, `Top-K Queries`, `Computational Complexity`
-
-#### Full-Stack FinTech
+#### Quantitative FinTech & Real-Time Trading
 
 - **[Algorithmic Trading Simulator](https://github.com/yigitsarpavci/algorithmic-trading-simulator)** — Real-Time Quantitative Trading Terminal & Simulator
   - Quantitative trading engine running a V8 Risk-First strategy on a 2-second simulation loop with Z-Score mean reversion, dynamic volatility-adjusted sizing, and a 4-state exit machine.
@@ -132,6 +66,42 @@ My focus spans the entire computing stack—from low-level systems programming a
   - Educational full-stack personal finance and portfolio risk platform built with Next.js 14 (App Router), FastAPI, SQLAlchemy, Alembic, PostgreSQL (`psycopg2`), and Docker Compose.
   - Features a real-time continuous limit-order matching engine with bid/ask queues, partial fills, balance reconciliation, and portfolio volatility metrics, with CI/CD enforcing automated pytest suites.
   - **Tech Stack:** `Next.js 14`, `FastAPI`, `Python`, `PostgreSQL (psycopg2)`, `SQLAlchemy`, `Docker / Docker Compose`, `Pytest`, `GitHub Actions`
+
+#### Systems Programming & Computer Architecture
+
+- **[Linux IPC Game Subsystem](https://github.com/yigitsarpavci/linux-ipc-game-subsystem)** — Real-Time POSIX IPC Subsystem & Game Architecture
+  - Real-time 60 FPS terminal game architecture cleanly decoupling engine execution from input controllers via non-blocking named pipes (`O_NONBLOCK` FIFOs) and POSIX signals (`SIGUSR1`, `SIGTERM`).
+  - Supports runtime controller hot-swapping via dynamic library loading (`dlopen`/`dlsym`), with monotonic frame timing (`clock_gettime`), lock-free circular ring buffers, and process lifecycle management (`fork`/`exec`, `waitpid`).
+  - **Tech Stack:** `C11`, `Linux / POSIX.1-2008`, `Named Pipes (FIFOs)`, `POSIX Signals`, `dlopen / dlsym`, `Pthreads`, `Make`
+
+- **[Low-Level Systems & Architecture Lab](https://github.com/yigitsarpavci/low-level-systems-lab)** — Zero-Libc x86-64 Scheduler, Bare-Metal RISC-V & C11 Shell
+  - Unified systems programming laboratory featuring a zero-libc x86-64 process scheduler (direct Linux syscalls), bare-metal RV32I flight pathfinding on Spike simulator (`.ld` memory mapping), and a modular C11 Unix shell with grammar backtracking.
+  - Eliminates standard library dependencies across assembly implementations, featuring custom HTIF console drivers, manual ABI stack framing, and automated Python test harnesses.
+  - **Tech Stack:** `x86-64 Assembly`, `RISC-V (RV32I)`, `C11`, `Linux Syscalls`, `Spike Simulator`, `Custom Linker Scripts`, `GNU Make`
+
+- **[CoreMark Performance Profiling](https://github.com/yigitsarpavci/coremark-performance-profiling)** — Architectural Benchmark & Compiler Optimization Study
+  - Evaluated EEMBC CoreMark v1.0 throughput, instruction counts, and compiler vectorization across Apple Silicon (M2 ARM64) and RISC-V (CORE-V Wally) from `-O0` to `-Ofast` (`-march=native`).
+  - Analyzed hardware vs. software multiply/divide and code density across RISC-V ISA extensions (RV32I, RV32IM, RV32IMC, RV32GC, RV64I), using automated Python and Bash benchmarking harnesses.
+  - **Tech Stack:** `C11`, `RISC-V (RV32I/IM/IMC/GC, RV64I)`, `EEMBC CoreMark`, `GNU Toolchain`, `Clang/LLVM`, `Python`, `Bash`
+
+#### Algorithms & Data Structures
+
+- **[Advanced Data Structures & Algorithms Suite](https://github.com/yigitsarpavci/data-structures-and-algorithms-suite)** — Graph Theory, Priority Allocators & State Machines
+  - Curated Java algorithms suite implementing Tarjan's Strongly Connected Components (SCC) and articulation points in $O(V + E)$ linear time, dynamic freelance matching via indexed max-heaps in $O(\log N)$ time, and a deterministic survival card game engine.
+  - Features custom memory-efficient adjacency lists, visited bitsets, open-addressing hash maps, and sequential queue-driven state machine architectures.
+  - **Tech Stack:** `Java`, `Graph Theory (Tarjan SCC)`, `Dynamic Max-Heaps`, `Finite State Machines (FSM)`, `Complexity Modeling`
+
+#### Mobile & WebAssembly
+
+- **[React Native Minesweeper](https://github.com/yigitsarpavci/react-native-minesweeper)** — Mobile Minesweeper with Iterative BFS & Expo Haptics
+  - Mobile Minesweeper game built with React Native and Expo, featuring hardware-accelerated animations via `react-native-reanimated`, Glassmorphism blur effects (`expo-blur`), and custom synthesized 16-bit PCM audio feedback with Expo haptics.
+  - Implements an iterative BFS flood-fill algorithm preventing call-stack overflows, safe-first-click generation, and pure reducer-driven state architecture (`useReducer`).
+  - **Tech Stack:** `React Native`, `Expo`, `TypeScript`, `Reanimated`, `Expo Haptics & Audio`, `AsyncStorage`, `Iterative BFS`
+
+- **[2048 WebAssembly Game](https://github.com/yigitsarpavci/2048-webassembly-game)** — C++/Qt6 Implementation Compiled to WebAssembly · [Live Demo](https://yigitsarpavci.github.io/2048-webassembly-game/)
+  - Cross-platform 2048 puzzle game engineered in C++17 and Qt 6, compiled to WebAssembly via Emscripten and CMake for near-native browser performance, with automated GitHub Pages deployment.
+  - Implements canonical directional grid normalization, an infinite undo history stack (`std::stack`) with deep-copy state snapshots, browser key-event filtering, and a timed Hard Mode.
+  - **Tech Stack:** `C++17`, `Qt 6`, `WebAssembly (WASM)`, `CMake`, `Emscripten`, `std::stack`, `GitHub Actions`
 
 ---
 
