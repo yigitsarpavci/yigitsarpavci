@@ -189,8 +189,5 @@ Beyond software engineering, I thrive in dynamic, collaborative environments. I 
 ### Contact
 
 - **LinkedIn:** [linkedin.com/in/yigitsarpavci](https://www.linkedin.com/in/yigitsarpavci)
-- **GitHub:** [github.com/yigitsarpavci](https://github.com/yigitsarpavci)
 - **CV:** [View / Download](./cv/cv.pdf)
 - **Email:** [yigit.avci@boun.edu.tr](mailto:yigit.avci@boun.edu.tr) · [yigitsarpavci@gmail.com](mailto:yigitsarpavci@gmail.com)
-- **Location:** Istanbul, Turkey
-- **Phone:** [+90 535 361 71 91](tel:+905353617191)
