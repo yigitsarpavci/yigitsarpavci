@@ -140,8 +140,6 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 - Sailing, Skiing, Windsurfing, Wakeboarding, Kiteboarding, Surfing, Bouldering, Running, Fitness, Traveling
 
----
-
 ### Resume
 
 - **CV / Resume:** [View / Download (PDF)](./cv/cv.pdf)
