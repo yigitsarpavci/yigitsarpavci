@@ -54,131 +54,98 @@ Beyond software engineering, I thrive in dynamic, collaborative environments. I 
 #### Administrative & Enterprise Systems
 
 - **[Restaurant Floor Plan SaaS](https://github.com/yigitsarpavci/seated)** — Multi-Tenant Table Management & Live-Ops Platform
-  - Multi-tenant SaaS platform featuring secure tenant isolation via slug-based dynamic routing (`/manage/[tenantSlug]`), built with Next.js 16 (App Router), Prisma ORM, and PostgreSQL.
-  - Engineered an interactive visual floor plan builder using `react-rnd`, supporting table dragging, resizing, rotation, shape morphing, and real-time coordinate persistence.
-  - Provides a real-time live-ops console for hosts and waitstaff featuring walk-in management, pending reservation queues, and dynamic multi-table merging for large parties.
-  - Employs centralized global state with Zustand paired with end-to-end Zod schema validation across all endpoints.
+  - Multi-tenant SaaS platform with slug-based tenant isolation (`/manage/[tenantSlug]`), interactive drag-and-drop floor plan builder (`react-rnd`), and real-time coordinate persistence.
+  - Features a live-ops console for waitstaff with walk-in queues and multi-table merging, powered by Zustand global state and end-to-end Zod validation.
   - **Tech Stack:** `Next.js 16`, `TypeScript`, `Prisma`, `PostgreSQL`, `Zustand`, `Tailwind CSS`, `react-rnd`, `Zod`
 
 - **[Enterprise Admin Dashboard](https://github.com/yigitsarpavci/Performo-Enterprise-Admin)** — Internal Operations & Role-Based Access Control Console
-  - Full-stack administration portal engineered with Next.js 16, Prisma, SQLite, and Tailwind CSS, featuring an ergonomic 3-column dashboard layout with micro-animations via Framer Motion.
-  - Enforces granular role-based access control (ADMIN versus USER tiers) through custom JWT session management in HTTP-only cookies (`jose`) and bcrypt password hashing.
-  - Delivers real-time server-rendered operational analytics using Recharts alongside comprehensive user directory workflows and self-deletion prevention safeguards.
+  - Full-stack admin portal featuring an ergonomic 3-column layout with Framer Motion micro-animations and real-time server-rendered operational analytics via Recharts.
+  - Enforces granular RBAC (Admin/User) through custom HTTP-only JWT cookies (`jose`), bcrypt hashing, user directory workflows, and self-deletion safeguards.
   - **Tech Stack:** `Next.js 16`, `TypeScript`, `Prisma`, `SQLite`, `Tailwind CSS`, `Framer Motion`, `Recharts`, `jose (JWT)`, `bcryptjs`
 
 - **[Full-Stack FAQ Module](https://github.com/yigitsarpavci/faq-project)** — Knowledge Base & REST Microservice
-  - Decoupled FAQ management system featuring a Next.js App Router frontend and an Express REST API backend backed by SQLite (`better-sqlite3`) and TypeORM.
-  - Integrates SWR for client-side caching and instant optimistic UI mutations with automatic rollback on network failures.
-  - Secured via Next-Auth role-based authentication, strict server-side request sanitization using `express-validator`, and optimized database indexing.
-  - Features full unit and integration test coverage across components and REST endpoints using Jest, React Testing Library, and Supertest.
+  - Decoupled FAQ architecture pairing a Next.js App Router frontend with an Express REST API, SQLite (`better-sqlite3`), TypeORM, and SWR optimistic UI updates.
+  - Secured via Next-Auth RBAC and `express-validator`, backed by comprehensive test coverage using Jest, React Testing Library, and Supertest.
   - **Tech Stack:** `Next.js`, `Express`, `TypeORM`, `SQLite (better-sqlite3)`, `SWR`, `Next-Auth`, `Tailwind CSS`, `Jest`, `Supertest`
 
 #### Systems Programming & Computer Architecture
 
 - **[CoreMark Performance Profiling](https://github.com/yigitsarpavci/CoreMark-Workload-Profiling)** — Architectural Benchmark & Compiler Optimization Study
-  - Automated performance evaluation suite assessing the industry-standard EEMBC CoreMark v1.0 benchmark across Apple Silicon (M2 ARM64) and RISC-V hardware architectures (CORE-V Wally).
-  - Profiled execution throughput, instruction counts, and compiler vectorization across `-O0` to `-Ofast` and `-march=native`, evaluating instruction-level parallelism and pipeline saturation.
-  - Analyzed hardware performance across RISC-V ISA extensions (RV32I, RV32IM, RV32IMC, RV32GC, and RV64I) to quantify hardware vs. software multiply/divide and compressed code density.
-  - Automated benchmark execution and microarchitectural bottleneck reporting using custom Python and Bash harnesses.
+  - Evaluated EEMBC CoreMark throughput, instruction counts, and compiler vectorization across Apple Silicon (M2 ARM64) and RISC-V (CORE-V Wally) from `-O0` to `-Ofast`.
+  - Analyzed hardware vs. software multiply/divide and code density across RV32I/IM/IMC/GC and RV64I, using automated Python and Bash benchmarking harnesses.
   - **Tech Stack:** `C11`, `RISC-V (RV32I/IM/IMC/GC, RV64I)`, `EEMBC CoreMark`, `GNU Toolchain`, `Clang/LLVM`, `Python`, `Bash`
 
 - **[Bare-Metal RISC-V Simulator](https://github.com/yigitsarpavci/Solar-Escape-RISCV-Navigator)** — Bare-Metal RV32I Flight Pathfinding on Spike Simulator
-  - Flight pathfinding simulation written entirely in pure RISC-V RV32I Assembly, executing bare-metal on the Spike ISA Simulator without an operating system or standard library.
-  - Employs a custom linker script (`.ld`) configuring low-level memory layout, explicitly segmenting ROM (`0x80000000`) for code and RAM (`0x80010000`) for runtime data structures.
-  - Features a custom Host-Target Interface (HTIF) driver for console character I/O and simulation control, paired with strict manual register allocation and ABI stack framing.
-  - Implements a deterministic greedy trajectory algorithm to navigate dynamic radiation hazards under fuel constraints.
+  - Bare-metal RV32I Assembly flight pathfinding simulation executing directly on the Spike ISA Simulator without an operating system or standard library.
+  - Configures memory layouts via custom linker scripts (`.ld`), featuring a custom HTIF console driver, manual ABI stack framing, and greedy radiation avoidance.
   - **Tech Stack:** `RISC-V Assembly (RV32I)`, `Spike ISA Simulator`, `GNU as / ld`, `Custom Linker Scripts`, `HTIF`
 
 - **[x86-64 CPU Scheduler](https://github.com/yigitsarpavci/SchedSim-CPU-Scheduler)** — Zero-Libc Linux Process Scheduling Simulator
-  - CPU scheduling engine written entirely in pure x86-64 GNU Assembly, interacting directly with the Linux kernel via raw syscalls (`sys_read`, `sys_write`, `sys_open`, `sys_exit`) without libc.
-  - Implements five fundamental process scheduling algorithms: FCFS, SJF, SRTF, Priority First, and Round Robin.
-  - Features custom low-level ASCII-to-integer parsing, dynamic buffer management, and process control block (PCB) tracking directly in assembly registers and stack buffers.
-  - Verified for algorithmic correctness through an automated Python test harness and edge-case grading suites.
+  - Zero-libc Linux CPU scheduling engine in pure x86-64 assembly implementing FCFS, SJF, SRTF, Priority First, and Round Robin via direct kernel syscalls.
+  - Features manual ASCII-to-integer parsing, buffer management, and PCB register tracking, validated against edge cases using an automated Python test harness.
   - **Tech Stack:** `x86-64 GNU Assembly`, `Linux Syscalls`, `GNU Toolchain (as, ld)`, `Make`, `Python (Automated Grader)`
 
 - **[Linux IPC Game Subsystem](https://github.com/yigitsarpavci/Space-Shooter-IPC-Controller)** — Real-Time POSIX IPC Subsystem & Game Architecture
-  - High-throughput Linux/POSIX inter-process communication architecture powering a real-time 60 FPS 2D game, cleanly decoupling physics simulation from controller logic.
-  - Implements asynchronous bi-directional communication using non-blocking named pipes (`O_NONBLOCK` FIFOs) and POSIX real-time signal interception (`SIGUSR1`, `SIGTERM`).
-  - Features dynamic runtime plugin loading via `dlopen`/`dlsym` to hot-swap between manual keyboard input and autonomous heuristic controllers without recompilation.
-  - Manages multi-process lifecycles via `fork`/`exec`, monotonic timers (`clock_gettime`), and lock-free circular ring buffers for high-density telemetry.
+  - Real-time 60 FPS multi-process architecture decoupling physics from controllers via non-blocking named pipes (`O_NONBLOCK` FIFOs) and POSIX signals.
+  - Supports hot-swapping manual and heuristic controller plugins at runtime via `dlopen`/`dlsym`, with monotonic timers and lock-free circular ring buffers.
   - **Tech Stack:** `C11`, `Linux / POSIX.1-2008`, `Named Pipes (FIFOs)`, `POSIX Signals`, `dlopen / dlsym`, `Pthreads`, `Make`
 
 - **[Functional Language Interpreter](https://github.com/yigitsarpavci/Aura-Functional-Interpreter)** — Multi-Paradigm Functional Language Interpreter
-  - Custom interpreter for a functional programming language supporting first-class functions, lexical closures, currying, higher-order functions, and recursive expressions.
-  - Features a switchable dual-scoping execution engine supporting both lexical (static) and dynamic scoping via runtime flags (`--scope static` vs `--scope dynamic`).
-  - Implements recursive AST evaluation, comprehensive static/dynamic type validation, source-coordinate error reporting, and recursion depth protection.
-  - Built entirely in standard Python 3 with zero external dependencies and backed by an automated regression test suite.
+  - Functional language interpreter in pure Python 3 supporting first-class closures, currying, higher-order functions, and recursive AST evaluation.
+  - Features a switchable dual-scoping execution engine (lexical vs. dynamic scoping), source-coordinate error reporting, and automated regression test suites.
   - **Tech Stack:** `Python 3`, `AST Parsing`, `Language Design`, `Functional Programming Principles`
 
 - **[Unix Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter)** — C-Based Unix Shell with Backtracking Parser
-  - Shell and command interpreter engineered in strict C11, featuring a custom recursive descent parser with grammar backtracking for complex tokenized command sequences.
-  - Designed with a modular architecture that cleanly decouples syntax parsing, shell state management, and command execution pipelines.
-  - Built with GNU Make and compiled with strict GCC flags (`-std=c11 -Wall -Wextra -pedantic`) ensuring memory safety and zero leaks.
-  - Automated verification via automated test suites validating multi-step input/output redirection and state transitions.
+  - Unix shell and command interpreter engineered in C11, featuring a custom recursive descent parser with grammar backtracking for tokenized command sequences.
+  - Modular pipeline cleanly decoupling parsing, state management, and execution, verified with strict GCC flags and automated I/O redirection test suites.
   - **Tech Stack:** `C11`, `GNU Make`, `GCC Toolchain`, `Grammar Backtracking`, `POSIX`
 
 #### Mobile & Game Development
 
 - **[React Native Minesweeper](https://github.com/yigitsarpavci/smash-mate-minesweeper)** — Mobile Minesweeper with Iterative BFS & Expo Haptics
-  - High-performance mobile Minesweeper game built with React Native and Expo, featuring hardware-accelerated animations via `react-native-reanimated` and Glassmorphism aesthetics (`expo-blur`).
-  - Implements an iterative Breadth-First Search (BFS) flood-fill algorithm for revealing empty tiles, eliminating call-stack overflow hazards on large game boards.
-  - Features guaranteed safe-first-click generation, long-press chording mechanics, and custom synthesized 16-bit PCM audio feedback paired with tactile haptics.
-  - Architected using pure reducer-driven state (`useReducer`) to prevent stale closures during rapid tap interactions.
+  - Mobile Minesweeper with hardware-accelerated Reanimated graphics, Glassmorphism blur effects, safe-first-click generation, and custom tactile haptics.
+  - Implements an iterative BFS flood-fill algorithm preventing call-stack overflows, backed by pure reducer-driven state architecture (`useReducer`).
   - **Tech Stack:** `React Native`, `Expo`, `TypeScript`, `Reanimated`, `Expo Haptics`, `Expo Audio`, `AsyncStorage`, `Tailwind / NativeWind`
 
 - **[2048 WebAssembly Game](https://github.com/yigitsarpavci/qt-2048-wasm)** — C++/Qt6 Implementation Compiled to WebAssembly · [Live Demo](https://yigitsarpavci.github.io/qt-2048-wasm/)
-  - Cross-platform game engine written in C++17 and Qt 6, compiled to WebAssembly via Emscripten and CMake for near-native browser performance.
-  - Implements a directional normalization algorithm reducing all 4 grid movements into a single canonical Left merge to minimize code duplication.
-  - Features an infinite undo history stack (`std::stack`) with deep-copy state snapshots, custom browser key-event filtering, and a timed Hard Mode.
-  - Automated CI/CD pipeline compiles and deploys WebAssembly release builds directly to GitHub Pages.
+  - C++17/Qt6 game engine compiled to WebAssembly via Emscripten for near-native browser performance, featuring automated CI/CD deployment to GitHub Pages.
+  - Implements canonical directional grid normalization, an infinite undo history stack (`std::stack`) with deep-copy snapshots, and timed Hard Mode.
   - **Tech Stack:** `C++17`, `Qt 6`, `WebAssembly (WASM)`, `CMake`, `Emscripten`, `GitHub Actions`
 
 - **[State-Machine Card Game](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)** — State-Machine-Driven Survival Card Game
-  - Terminal-based survival card game engineered in Java, driven by a deterministic Finite State Machine (FSM) governing game turns, encounters, and state loops.
-  - Balances health, stamina, and event difficulty scaling across sequential phases using advanced list structures and queues for event deck randomization.
-  - Designed with low-overhead object instantiation and clean object-oriented encapsulation to guarantee fluid state transitions and algorithmic fairness.
-  - Includes automated test suites and mathematical difficulty modeling to ensure consistent strategy-based gameplay.
+  - Terminal-based Java survival card game driven by a deterministic Finite State Machine (FSM) governing turn phases, encounters, and combat loops.
+  - Balances player stamina and health scaling via custom queue-based event deck randomization, backed by automated difficulty modeling test suites.
   - **Tech Stack:** `Java`, `Finite State Machines (FSM)`, `Object-Oriented Design`, `Algorithms`
 
 #### Data Structures & Graph Algorithms
 
 - **[Graph Network Analyzer](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)** — Network Topology & Fault-Tolerance Analyzer
-  - Graph-theory-based network topology and reliability analysis platform in Java, simulating an infrastructure operator console.
-  - Implements Tarjan's Strongly Connected Components (SCC) algorithm and depth-first articulation point detection to uncover single points of failure in $O(V + E)$ linear time.
-  - Utilizes custom adjacency lists, traversal stacks, and visited bitsets optimized to process massive directed and undirected graphs with minimal memory overhead.
-  - Features automated benchmarking suites comparing recursive versus iterative graph traversal implementations.
+  - Java network topology analysis platform detecting single points of failure via Tarjan's SCC and DFS articulation points in $O(V + E)$ linear time.
+  - Employs custom memory-efficient adjacency lists, traversal stacks, and bitsets, benchmarked across recursive and iterative traversal implementations.
   - **Tech Stack:** `Java`, `Graph Theory`, `Tarjan's Algorithm`, `Depth-First Search (DFS)`, `Network Optimization`
 
 - **[Marketplace Matching Simulation](https://github.com/yigitsarpavci/GigMatch-Pro)** — Algorithmic Freelance Marketplace Simulation
-  - Enterprise-scale freelance marketplace matching simulation in Java, dynamically allocating client work orders to optimal service specialists.
-  - Employs custom dynamic max-heaps guaranteeing $O(\log N)$ priority extractions using a composite scoring function across skills, ratings, reliability, and burnout penalties.
-  - Encapsulates customer-specific blacklisting, automated top-$K$ candidate queries, service-bucket partitioning, and incremental rating updates.
-  - Avoids standard collection overhead through custom high-performance data structures including open-addressing hash maps and dynamic arrays.
+  - Enterprise marketplace matching simulation in Java dynamically assigning work orders via custom dynamic max-heaps in $O(\log N)$ extraction time.
+  - Integrates multi-factor scoring (skills, ratings, burnout penalties), top-$K$ queries, and low-overhead open-addressing hash maps and dynamic arrays.
   - **Tech Stack:** `Java`, `Max-Heaps / Priority Queues`, `Algorithm Design`, `Computational Complexity`
 
 #### Full-Stack FinTech
 
 - **[Algorithmic Trading Simulator](https://github.com/yigitsarpavci/AlphaTrigger-AI)** — Real-Time Quantitative Trading Terminal & Simulator
-  - Real-time algorithmic trading simulation engine executing a V8 Risk-First quantitative strategy on a 2-second simulation loop.
-  - Implements a statistically driven Z-Score mean reversion model featuring rolling-window volatility-adjusted position sizing, multi-factor entry scoring, and dynamic trailing stop-loss management.
-  - Streams tick-by-tick order book depth, execution logs, and P&L metrics to a Next.js terminal UI via a full-duplex FastAPI WebSocket architecture with Celery and Redis pub/sub.
-  - Containerized with Docker and equipped with interactive parameter tuning for lookback windows and threshold multiples.
+  - Quantitative trading engine executing a 2-second simulation loop with Z-Score mean reversion, volatility-adjusted position sizing, and trailing stop-losses.
+  - Streams real-time order book depth and P&L metrics to a Next.js terminal UI via full-duplex FastAPI WebSockets, Celery, Redis pub/sub, and Docker.
   - **Tech Stack:** `Python 3.11+`, `FastAPI`, `Next.js 14`, `Redis`, `Celery`, `WebSockets`, `Z-Score Quantitative Strategy`, `Docker`
 
 - **[Financial Analytics Dashboard](https://github.com/yigitsarpavci/fintech-intelligence-platform)** — Full-Stack Finance Dashboard & Matching Engine
-  - Educational full-stack personal finance and portfolio risk platform built with Next.js (App Router), FastAPI, PostgreSQL, and Docker Compose.
-  - Features a real-time continuous limit-order book matching engine supporting bid/ask queuing, partial order fills, and balance reconciliation.
-  - Provides algorithmic portfolio volatility analysis and asset allocation metrics, augmented by an AI financial assistant with rule-based NLP fallbacks.
-  - Automated CI/CD pipeline with GitHub Actions enforces automated backend pytest suites and frontend production builds.
+  - Full-stack finance platform featuring a continuous limit-order book matching engine with bid/ask queues, partial fills, and balance reconciliation.
+  - Provides algorithmic portfolio volatility analysis and an AI assistant, with Docker Compose and GitHub Actions CI/CD enforcing automated pytest suites.
   - **Tech Stack:** `Next.js 15+`, `FastAPI`, `Python`, `PostgreSQL`, `Docker / Docker Compose`, `OpenAI API / NLP`, `Pytest`, `GitHub Actions`
 
 ---
 
 ### Languages
 
-- **Turkish:** Native
-- **English:** Advanced / Professional Working Proficiency
-- **German:** Beginner / Elementary
+- **Turkish:** Native · **English:** Advanced / Professional Working Proficiency · **German:** Beginner / Elementary
 
 ### Hobbies & Interests
 
