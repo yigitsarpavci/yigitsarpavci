@@ -106,7 +106,7 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 ### Hobbies & Interests
 
-- Sailing, Skiing, Windsurfing, Wakeboarding, Kiteboarding, Surfing, Bouldering, Running, Fitness, Traveling
+- Sailing, Skiing, Windsurfing, Wakeboarding, Kiteboarding, Surfing, Bouldering, Running, Traveling
 
 ### Resume
 
