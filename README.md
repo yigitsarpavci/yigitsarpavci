@@ -50,9 +50,9 @@ My focus spans the entire computing stack—from low-level systems programming a
   - Features a live-ops console for waitstaff with walk-in queues and multi-table merging, powered by Zustand global state and end-to-end Zod validation.
   - **Tech Stack:** `Next.js 16`, `TypeScript`, `Prisma`, `PostgreSQL`, `Zustand`, `Tailwind CSS`, `react-rnd`, `Zod`
 
-- **[Enterprise Admin Dashboard](https://github.com/yigitsarpavci/enterprise-admin-dashboard)** — Internal Operations & Role-Based Access Control Console
-  - Full-stack admin portal featuring an ergonomic 3-column layout with Framer Motion micro-animations and real-time server-rendered operational analytics via Recharts.
-  - Enforces granular RBAC (Admin/User) through custom HTTP-only JWT cookies (`jose`), bcrypt hashing, user directory workflows, and self-deletion safeguards.
+- **[Enterprise Admin Dashboard](https://github.com/yigitsarpavci/enterprise-admin-dashboard)** — Internal Operations & Employee Task Management Console
+  - Full-stack company operations console for delegating strategic employee tasks, tracking daily progress, and logging routine checklists and work hours.
+  - Implements department-level productivity comparisons (Recharts), granular RBAC (Admin vs. User) via HTTP-only JWT cookies (`jose`), and user lifecycle workflows.
   - **Tech Stack:** `Next.js 16`, `TypeScript`, `Prisma`, `SQLite`, `Tailwind CSS`, `Framer Motion`, `Recharts`, `jose (JWT)`, `bcryptjs`
 
 #### Quantitative FinTech & Real-Time Trading
