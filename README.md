@@ -149,8 +149,6 @@ Beyond software engineering, I thrive in dynamic, collaborative environments. I 
 
 ---
 
-### Contact
+### Resume
 
-- **LinkedIn:** [linkedin.com/in/yigitsarpavci](https://www.linkedin.com/in/yigitsarpavci)
-- **CV:** [View / Download](./cv/cv.pdf)
-- **Email:** [yigit.avci@boun.edu.tr](mailto:yigit.avci@boun.edu.tr) · [yigitsarpavci@gmail.com](mailto:yigitsarpavci@gmail.com)
+- **CV / Resume:** [View / Download (PDF)](./cv/cv.pdf)
