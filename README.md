@@ -8,7 +8,7 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 ### Education
 
-- **Boğaziçi University** — B.Sc. in Computer Engineering *(09/2023 – Expected 06/2028 · GPA: 2.93/4.00)*
+- **Boğaziçi University** — B.Sc. in Computer Engineering *(09/2023 – Expected 06/2028)*
   - **Extracurriculars & Athletics:** Executive Board Member & DJ at Radyo Boğaziçi; Regional Organizational Team Member at ESTIEM; Work and Travel USA participant; Student-Athlete (sailing, skiing & windsurfing).
   - **Volunteering & Mentorship:** Volunteering Division Member at Industrial Engineering Club (BÜYAK); educational mentor to high school students.
 - **Kabataş Boys' High School** *(09/2018 – 06/2023 · GPA: 3.78/4.00)*
