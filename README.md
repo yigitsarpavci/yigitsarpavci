@@ -62,10 +62,10 @@ My focus spans the entire computing stack—from low-level systems programming a
   - Streams real-time order book depth, execution logs, and P&L metrics to a Next.js terminal UI via full-duplex FastAPI WebSockets, Celery task queues, Redis, and Docker.
   - **Tech Stack:** `Python 3.11+`, `FastAPI`, `Next.js 14`, `Redis`, `Celery`, `WebSockets`, `Z-Score Strategy`, `Docker`
 
-- **[Financial Analytics Dashboard](https://github.com/yigitsarpavci/financial-analytics-dashboard)** — Full-Stack Finance Dashboard & Matching Engine
+- **[Financial Analytics Dashboard](https://github.com/yigitsarpavci/financial-analytics-dashboard)** — Personal Finance & Portfolio Risk Platform
   - Educational full-stack personal finance and portfolio risk platform built with Next.js 14 (App Router), FastAPI, SQLAlchemy, Alembic, PostgreSQL (`psycopg2`), and Docker Compose.
-  - Features a real-time continuous limit-order matching engine with bid/ask queues, partial fills, balance reconciliation, and portfolio volatility metrics, with CI/CD enforcing automated pytest suites.
-  - **Tech Stack:** `Next.js 14`, `FastAPI`, `Python`, `PostgreSQL (psycopg2)`, `SQLAlchemy`, `Docker / Docker Compose`, `Pytest`, `GitHub Actions`
+  - Implements categorical cash-flow analytics, weighted multi-asset diversification scoring (0–100), and context-aware AI advisory insights via OpenAI with deterministic rule fallbacks.
+  - **Tech Stack:** `Next.js 14`, `FastAPI`, `Python`, `PostgreSQL (psycopg2)`, `SQLAlchemy`, `Docker / Docker Compose`, `OpenAI API`, `Recharts`
 
 #### Systems Programming & Computer Architecture
 
