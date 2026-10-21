@@ -37,10 +37,10 @@ Beyond software engineering, I thrive in dynamic, collaborative environments. I 
 
 ### Technical Skills
 
-- **Programming Languages:** Python, Java, C (C11), C++ (C++17), TypeScript, JavaScript, SQL, x86-64 Assembly, RISC-V Assembly (RV32I), Bash
-- **Backend & Cloud:** Quarkus, FastAPI, Express, Microservices Architecture, RESTful APIs, WebSockets, High Availability, Celery
-- **Frontend & Mobile:** Next.js 16 (App Router), React, React Native, Expo, WebAssembly (WASM), Tailwind CSS, Zustand
-- **Databases & Storage:** PostgreSQL, SQLite, Redis, Prisma ORM, TypeORM
+- **Programming Languages:** Python, Java, C (C11), C++ (C++17), TypeScript, JavaScript, SQL, x86-64 Assembly, RISC-V Assembly, Bash
+- **Backend & Systems:** Quarkus, FastAPI, Express, Microservices Architecture, RESTful APIs, WebSockets, Linux Syscalls, POSIX IPC, Multithreading (Pthreads)
+- **Frontend & Mobile:** Next.js (App Router), React, React Native, Expo, WebAssembly (WASM), Tailwind CSS, Zustand
+- **Databases & Storage:** PostgreSQL, SQLite, Redis, Prisma ORM, TypeORM, SQLAlchemy
 - **DevOps, Testing & Tools:** Docker, Docker Compose, Linux/Unix, Git/GitHub, CI/CD (GitHub Actions), Jest, Pytest, CMake, Make
 
 ---
@@ -68,74 +68,74 @@ Beyond software engineering, I thrive in dynamic, collaborative environments. I 
 
 - **[CoreMark Performance Profiling](https://github.com/yigitsarpavci/CoreMark-Workload-Profiling)** — Architectural Benchmark & Compiler Optimization Study
   - Evaluated EEMBC CoreMark v1.0 throughput, instruction counts, and compiler vectorization across Apple Silicon (M2 ARM64) and RISC-V (CORE-V Wally) from `-O0` to `-Ofast` (`-march=native`).
-  - Analyzed hardware vs. software multiply/divide and code density across RV32I/IM/IMC/GC and RV64I, using automated Python and Bash benchmarking harnesses reflecting computer architecture and digital logic (FPGA/VHDL) principles.
-  - **Tech Stack:** `C11`, `RISC-V (RV32I/IM/IMC/GC, RV64I)`, `EEMBC CoreMark`, `GNU Toolchain`, `Clang/LLVM`, `Python`, `Bash`, `Computer Architecture / FPGA Concepts`
+  - Analyzed hardware vs. software multiply/divide and code density across RISC-V ISA extensions (RV32I, RV32IM, RV32IMC, RV32GC, RV64I), using automated Python and Bash benchmarking harnesses.
+  - **Tech Stack:** `C11`, `RISC-V (RV32I/IM/IMC/GC, RV64I)`, `EEMBC CoreMark`, `GNU Toolchain`, `Clang/LLVM`, `Python`, `Bash`
 
 - **[Bare-Metal RISC-V Simulator](https://github.com/yigitsarpavci/Solar-Escape-RISCV-Navigator)** — Bare-Metal RV32I Flight Pathfinding on Spike Simulator
   - Bare-metal RV32I Assembly flight pathfinding simulation executing directly on the Spike ISA Simulator without an operating system or standard library.
-  - Configures memory layouts via custom linker scripts (`.ld`) segmenting ROM (`0x80000000`) and RAM (`0x80010000`), featuring a custom HTIF console driver, manual ABI stack framing, and greedy radiation avoidance.
+  - Configures memory layouts via custom linker scripts (`.ld`) segmenting ROM (`0x80000000`) and RAM (`0x80010000`), featuring a custom HTIF console driver, manual ABI stack framing, and fuel-constrained airport routing.
   - **Tech Stack:** `RISC-V Assembly (RV32I)`, `Spike ISA Simulator`, `GNU as / ld`, `Custom Linker Scripts (.ld)`, `HTIF Driver`
 
 - **[x86-64 CPU Scheduler](https://github.com/yigitsarpavci/SchedSim-CPU-Scheduler)** — Zero-Libc Linux Process Scheduling Simulator
   - Zero-libc Linux CPU scheduling engine in pure x86-64 assembly implementing FCFS, SJF, SRTF, Priority First, and Round Robin via direct kernel syscalls (`sys_read`, `sys_write`, `sys_open`, `sys_exit`).
   - Features manual ASCII-to-integer parsing, buffer management, and PCB register tracking, validated against edge cases using an automated Python test harness.
-  - **Tech Stack:** `x86-64 GNU Assembly`, `Linux Syscalls`, `GNU Toolchain (as, ld)`, `Make`, `Process Scheduling (FCFS, SJF, SRTF, Priority, RR)`, `Python Grader`
+  - **Tech Stack:** `x86-64 GNU Assembly`, `Linux Syscalls`, `GNU Toolchain (as, ld)`, `Make`, `Python Grader`
 
 - **[Linux IPC Game Subsystem](https://github.com/yigitsarpavci/Space-Shooter-IPC-Controller)** — Real-Time POSIX IPC Subsystem & Game Architecture
-  - Real-time 60 FPS multi-process architecture decoupling physics from controllers via non-blocking named pipes (`O_NONBLOCK` FIFOs), POSIX signals (`SIGUSR1`, `SIGTERM`), and process lifecycle management (`fork`/`exec`, `waitpid`).
-  - Supports hot-swapping manual and heuristic controller plugins at runtime via `dlopen`/`dlsym`, with monotonic timers (`clock_gettime`), lock-free circular ring buffers, and Pthreads synchronization.
-  - **Tech Stack:** `C11`, `Linux / POSIX.1-2008`, `Named Pipes (FIFOs)`, `POSIX Signals`, `dlopen / dlsym`, `Pthreads`, `fork/exec & waitpid`, `Make`
+  - Real-time 60 FPS terminal game architecture cleanly decoupling engine execution from input controllers via non-blocking named pipes (`O_NONBLOCK` FIFOs) and POSIX signals (`SIGUSR1`, `SIGTERM`).
+  - Supports runtime controller hot-swapping via dynamic library loading (`dlopen`/`dlsym`), with monotonic frame timing (`clock_gettime`), lock-free circular ring buffers, and process lifecycle management (`fork`/`exec`, `waitpid`).
+  - **Tech Stack:** `C11`, `Linux / POSIX.1-2008`, `Named Pipes (FIFOs)`, `POSIX Signals`, `dlopen / dlsym`, `Pthreads`, `Make`
 
 - **[Functional Language Interpreter](https://github.com/yigitsarpavci/Aura-Functional-Interpreter)** — Multi-Paradigm Functional Language Interpreter
-  - Custom interpreter in standard Python 3 inspired by Scheme/Racket functional semantics, supporting first-class closures, currying, higher-order functions, and recursive AST evaluation.
+  - Custom functional language interpreter built in standard Python 3 with zero external dependencies, supporting first-class closures, currying, higher-order functions, and recursive AST evaluation.
   - Features a switchable dual-scoping execution engine (lexical vs. dynamic scoping via `--scope static`/`--scope dynamic`), source-coordinate error reporting, and automated regression test suites.
-  - **Tech Stack:** `Python 3`, `AST Parsing`, `Language Design`, `Functional Programming (Scheme/Racket Semantics)`, `Dual Scoping`
+  - **Tech Stack:** `Python 3`, `AST Parsing`, `Language Design`, `Functional Programming Principles`, `Dual Scoping`
 
 - **[Unix Command Interpreter](https://github.com/yigitsarpavci/Spireslayer-Command-Interpreter)** — C-Based Unix Shell with Backtracking Parser
   - Unix shell and command interpreter engineered in C11, featuring a custom recursive descent parser with grammar backtracking for complex tokenized command sequences.
-  - Modular pipeline cleanly decoupling parsing, state management, and execution, verified with strict GCC flags (`-std=c11 -Wall -Wextra -pedantic`) and automated I/O redirection test suites.
+  - Modular pipeline cleanly decoupling parsing, state management, and command execution, verified with strict GCC flags (`-std=c11 -Wall -Wextra -pedantic`) and automated I/O redirection test suites.
   - **Tech Stack:** `C11`, `GNU Make`, `GCC Toolchain`, `Grammar Backtracking`, `POSIX / Unix Shell`
 
 #### Mobile & Game Development
 
 - **[React Native Minesweeper](https://github.com/yigitsarpavci/smash-mate-minesweeper)** — Mobile Minesweeper with Iterative BFS & Expo Haptics
-  - Mobile Minesweeper with hardware-accelerated Reanimated graphics, Glassmorphism blur effects (`expo-blur`), safe-first-click generation, and custom synthesized 16-bit PCM audio feedback with Expo haptics.
-  - Implements an iterative BFS flood-fill algorithm preventing call-stack overflows, backed by pure reducer-driven state architecture (`useReducer`).
-  - **Tech Stack:** `React Native`, `Expo`, `TypeScript`, `Reanimated`, `Expo Haptics & Audio`, `AsyncStorage`, `Tailwind / NativeWind`, `Iterative BFS`
+  - Mobile Minesweeper game built with React Native and Expo, featuring hardware-accelerated animations via `react-native-reanimated`, Glassmorphism blur effects (`expo-blur`), and custom synthesized 16-bit PCM audio feedback with Expo haptics.
+  - Implements an iterative BFS flood-fill algorithm preventing call-stack overflows, safe-first-click generation, and pure reducer-driven state architecture (`useReducer`).
+  - **Tech Stack:** `React Native`, `Expo`, `TypeScript`, `Reanimated`, `Expo Haptics & Audio`, `AsyncStorage`, `Iterative BFS`
 
 - **[2048 WebAssembly Game](https://github.com/yigitsarpavci/qt-2048-wasm)** — C++/Qt6 Implementation Compiled to WebAssembly · [Live Demo](https://yigitsarpavci.github.io/qt-2048-wasm/)
-  - C++17/Qt6 game engine compiled to WebAssembly via Emscripten for near-native browser performance, featuring automated CI/CD deployment to GitHub Pages.
-  - Implements canonical directional grid normalization, an infinite undo history stack (`std::stack`) with deep-copy snapshots, and timed Hard Mode.
+  - Cross-platform 2048 puzzle game engineered in C++17 and Qt 6, compiled to WebAssembly via Emscripten and CMake for near-native browser performance, with automated GitHub Pages deployment.
+  - Implements canonical directional grid normalization, an infinite undo history stack (`std::stack`) with deep-copy state snapshots, browser key-event filtering, and a timed Hard Mode.
   - **Tech Stack:** `C++17`, `Qt 6`, `WebAssembly (WASM)`, `CMake`, `Emscripten`, `std::stack`, `GitHub Actions`
 
 - **[State-Machine Card Game](https://github.com/yigitsarpavci/Nightpass-A-Survival-Card-Game)** — State-Machine-Driven Survival Card Game
-  - Terminal-based Java survival card game driven by a deterministic Finite State Machine (FSM) governing turn phases, encounters, combat loops, and rule-based logic.
-  - Balances player stamina and health scaling via custom queue-based event deck randomization, backed by automated difficulty modeling test suites.
-  - **Tech Stack:** `Java`, `Finite State Machines (FSM)`, `Object-Oriented Design`, `Rule-Based Logic & Algorithms`
+  - Terminal-based survival card game engineered in Java for CMPE 250, driven by a deterministic Finite State Machine (FSM) governing turn phases, encounters, and state loops.
+  - Balances player stamina and health scaling across sequential phases using queue-based event deck randomization, backed by automated difficulty modeling test suites.
+  - **Tech Stack:** `Java`, `Finite State Machines (FSM)`, `Object-Oriented Design`, `Data Structures & Algorithms`
 
 #### Data Structures & Graph Algorithms
 
 - **[Graph Network Analyzer](https://github.com/yigitsarpavci/MatrixNet-The-Operator-s-Console)** — Network Topology & Fault-Tolerance Analyzer
-  - Java network topology analysis platform detecting single points of failure via Tarjan's Strongly Connected Components (SCC) and DFS articulation points in $O(V + E)$ linear time.
-  - Employs custom memory-efficient adjacency structures, traversal stacks, and visited bitsets, benchmarked across recursive and iterative traversal implementations.
+  - Network topology analysis platform in Java for CMPE 250, detecting single points of failure in $O(V + E)$ linear time via Tarjan's Strongly Connected Components (SCC) and DFS articulation points.
+  - Employs custom memory-efficient adjacency lists, traversal stacks, and visited bitsets, benchmarked across recursive and iterative traversal implementations.
   - **Tech Stack:** `Java`, `Graph Theory`, `Tarjan's Algorithm (SCC)`, `Articulation Points (DFS)`, `Network Optimization`
 
 - **[Marketplace Matching Simulation](https://github.com/yigitsarpavci/GigMatch-Pro)** — Algorithmic Freelance Marketplace Simulation
-  - Enterprise marketplace matching simulation in Java dynamically assigning work orders via custom dynamic max-heaps in $O(\log N)$ extraction time.
-  - Integrates multi-factor composite scoring (skills, ratings, burnout penalties), top-$K$ queries, and low-overhead open-addressing hash maps and dynamic arrays.
+  - Freelance marketplace matching simulation in Java dynamically assigning work orders via custom binary max-heaps with index tracking in $O(\log N)$ extraction time.
+  - Integrates multi-factor composite scoring (skills, ratings, cancellation reliability, burnout penalties), top-$K$ queries, and custom open-addressing hash maps and dynamic arrays.
   - **Tech Stack:** `Java`, `Dynamic Max-Heaps / Priority Queues`, `Algorithm Design`, `Top-K Queries`, `Computational Complexity`
 
 #### Full-Stack FinTech
 
 - **[Algorithmic Trading Simulator](https://github.com/yigitsarpavci/AlphaTrigger-AI)** — Real-Time Quantitative Trading Terminal & Simulator
-  - Quantitative trading engine executing a 2-second simulation loop with Z-Score mean reversion, volatility-adjusted position sizing, and trailing stop-losses.
-  - Streams real-time order book depth and P&L metrics to a Next.js terminal UI via full-duplex FastAPI WebSockets, Celery task queues, Redis pub/sub, and Docker.
-  - **Tech Stack:** `Python 3.11+`, `FastAPI`, `Next.js 14`, `Redis`, `Celery`, `WebSockets (Full-Duplex)`, `Z-Score Quantitative Strategy`, `Docker`
+  - Quantitative trading engine running a V8 Risk-First strategy on a 2-second simulation loop with Z-Score mean reversion, dynamic volatility-adjusted sizing, and a 4-state exit machine.
+  - Streams real-time order book depth, execution logs, and P&L metrics to a Next.js terminal UI via full-duplex FastAPI WebSockets, Celery task queues, Redis, and Docker.
+  - **Tech Stack:** `Python 3.11+`, `FastAPI`, `Next.js 14`, `Redis`, `Celery`, `WebSockets`, `Z-Score Strategy`, `Docker`
 
 - **[Financial Analytics Dashboard](https://github.com/yigitsarpavci/fintech-intelligence-platform)** — Full-Stack Finance Dashboard & Matching Engine
-  - Full-stack finance platform featuring a continuous limit-order book matching engine with bid/ask queues, partial fills, balance reconciliation, and PostgreSQL (`psycopg2`).
-  - Provides algorithmic portfolio volatility analysis and an AI assistant, with Docker Compose and GitHub Actions CI/CD enforcing automated pytest suites.
-  - **Tech Stack:** `Next.js 15+`, `FastAPI`, `Python`, `PostgreSQL (psycopg2)`, `Docker / Docker Compose`, `OpenAI API / NLP`, `Pytest`, `GitHub Actions`
+  - Educational full-stack personal finance and portfolio risk platform built with Next.js 14 (App Router), FastAPI, SQLAlchemy, Alembic, PostgreSQL (`psycopg2`), and Docker Compose.
+  - Features a real-time continuous limit-order matching engine with bid/ask queues, partial fills, balance reconciliation, and portfolio volatility metrics, with CI/CD enforcing automated pytest suites.
+  - **Tech Stack:** `Next.js 14`, `FastAPI`, `Python`, `PostgreSQL (psycopg2)`, `SQLAlchemy`, `Docker / Docker Compose`, `Pytest`, `GitHub Actions`
 
 ---
 
