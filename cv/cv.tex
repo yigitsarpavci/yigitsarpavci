@@ -1,8 +1,7 @@
 \documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\renewcommand{\familydefault}{\sfdefault}
+\usepackage[default]{sourcesanspro}
 \usepackage[a4paper, margin=1.0cm, top=1.0cm, bottom=1.0cm]{geometry}
 \setlength{\paperwidth}{210mm}
 \setlength{\paperheight}{297mm}
@@ -10,13 +9,13 @@
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{graphicx}
-\definecolor{darkblue}{rgb}{0,0,0.5}
+\definecolor{primarylink}{HTML}{0b4f8a}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     linkcolor=black,
     filecolor=black,
-    urlcolor=darkblue,
+    urlcolor=primarylink,
     pdfstartview={FitH},
     pdfpagemode={UseNone}
 }
@@ -25,44 +24,46 @@
 
 \setlength{\parindent}{0pt}
 
-\newcommand{\sechead}[1]{
-    \vspace{8pt}
-    {\centering\fontsize{12}{15}\bfseries #1\par}
-    \vspace{3.5pt}
+\newcommand{\sechead}[1]{%
+    \vspace{7.5pt}%
+    {\fontsize{11}{13}\textbf{\MakeUppercase{#1}}}%
+    \vspace{2.5pt}%
+    \hrule height 0.6pt%
+    \vspace{4.5pt}%
 }
 
-\newcommand{\entry}[2]{
-    {\fontsize{10.5}{13.5}\fontseries{sb}\selectfont #1} \hfill {\fontsize{9}{11.5}\selectfont #2} \par
+\newcommand{\entry}[2]{%
+    {\fontsize{10}{12.5}\textbf{#1}} \hfill {\fontsize{9}{11.5}\selectfont #2} \par
 }
 
-\newcommand{\desc}[1]{
-    {\fontsize{9}{13}\selectfont #1}
+\newcommand{\desc}[1]{%
+    {\fontsize{9}{12.2}\selectfont #1}%
 }
 
-\renewcommand{\labelitemi}{\fontsize{8}{10}\selectfont\textbullet}
+\renewcommand{\labelitemi}{\fontsize{7}{9}\selectfont\textbullet}
 
 \begin{document}
 
 {\centering
-    {\fontsize{24}{28}\bfseries Yi\u{g}it Sarp Avc\i{}} \\[0.45em]
-    {\fontsize{10}{13}\selectfont Istanbul, Turkey \quad \textbullet \quad +90 535 361 71 91 \quad \textbullet \quad yigitsarpavci@gmail.com} \\[0.3em]
-    {\fontsize{10}{13}\selectfont linkedin.com/in/yigitsarpavci \quad \textbullet \quad github.com/yigitsarpavci} \par
+    {\fontsize{24}{28}\bfseries Yi\u{g}it Sarp Avc\i{}} \\[0.4em]
+    {\fontsize{9.5}{12}\selectfont Istanbul, Turkey \enspace$\vert$\enspace \href{tel:+905353617191}{+90 535 361 71 91} \enspace$\vert$\enspace \href{mailto:yigitsarpavci@gmail.com}{yigitsarpavci@gmail.com}} \\[0.25em]
+    {\fontsize{9.5}{12}\selectfont \href{https://linkedin.com/in/yigitsarpavci}{linkedin.com/in/yigitsarpavci} \enspace$\vert$\enspace \href{https://github.com/yigitsarpavci}{github.com/yigitsarpavci}} \par
 }
-\vspace{0.4em}
+\vspace{0.25em}
 
 \sechead{Education}
 
-\entry{Bo\u{g}azi\c{c}i University -- B.Sc. in Computer Engineering}{09/2023 -- Expected 06/2028}
+\entry{Bo\u{g}azi\c{c}i University \textnormal{--- B.Sc. in Computer Engineering}}{09/2023 -- Expected 06/2028}
 % TODO: 4. sınıfta electivelerini, bitirme projeni ekle
-\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=2pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.8pt]
     \item \desc{GPA: 2.93/4.00}
     \item \desc{Extracurriculars: Executive Board Member \& DJ at Radyo Bo\u{g}azi\c{c}i; Regional Organizational Team Member at ESTIEM; Work and Travel USA participant; Student-Athlete (sailing, skiing \& windsurfing).}
     \item \desc{Volunteering: Volunteering Division Member at Industrial Engineering Club (B\"{U}YAK); educational mentor to high school students.}
 \end{itemize}
-\vspace{3.5pt}
+\vspace{2.5pt}
 
 \entry{Kabata\c{s} Boys' High School}{09/2018 -- 06/2023}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=2pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.8pt]
     \item \desc{GPA: 3.78/4.00}
     \item \desc{Extracurriculars: Debate, Model United Nations, Entrepreneurship, and Coding Clubs.}
     \item \desc{Volunteering: Community Involvement Projects Club and TO\c{C}EV (T\"{u}vana Okuma \.{I}stekli \c{C}ocuk E\u{g}itim Vakf\i{}).}
@@ -70,26 +71,26 @@
 
 \sechead{Experience}
 
-\entry{Backend Developer Intern at DefineX}{09/2026 -- Present}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=2pt]
+\entry{DefineX \textnormal{--- Backend Developer Intern}}{09/2026 -- Present}
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.8pt]
    \item \desc{Contributing to scalable enterprise software solutions, robust backend architecture, RESTful API design, and system optimizations in a dynamic enterprise environment.}
 \end{itemize}
-\vspace{3.5pt}
+\vspace{2.5pt}
 
-\entry{Site Reliability Engineering Intern at Akbank}{07/2026 -- 09/2026}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=2pt]
+\entry{Akbank \textnormal{--- Site Reliability Engineering Intern}}{07/2026 -- 09/2026}
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.8pt]
    \item \desc{Contributed to the reliability, scalability, and performance of mission-critical banking systems within the SRE team. Engaged in Linux systems engineering, operational monitoring, and high-availability systems management.}
 \end{itemize}
-\vspace{3.5pt}
+\vspace{2.5pt}
 
-\entry{Software Engineering Intern at Smash Mate}{06/2026 -- 07/2026}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=2pt]
+\entry{Smash Mate \textnormal{--- Software Engineering Intern}}{06/2026 -- 07/2026}
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.8pt]
    \item \desc{Contributed to a microservices-oriented backend (Java, Quarkus) and mobile frontend application (React Native) during the pre-launch phase. Developed core backend features, resolved high-priority issues, and authored comprehensive unit/integration tests to ensure zero-defect deployments. Collaborated in agile workflows, code reviews, and system optimizations, directly supporting the product's official launch.}
 \end{itemize}
 
 \sechead{Technical Projects}
 
-\begin{itemize}[leftmargin=1.1em, itemsep=1.3pt, parsep=0pt, topsep=1.2pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.5pt]
    \item \desc{\textbf{Algorithmic Trading Simulator} --- Real-time simulator executing Z-Score mean reversion with volatility sizing.}
    \item \desc{\textbf{Financial Analytics Dashboard} --- Platform featuring a continuous limit-order matching engine \& risk models.}
    \item \desc{\textbf{Restaurant Floor Plan SaaS} --- Multi-tenant platform with interactive floor plan builder, table merging \& queues.}
@@ -110,7 +111,7 @@
 
 \sechead{Skills, Tools \& Languages}
 
-\begin{itemize}[leftmargin=1.1em, itemsep=2.0pt, parsep=0pt, topsep=1.5pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.8pt, parsep=0pt, topsep=1.5pt]
     \item \desc{\textbf{Programming Languages:} Python, Java, C, C++, TypeScript, JavaScript, SQL, x86-64 Assembly, RISC-V Assembly}
     \item \desc{\textbf{Technologies \& Frameworks:} Next.js, React Native, Quarkus, FastAPI, Express, Tailwind CSS, Prisma, PostgreSQL, Redis, Docker, WebSockets, WebAssembly, Qt6}
     \item \desc{\textbf{Tools \& Software:} Git/GitHub, Linux/POSIX, AI-Assisted Development, MS Office}
