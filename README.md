@@ -20,11 +20,11 @@ My focus spans the entire computing stack—from low-level systems programming a
 ### Experience
 
 - **Backend Developer Intern** — **DefineX** *(09/2026 – Present)*
-  - Contributing to backend development, scalable enterprise software solutions, RESTful API design, and system optimizations across enterprise environments.
+  - Developing internal data processing platforms and Model Context Protocol (MCP) integrations, streamlining operational workflows for corporate teams by automating enterprise data extraction and RESTful backend pipelines.
 - **Site Reliability Engineering Intern** — **Akbank** *(07/2026 – 09/2026)*
-  - Contributed to the reliability, scalability, and performance of mission-critical banking infrastructure within the SRE team. Engaged in Linux systems engineering, operational monitoring, and high-availability systems management.
+  - Maintained high availability for mission-critical banking infrastructure by building real-time observability dashboards and alert rules in Dynatrace and Grafana, accelerating incident detection and root-cause resolution across Linux production environments.
 - **Software Engineering Intern** — **Smash Mate** *(06/2026 – 07/2026)*
-  - Contributed to a microservices backend (**Java**, **Quarkus**) and a cross-platform mobile frontend application (**React Native**) during the pre-launch phase. Developed core backend features, authored comprehensive unit and integration tests to ensure zero-defect deployments, and actively participated in agile workflows, code reviews, and performance optimizations directly supporting the product's official launch.
+  - Engineered player matchmaking, search discovery, and scoring microservices using Java (Quarkus) and mobile interfaces in React Native, delivering a fully functional pre-launch product release backed by comprehensive unit and integration test coverage.
 
 ---
 
