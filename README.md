@@ -1,15 +1,8 @@
 # Yiğit Sarp Avcı
 
-I am a Computer Engineering student at Boğaziçi University with a deep passion for building software across the entire computing stack—from bare-metal systems and processor architecture to scalable enterprise backends, full-stack SaaS platforms, and algorithmic FinTech solutions.
+I am a Computer Engineering student at **Boğaziçi University** and Backend Developer Intern at **DefineX**, previously interning at **Akbank** (SRE) and **Smash Mate** (Software Engineering).
 
-Currently, I work as a Backend Developer Intern at DefineX, contributing to the architecture, RESTful API design, and optimization of enterprise-grade software systems. Previously, I gained hands-on industry experience as a Site Reliability Engineering (SRE) Intern at Akbank—where I focused on the high availability, Linux systems engineering, and performance of mission-critical banking infrastructure—and as a Software Engineering Intern at Smash Mate, developing core backend microservices (Java, Quarkus) and cross-platform mobile features (React Native) during a high-paced pre-launch phase.
-
-My engineering approach combines strong theoretical computer science foundations with practical, AI-assisted product development across three core pillars:
-- **Backend, Full-Stack & FinTech:** Designing multi-tenant SaaS applications, real-time trading simulators, and limit-order matching engines using Python (FastAPI), Java (Quarkus), TypeScript, Next.js, React Native, PostgreSQL, Redis, and Docker.
-- **Systems Programming & Computer Architecture:** Engineering low-level solutions including Linux syscall-based CPU schedulers in x86-64 Assembly, bare-metal RISC-V navigation firmware, CoreMark compiler/ISA profiling, and asynchronous C11/POSIX IPC engines.
-- **Algorithms & Language Design:** Building functional language and shell interpreters, graph topology analyzers (Tarjan's SCC), and priority-based allocation engines in Python, C, C++, and Java.
-
-Beyond software engineering, I thrive in dynamic, collaborative environments. I serve as an Executive Board Member & DJ at Radyo Boğaziçi, a Regional Organizational Team Member at ESTIEM, and a Volunteering Division Member at BÜYAK, alongside providing educational mentorship to high school students. A former Work and Travel USA participant and an active student-athlete competing in sailing, skiing, and windsurfing, I also enjoy wakeboarding, kiteboarding, surfing, bouldering, running, fitness, and traveling.
+My focus spans the entire computing stack—from low-level systems programming and processor architecture to scalable enterprise backends and algorithmic FinTech platforms—combining strong theoretical computer science foundations with modern, AI-assisted product development.
 
 ---
 
@@ -145,7 +138,7 @@ Beyond software engineering, I thrive in dynamic, collaborative environments. I 
 
 ### Hobbies & Interests
 
-- Wakeboarding, Kiteboarding, Surfing, Bouldering, Running, Fitness, Traveling
+- Sailing, Skiing, Windsurfing, Wakeboarding, Kiteboarding, Surfing, Bouldering, Running, Fitness, Traveling
 
 ---
 
