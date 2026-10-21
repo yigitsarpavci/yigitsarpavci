@@ -16,7 +16,7 @@ Beyond software engineering, I thrive in dynamic, collaborative environments. I 
 ### Education
 
 - **Boğaziçi University** — B.Sc. in Computer Engineering *(09/2023 – Expected 06/2028 · GPA: 2.93/4.00)*
-  - **Extracurriculars & Athletics:** Executive Board Member & DJ at Radyo Boğaziçi; Regional Organizational Team Member at ESTIEM; Work and Travel USA participant; Student-Athlete (sailing, skiing & windsurfing), doing wakeboarding, kiteboarding, surfing, bouldering, running, fitness, and traveling as hobbies.
+  - **Extracurriculars & Athletics:** Executive Board Member & DJ at Radyo Boğaziçi; Regional Organizational Team Member at ESTIEM; Work and Travel USA participant; Student-Athlete (sailing, skiing & windsurfing).
   - **Volunteering & Mentorship:** Volunteering Division Member at Industrial Engineering Club (BÜYAK); provided educational mentorship to high school students.
 - **Kabataş Boys' High School** *(09/2018 – 06/2023 · GPA: 3.78/4.00)*
   - **Extracurriculars:** Debate, Model United Nations (MUN), Entrepreneurship, and Coding Club.
@@ -174,6 +174,10 @@ Beyond software engineering, I thrive in dynamic, collaborative environments. I 
 - **Turkish:** Native
 - **English:** Advanced / Professional Working Proficiency
 - **German:** Beginner / Elementary
+
+### Hobbies & Interests
+
+- Wakeboarding, kiteboarding, surfing, bouldering, running, fitness, and traveling
 
 ---
 
