@@ -74,15 +74,10 @@ My focus spans the entire computing stack—from low-level systems programming a
   - Supports runtime controller hot-swapping via dynamic library loading (`dlopen`/`dlsym`), with monotonic frame timing (`clock_gettime`), lock-free circular ring buffers, and process lifecycle management (`fork`/`exec`, `waitpid`).
   - **Tech Stack:** `C11`, `Linux / POSIX.1-2008`, `Named Pipes (FIFOs)`, `POSIX Signals`, `dlopen / dlsym`, `Pthreads`, `Make`
 
-- **[Low-Level Systems & Architecture Lab](https://github.com/yigitsarpavci/low-level-systems-lab)** — Zero-Libc x86-64 Scheduler, Bare-Metal RISC-V & C11 Shell
+- **[Low-Level Systems & Computer Architecture Lab](https://github.com/yigitsarpavci/low-level-systems-lab)** — Zero-Libc x86-64 Scheduler, Bare-Metal RISC-V, C11 Shell & CoreMark Benchmarking
   - Unified systems programming laboratory featuring a zero-libc x86-64 process scheduler (direct Linux syscalls), bare-metal RV32I flight pathfinding on Spike simulator (`.ld` memory mapping), and a modular C11 Unix shell with grammar backtracking.
-  - Eliminates standard library dependencies across assembly implementations, featuring custom HTIF console drivers, manual ABI stack framing, and automated Python test harnesses.
-  - **Tech Stack:** `x86-64 Assembly`, `RISC-V (RV32I)`, `C11`, `Linux Syscalls`, `Spike Simulator`, `Custom Linker Scripts`, `GNU Make`
-
-- **[CoreMark Performance Profiling](https://github.com/yigitsarpavci/coremark-performance-profiling)** — Architectural Benchmark & Compiler Optimization Study
-  - Evaluated EEMBC CoreMark v1.0 throughput, instruction counts, and compiler vectorization across Apple Silicon (M2 ARM64) and RISC-V (CORE-V Wally) from `-O0` to `-Ofast` (`-march=native`).
-  - Analyzed hardware vs. software multiply/divide and code density across RISC-V ISA extensions (RV32I, RV32IM, RV32IMC, RV32GC, RV64I), using automated Python and Bash benchmarking harnesses.
-  - **Tech Stack:** `C11`, `RISC-V (RV32I/IM/IMC/GC, RV64I)`, `EEMBC CoreMark`, `GNU Toolchain`, `Clang/LLVM`, `Python`, `Bash`
+  - Includes empirical EEMBC CoreMark profiling evaluating compiler optimization flags (`-O0` to `-Ofast`) and instruction-level parallelism (ILP) across Apple Silicon (M2 ARM64) and RISC-V extensions.
+  - **Tech Stack:** `x86-64 Assembly`, `RISC-V (RV32I/IM/IMC/GC)`, `ARM64`, `C11`, `Linux Syscalls`, `Spike Simulator`, `Clang/LLVM`, `GNU Toolchain`
 
 #### Algorithms & Data Structures
 
