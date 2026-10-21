@@ -88,15 +88,10 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 #### Mobile & WebAssembly
 
-- **[React Native Minesweeper](https://github.com/yigitsarpavci/react-native-minesweeper)** — Mobile Minesweeper with Iterative BFS & Expo Haptics
-  - Mobile Minesweeper game built with React Native and Expo, featuring hardware-accelerated animations via `react-native-reanimated`, Glassmorphism blur effects (`expo-blur`), and custom synthesized 16-bit PCM audio feedback with Expo haptics.
-  - Implements an iterative BFS flood-fill algorithm preventing call-stack overflows, safe-first-click generation, and pure reducer-driven state architecture (`useReducer`).
-  - **Tech Stack:** `React Native`, `Expo`, `TypeScript`, `Reanimated`, `Expo Haptics & Audio`, `AsyncStorage`, `Iterative BFS`
-
-- **[2048 WebAssembly Game](https://github.com/yigitsarpavci/2048-webassembly-game)** — C++/Qt6 Implementation Compiled to WebAssembly · [Live Demo](https://yigitsarpavci.github.io/2048-webassembly-game/)
-  - Cross-platform 2048 puzzle game engineered in C++17 and Qt 6, compiled to WebAssembly via Emscripten and CMake for near-native browser performance, with automated GitHub Pages deployment.
-  - Implements canonical directional grid normalization, an infinite undo history stack (`std::stack`) with deep-copy state snapshots, browser key-event filtering, and a timed Hard Mode.
-  - **Tech Stack:** `C++17`, `Qt 6`, `WebAssembly (WASM)`, `CMake`, `Emscripten`, `std::stack`, `GitHub Actions`
+- **[Cross-Platform & WebAssembly Game Lab](https://github.com/yigitsarpavci/cross-platform-game-lab)** — C++/Qt6 WASM & React Native Mobile Architecture · [Live Demo](https://yigitsarpavci.github.io/2048-webassembly-game/)
+  - Unified game engineering lab featuring a cross-platform 2048 puzzle engine engineered in C++17/Qt 6 compiled to WebAssembly via Emscripten, and an Expo/React Native Minesweeper mobile application.
+  - Implements directional grid normalization, an infinite undo history stack (`std::stack`) with deep-copy snapshots, non-recursive iterative BFS flood-fill preventing call-stack overflows, and hardware haptics.
+  - **Tech Stack:** `C++17`, `Qt 6`, `WebAssembly (WASM)`, `CMake`, `Emscripten`, `React Native`, `Expo`, `TypeScript`, `Iterative BFS`
 
 ---
 
