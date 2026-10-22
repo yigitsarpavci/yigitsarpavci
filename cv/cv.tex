@@ -36,7 +36,7 @@
 % ==============================================================================
 % TODO:
 % - Gereksiz yerleri sadeleştir, projeleri detaylandır
-% - 4. sınıfta electivelerini, bitirme projeni ekle. (GPA: 2.93/4.00)
+% - 4. sınıfta electivelerini, gpaini ekle
 % ==============================================================================
 
 {\centering
@@ -49,7 +49,7 @@
 \sechead{Education}
 
 \entry{Bo\u{g}azi\c{c}i University \textnormal{--- B.Sc. in Computer Engineering}}{09/2023 -- Expected 06/2028}
-% TODO: 4. sınıfta electivelerini, bitirme projeni ekle. (GPA: 2.93/4.00)
+% TODO: 4. sınıfta electivelerini, gpaini ekle
 \begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.8pt]
     \item \desc{Extracurriculars: Executive Board Member \& DJ at Radyo Bo\u{g}azi\c{c}i; Regional Organizational Team Member at ESTIEM; Work and Travel USA participant; Student-Athlete (sailing, skiing \& windsurfing).}
     \item \desc{Volunteering: Volunteering Division Member at Industrial Engineering Club (B\"{U}YAK); Educational Mentor to high school students.}
@@ -88,9 +88,9 @@
 \sechead{Technical Projects}
 
 \begin{itemize}[leftmargin=1.1em, itemsep=3.0pt, parsep=0pt, topsep=1.2pt]
+   \item \desc{\textbf{Algorithmic Trading \& Execution Engine} --- Quantitative engine executing Z-Score mean reversion on 2s cycles with volatility sizing; streams order books and P\&L metrics via FastAPI WebSockets and Redis.}
    \item \desc{\textbf{Enterprise Operations \& Knowledge Platform} --- Workforce operations platform for daily activity audits, productivity benchmarking, and internal SOPs; features an Express 5 REST API, TypeORM, Recharts analytics, and SWR optimistic caching.}
    \item \desc{\textbf{Restaurant Operations \& Table Management SaaS} --- Multi-tenant platform with slug-based isolation, interactive drag-and-drop floor plan builder (react-rnd), table merging, and waitstaff queues via Zustand and Zod.}
-   \item \desc{\textbf{Algorithmic Trading \& Execution Engine} --- Quantitative engine executing Z-Score mean reversion on 2s cycles with volatility sizing; streams order books and P\&L metrics via FastAPI WebSockets and Redis.}
    \item \desc{\textbf{Low-Level Systems \& Architecture Lab} --- Zero-libc x86-64 scheduler (raw syscalls), bare-metal RV32I navigator on Spike with linker script memory maps, C11 shell, and CoreMark ILP/compiler profiling.}
    \item \desc{\textbf{Linux IPC Game Subsystem} --- 60 FPS modular game architecture decoupling input via non-blocking FIFOs (O\_NONBLOCK), POSIX signals, lock-free ring buffers, and dlopen controller hot-swapping.}
    \item \desc{\textbf{Financial Analytics Dashboard} --- Personal finance platform computing multi-asset diversification scores and net cash flow; delivers context-aware advisory insights via OpenAI with rule fallbacks.}
