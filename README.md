@@ -81,10 +81,10 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 #### Algorithms & Data Structures
 
-- **[Advanced Data Structures & Algorithms Suite](https://github.com/yigitsarpavci/data-structures-and-algorithms-suite)** — Graph Theory, Priority Allocators & State Machines
-  - Curated Java algorithms suite implementing Tarjan's Strongly Connected Components (SCC) and articulation points in $O(V + E)$ linear time, dynamic freelance matching via indexed max-heaps in $O(\log N)$ time, and a deterministic survival card game engine.
-  - Features custom memory-efficient adjacency lists, visited bitsets, open-addressing hash maps, and sequential queue-driven state machine architectures.
-  - **Tech Stack:** `Java`, `Graph Theory (Tarjan SCC)`, `Dynamic Max-Heaps`, `Finite State Machines (FSM)`, `Complexity Modeling`
+- **[Advanced Data Structures & Algorithms Suite](https://github.com/yigitsarpavci/data-structures-and-algorithms-suite)** — Graph Theory, Priority Allocators, State Machines & AST Interpreter
+  - Curated algorithms and computational theory suite implementing Tarjan's Strongly Connected Components (SCC) and articulation points in $O(V + E)$ linear time, dynamic freelance matching via indexed max-heaps in $O(\log N)$ time, a deterministic survival card game engine, and a custom functional language interpreter with dual lexical/dynamic scoping.
+  - Features custom memory-efficient adjacency lists, visited bitsets, open-addressing hash maps, AST tree traversal, and sequential queue-driven state machine architectures.
+  - **Tech Stack:** `Java`, `Python`, `Graph Theory (Tarjan SCC)`, `Dynamic Max-Heaps`, `Finite State Machines (FSM)`, `AST Tree Traversal`, `Complexity Modeling`
 
 #### Mobile & WebAssembly
 
