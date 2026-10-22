@@ -33,7 +33,7 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 ### Technical Skills
 
-- **Programming Languages:** Python, Java, C (C11), C++ (C++17), TypeScript, JavaScript, SQL, x86-64 Assembly, RISC-V Assembly, Bash
+- **Programming Languages:** Python, Java, C (C11), C++ (C++17), TypeScript, JavaScript, SQL, Assembly (x86-64, RISC-V), Bash
 - **Backend & Systems:** Quarkus, FastAPI, Express, Microservices Architecture, RESTful APIs, WebSockets, Linux Syscalls, POSIX IPC, Multithreading (Pthreads)
 - **Frontend & Mobile:** Next.js (App Router), React, React Native, Expo, WebAssembly (WASM), Qt 6, Tailwind CSS, Zustand
 - **Databases & Storage:** PostgreSQL, SQLite, Redis, Prisma ORM, TypeORM, SQLAlchemy
