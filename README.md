@@ -35,9 +35,9 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 - **Programming Languages:** Python, Java, C (C11), C++ (C++17), TypeScript, JavaScript, SQL, x86-64 Assembly, RISC-V Assembly, Bash
 - **Backend & Systems:** Quarkus, FastAPI, Express, Microservices Architecture, RESTful APIs, WebSockets, Linux Syscalls, POSIX IPC, Multithreading (Pthreads)
-- **Frontend & Mobile:** Next.js (App Router), React, React Native, Expo, WebAssembly (WASM), Tailwind CSS, Zustand
+- **Frontend & Mobile:** Next.js (App Router), React, React Native, Expo, WebAssembly (WASM), Qt 6, Tailwind CSS, Zustand
 - **Databases & Storage:** PostgreSQL, SQLite, Redis, Prisma ORM, TypeORM, SQLAlchemy
-- **DevOps, Testing & Tools:** Docker, Docker Compose, Linux/Unix, Git/GitHub, CI/CD (GitHub Actions), Jest, Pytest, CMake, Make
+- **DevOps, Testing & Tools:** Docker, Docker Compose, Linux/Unix, Git/GitHub, CI/CD (GitHub Actions), Jest, Pytest, Grafana, CMake, Make, AI-Assisted Development
 
 ---
 
