@@ -43,21 +43,9 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 ### Projects
 
-#### Full-Stack SaaS & Enterprise Backends
-
-- **[Restaurant Operations & Table Management SaaS](https://github.com/yigitsarpavci/restaurant-floor-plan-saas)** — Multi-Tenant Table Management & Live-Ops Platform
-  - Multi-tenant SaaS platform with slug-based tenant isolation (`/manage/[tenantSlug]`), interactive drag-and-drop floor plan builder (`react-rnd`), and real-time coordinate persistence.
-  - Features a live-ops console for waitstaff with walk-in queues and multi-table merging, powered by Zustand global state and end-to-end Zod validation.
-  - **Tech Stack:** `Next.js 16`, `TypeScript`, `Prisma`, `PostgreSQL`, `Zustand`, `Tailwind CSS`, `react-rnd`, `Zod`
-
-- **[Enterprise Operations & Knowledge Platform](https://github.com/yigitsarpavci/enterprise-admin-dashboard)** — Operations, Workforce Delegation & Knowledge Base Platform
-  - Full-stack enterprise platform coupling workforce task delegation and work-logging with a decoupled Express 5 REST API and Knowledge Base (SOP/FAQ) engine.
-  - Implements department productivity comparisons (Recharts), TypeORM DataMapper with in-memory SQLite isolation, SWR optimistic updates, and end-to-end Supertest API integration suites.
-  - **Tech Stack:** `Next.js 16`, `Express 5`, `TypeScript`, `TypeORM`, `Prisma`, `SWR`, `Jest`, `Supertest`, `Recharts`, `Tailwind CSS`, `jose (JWT)`
-
 #### Quantitative FinTech & Real-Time Trading
 
-- **[Algorithmic Trading Simulator](https://github.com/yigitsarpavci/algorithmic-trading-simulator)** — Real-Time Quantitative Trading Terminal & Simulator
+- **[Algorithmic Trading & Execution Engine](https://github.com/yigitsarpavci/algorithmic-trading-simulator)** — Real-Time Quantitative Trading Terminal & Execution Engine
   - Quantitative trading engine running a V8 Risk-First strategy on a 2-second simulation loop with Z-Score mean reversion, dynamic volatility-adjusted sizing, and a 4-state exit machine.
   - Streams real-time order book depth, execution logs, and P&L metrics to a Next.js terminal UI via full-duplex FastAPI WebSockets, Celery task queues, Redis, and Docker.
   - **Tech Stack:** `Python 3.11+`, `FastAPI`, `Next.js 14`, `Redis`, `Celery`, `WebSockets`, `Z-Score Strategy`, `Docker`
@@ -67,24 +55,29 @@ My focus spans the entire computing stack—from low-level systems programming a
   - Implements categorical cash-flow analytics, weighted multi-asset diversification scoring, and context-aware AI advisory insights via OpenAI with deterministic rule fallbacks.
   - **Tech Stack:** `Next.js 14`, `FastAPI`, `Python`, `PostgreSQL (psycopg2)`, `SQLAlchemy`, `Docker / Docker Compose`, `OpenAI API`, `Recharts`
 
-#### Systems Programming & Computer Architecture
+#### Full-Stack SaaS & Enterprise Backends
 
-- **[Linux IPC Game Subsystem](https://github.com/yigitsarpavci/linux-ipc-game-subsystem)** — Real-Time POSIX IPC Subsystem & Game Architecture
-  - Real-time 60 FPS terminal game architecture cleanly decoupling engine execution from input controllers via non-blocking named pipes (`O_NONBLOCK` FIFOs) and POSIX signals (`SIGUSR1`, `SIGTERM`).
-  - Supports runtime controller hot-swapping via dynamic library loading (`dlopen`/`dlsym`), with monotonic frame timing (`clock_gettime`), lock-free circular ring buffers, and process lifecycle management (`fork`/`exec`, `waitpid`).
-  - **Tech Stack:** `C11`, `Linux / POSIX.1-2008`, `Named Pipes (FIFOs)`, `POSIX Signals`, `dlopen / dlsym`, `Pthreads`, `Make`
+- **[Enterprise Operations & Knowledge Platform](https://github.com/yigitsarpavci/enterprise-admin-dashboard)** — Operations, Workforce Delegation & Knowledge Base Platform
+  - Full-stack enterprise platform coupling workforce task delegation and work-logging with a decoupled Express 5 REST API and Knowledge Base (SOP/FAQ) engine.
+  - Implements department productivity comparisons (Recharts), TypeORM DataMapper with in-memory SQLite isolation, SWR optimistic updates, and end-to-end Supertest API integration suites.
+  - **Tech Stack:** `Next.js 16`, `Express 5`, `TypeScript`, `TypeORM`, `Prisma`, `SWR`, `Jest`, `Supertest`, `Recharts`, `Tailwind CSS`, `jose (JWT)`
+
+- **[Restaurant Operations & Table Management SaaS](https://github.com/yigitsarpavci/restaurant-floor-plan-saas)** — Multi-Tenant Table Management & Live-Ops Platform
+  - Multi-tenant SaaS platform with slug-based tenant isolation (`/manage/[tenantSlug]`), interactive drag-and-drop floor plan builder (`react-rnd`), and real-time coordinate persistence.
+  - Features a live-ops console for waitstaff with walk-in queues and multi-table merging, powered by Zustand global state and end-to-end Zod validation.
+  - **Tech Stack:** `Next.js 16`, `TypeScript`, `Prisma`, `PostgreSQL`, `Zustand`, `Tailwind CSS`, `react-rnd`, `Zod`
+
+#### Systems Programming & Computer Architecture
 
 - **[Low-Level Systems & Computer Architecture Lab](https://github.com/yigitsarpavci/low-level-systems-lab)** — Zero-Libc x86-64 Scheduler, Bare-Metal RISC-V, C11 Shell & CoreMark Benchmarking
   - Unified systems programming laboratory featuring a zero-libc x86-64 process scheduler (direct Linux syscalls), bare-metal RV32I flight pathfinding on Spike simulator (`.ld` memory mapping), and a modular C11 Unix shell with grammar backtracking.
   - Includes empirical EEMBC CoreMark profiling evaluating compiler optimization flags (`-O0` to `-Ofast`) and instruction-level parallelism (ILP) across Apple Silicon (M2 ARM64) and RISC-V extensions.
   - **Tech Stack:** `x86-64 Assembly`, `RISC-V (RV32I/IM/IMC/GC)`, `ARM64`, `C11`, `Linux Syscalls`, `Spike Simulator`, `Clang/LLVM`, `GNU Toolchain`
 
-#### Algorithms & Data Structures
-
-- **[Advanced Data Structures & Algorithms Suite](https://github.com/yigitsarpavci/data-structures-and-algorithms-suite)** — Graph Theory, Priority Allocators, State Machines & AST Interpreter
-  - Curated algorithms and computational theory suite implementing Tarjan's Strongly Connected Components (SCC) and articulation points in $O(V + E)$ linear time, dynamic freelance matching via indexed max-heaps in $O(\log N)$ time, a deterministic survival card game engine, and a custom functional language interpreter with dual lexical/dynamic scoping.
-  - Features custom memory-efficient adjacency lists, visited bitsets, open-addressing hash maps, AST tree traversal, and sequential queue-driven state machine architectures.
-  - **Tech Stack:** `Java`, `Python`, `Graph Theory (Tarjan SCC)`, `Dynamic Max-Heaps`, `Finite State Machines (FSM)`, `AST Tree Traversal`, `Complexity Modeling`
+- **[Linux IPC Game Subsystem](https://github.com/yigitsarpavci/linux-ipc-game-subsystem)** — Real-Time POSIX IPC Subsystem & Game Architecture
+  - Real-time 60 FPS terminal game architecture cleanly decoupling engine execution from input controllers via non-blocking named pipes (`O_NONBLOCK` FIFOs) and POSIX signals (`SIGUSR1`, `SIGTERM`).
+  - Supports runtime controller hot-swapping via dynamic library loading (`dlopen`/`dlsym`), with monotonic frame timing (`clock_gettime`), lock-free circular ring buffers, and process lifecycle management (`fork`/`exec`, `waitpid`).
+  - **Tech Stack:** `C11`, `Linux / POSIX.1-2008`, `Named Pipes (FIFOs)`, `POSIX Signals`, `dlopen / dlsym`, `Pthreads`, `Make`
 
 #### Mobile & WebAssembly
 
@@ -92,6 +85,13 @@ My focus spans the entire computing stack—from low-level systems programming a
   - Unified game engineering lab featuring a cross-platform 2048 puzzle engine engineered in C++17/Qt 6 compiled to WebAssembly via Emscripten, and an Expo/React Native Minesweeper mobile application.
   - Implements directional grid normalization, an infinite undo history stack (`std::stack`) with deep-copy snapshots, non-recursive iterative BFS flood-fill preventing call-stack overflows, and hardware haptics.
   - **Tech Stack:** `C++17`, `Qt 6`, `WebAssembly (WASM)`, `CMake`, `Emscripten`, `React Native`, `Expo`, `TypeScript`, `Iterative BFS`
+
+#### Algorithms & Data Structures
+
+- **[Advanced Data Structures & Algorithms Suite](https://github.com/yigitsarpavci/data-structures-and-algorithms-suite)** — Graph Theory, Priority Allocators, State Machines & AST Interpreter
+  - Curated algorithms and computational theory suite implementing Tarjan's Strongly Connected Components (SCC) and articulation points in $O(V + E)$ linear time, dynamic freelance matching via indexed max-heaps in $O(\log N)$ time, a deterministic survival card game engine, and a custom functional language interpreter with dual lexical/dynamic scoping.
+  - Features custom memory-efficient adjacency lists, visited bitsets, open-addressing hash maps, AST tree traversal, and sequential queue-driven state machine architectures.
+  - **Tech Stack:** `Java`, `Python`, `Graph Theory (Tarjan SCC)`, `Dynamic Max-Heaps`, `Finite State Machines (FSM)`, `AST Tree Traversal`, `Complexity Modeling`
 
 ---
 
