@@ -45,7 +45,7 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 #### Full-Stack SaaS & Enterprise Backends
 
-- **[Restaurant Floor Plan SaaS](https://github.com/yigitsarpavci/restaurant-floor-plan-saas)** — Multi-Tenant Table Management & Live-Ops Platform
+- **[Restaurant Operations & Table Management SaaS](https://github.com/yigitsarpavci/restaurant-floor-plan-saas)** — Multi-Tenant Table Management & Live-Ops Platform
   - Multi-tenant SaaS platform with slug-based tenant isolation (`/manage/[tenantSlug]`), interactive drag-and-drop floor plan builder (`react-rnd`), and real-time coordinate persistence.
   - Features a live-ops console for waitstaff with walk-in queues and multi-table merging, powered by Zustand global state and end-to-end Zod validation.
   - **Tech Stack:** `Next.js 16`, `TypeScript`, `Prisma`, `PostgreSQL`, `Zustand`, `Tailwind CSS`, `react-rnd`, `Zod`
