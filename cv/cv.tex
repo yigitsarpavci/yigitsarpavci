@@ -2,7 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[default]{sourcesanspro}
-\usepackage[a4paper, margin=1.0cm, top=1.0cm, bottom=1.0cm]{geometry}
+\usepackage[a4paper, margin=0.75cm, top=0.7cm, bottom=0.7cm]{geometry}
 \setlength{\paperwidth}{210mm}
 \setlength{\paperheight}{297mm}
 \sloppy
@@ -16,91 +16,131 @@
 \setlength{\parindent}{0pt}
 
 \newcommand{\sechead}[1]{%
-    \vspace{7.5pt}%
-    {\centering\fontsize{11}{13}\textbf{\MakeUppercase{#1}}\par}%
     \vspace{3.5pt}%
+    {\centering\fontsize{10}{12}\textbf{\MakeUppercase{#1}}\par}%
+    \vspace{1.5pt}%
 }
 
 \newcommand{\entry}[2]{%
-    {\fontsize{10.5}{13}\textbf{#1}} \hfill {\fontsize{9.5}{12.5}\selectfont #2} \par
+    {\fontsize{9.2}{11.5}\textbf{#1}} \hfill {\fontsize{8.5}{11}\selectfont #2} \par
 }
 
 \newcommand{\desc}[1]{%
-    {\fontsize{9.5}{12.5}\selectfont #1}%
+    {\fontsize{8.5}{10.8}\selectfont #1}%
 }
 
-\renewcommand{\labelitemi}{\fontsize{7}{9}\selectfont\textbullet}
+\renewcommand{\labelitemi}{\fontsize{6}{7.5}\selectfont\textbullet}
 
 \begin{document}
 
 % ==============================================================================
 % TODO:
-% - Gereksiz yerleri sadeleştir, projeleri detaylandır
-% - 4. sınıfta electivelerini, gpaini ekle
+% - 4. sınıfta electivelerini ekle
 % ==============================================================================
 
 {\centering
-    {\fontsize{24}{28}\bfseries Yi\u{g}it Sarp Avc\i{}} \\[0.4em]
-    {\fontsize{9.5}{12}\selectfont Istanbul, Turkey \enspace$\vert$\enspace +90 535 361 71 91 \enspace$\vert$\enspace yigitsarpavci@gmail.com} \\[0.25em]
-    {\fontsize{9.5}{12}\selectfont \href{https://linkedin.com/in/yigitsarpavci}{linkedin.com/in/yigitsarpavci} \enspace$\vert$\enspace \href{https://github.com/yigitsarpavci}{github.com/yigitsarpavci}} \par
+    {\fontsize{20}{23}\bfseries Yi\u{g}it Sarp Avc\i{}} \\[0.2em]
+    {\fontsize{8.5}{10.5}\selectfont Istanbul, Turkey \enspace$\vert$\enspace +90 535 361 71 91 \enspace$\vert$\enspace yigitsarpavci@gmail.com} \\[0.15em]
+    {\fontsize{8.5}{10.5}\selectfont \href{https://linkedin.com/in/yigitsarpavci}{linkedin.com/in/yigitsarpavci} \enspace$\vert$\enspace \href{https://github.com/yigitsarpavci}{github.com/yigitsarpavci}} \par
 }
-\vspace{0.25em}
+\vspace{0.05em}
 
 \sechead{Education}
 
 \entry{Bo\u{g}azi\c{c}i University \textnormal{--- B.Sc. in Computer Engineering}}{09/2023 -- Expected 06/2028}
-% TODO: 4. sınıfta electivelerini, gpaini ekle
-\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.8pt]
     \item \desc{Extracurriculars: Executive Board Member \& DJ at Radyo Bo\u{g}azi\c{c}i; Regional Organizational Team Member at ESTIEM; Work and Travel USA participant; Student-Athlete (sailing, skiing \& windsurfing).}
     \item \desc{Volunteering: Volunteering Division Member at Industrial Engineering Club (B\"{U}YAK); Educational Mentor to high school students.}
 \end{itemize}
-\vspace{2.5pt}
+\vspace{1.0pt}
 
 \entry{Kabata\c{s} Boys' High School}{09/2018 -- 06/2023}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.8pt]
-    \item \desc{GPA: 3.78/4.00}
-    \item \desc{Extracurriculars: Debate, Model United Nations, Entrepreneurship, and Coding Clubs.}
-    \item \desc{Volunteering: Community Involvement Projects Club and TO\c{C}EV (T\"{u}vana Okuma \.{I}stekli \c{C}ocuk E\u{g}itim Vakf\i{}).}
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.8pt]
+    \item \desc{GPA: 3.78/4.00 $\vert$ Extracurriculars: Debate, Model United Nations, Entrepreneurship, Coding Clubs $\vert$ Volunteering: CIP Club \& TO\c{C}EV.}
 \end{itemize}
 
 \sechead{Experience}
 
 \entry{DefineX \textnormal{--- Backend Developer Intern}}{09/2026 -- Present}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.8pt]
-   \item \desc{Developing internal data processing platforms and Model Context Protocol (MCP) integrations, streamlining operational workflows for corporate teams by automating enterprise data extraction and RESTful backend pipelines.}
-   \item \desc{Leveraging modern AI-assisted engineering workflows to accelerate enterprise backend feature delivery, implementing robust data validation schemas and optimizing API request throughput.}
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.8pt]
+   \item \desc{Developing internal data processing platforms and Model Context Protocol (MCP) integrations, automating enterprise data extraction and RESTful backend pipelines.}
+   \item \desc{Leveraging modern AI-assisted engineering workflows to accelerate enterprise backend feature delivery, implementing robust validation and throughput optimization.}
 \end{itemize}
-\vspace{2.5pt}
+\vspace{1.0pt}
 
 \entry{Akbank \textnormal{--- Site Reliability Engineering Intern}}{07/2026 -- 09/2026}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.8pt]
-   \item \desc{Maintained high availability for mission-critical core banking infrastructure by designing real-time observability dashboards and proactive alerting thresholds in Dynatrace and Grafana.}
-   \item \desc{Engaged in Linux systems engineering, server health diagnostics, and log analysis to accelerate incident detection and root-cause resolution across high-throughput production nodes.}
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.8pt]
+   \item \desc{Maintained high availability for core banking infrastructure by designing real-time observability dashboards and proactive alerts in Dynatrace/Grafana.}
+   \item \desc{Engaged in Linux systems engineering, server health diagnostics, and log analysis to accelerate incident detection and root-cause resolution across production nodes.}
 \end{itemize}
-\vspace{2.5pt}
+\vspace{1.0pt}
 
 \entry{Smash Mate \textnormal{--- Software Engineering Intern}}{06/2026 -- 07/2026}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.8pt]
-   \item \desc{Engineered player matchmaking, search discovery, and scoring microservices using Java (Quarkus), designing high-performance RESTful endpoints and core game-matching domain logic.}
-   \item \desc{Developed responsive mobile interfaces in React Native and authored comprehensive unit and integration test suites, delivering a fully functional, zero-defect pre-launch release.}
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.8pt]
+   \item \desc{Engineered player matchmaking, search discovery, and scoring microservices using Java (Quarkus), designing high-performance RESTful endpoints.}
+   \item \desc{Developed responsive mobile interfaces in React Native and authored comprehensive unit/integration test suites for pre-launch release.}
 \end{itemize}
 
 \sechead{Technical Projects}
 
-\begin{itemize}[leftmargin=1.1em, itemsep=3.0pt, parsep=0pt, topsep=1.2pt]
-   \item \desc{\textbf{Algorithmic Trading \& Execution Engine} --- Quantitative engine executing Z-Score mean reversion on 2s cycles with volatility sizing; streams order books and P\&L metrics via FastAPI WebSockets and Redis.}
-   \item \desc{\textbf{Enterprise Operations \& Knowledge Platform} --- Workforce operations platform for daily activity audits, productivity benchmarking, and internal SOPs; features an Express 5 REST API, TypeORM, Recharts analytics, and SWR optimistic caching.}
-   \item \desc{\textbf{Restaurant Operations \& Table Management SaaS} --- Multi-tenant platform with slug-based isolation, interactive drag-and-drop floor plan builder (react-rnd), table merging, and waitstaff queues via Zustand and Zod.}
-   \item \desc{\textbf{Low-Level Systems \& Architecture Lab} --- Zero-libc x86-64 scheduler (raw syscalls), bare-metal RV32I navigator on Spike with linker script memory maps, C11 shell, and CoreMark ILP/compiler profiling.}
-   \item \desc{\textbf{Linux IPC Game Subsystem} --- 60 FPS modular game architecture decoupling input via non-blocking FIFOs (O\_NONBLOCK), POSIX signals, lock-free ring buffers, and dlopen controller hot-swapping.}
-   \item \desc{\textbf{Financial Analytics Dashboard} --- Personal finance platform computing multi-asset diversification scores and net cash flow; delivers context-aware advisory insights via OpenAI with rule fallbacks.}
-   \item \desc{\textbf{Cross-Platform \& WebAssembly Game Lab} --- C++/Qt6 2048 game compiled to WASM via Emscripten with an infinite undo stack (std::stack); and React Native Minesweeper mobile game featuring iterative BFS flood-fill and pure reducer state architecture.}
-   \item \desc{\textbf{Advanced Data Structures \& Algorithms Suite} --- $O(V+E)$ Tarjan's SCC graph analyzer, custom max-heaps with index tracking for $O(\log N)$ matching, a deterministic FSM engine, and an AST functional interpreter.}
+\entry{Algorithmic Trading \& Execution Engine}{Python, FastAPI, Redis, Next.js}
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.6pt]
+   \item \desc{Engineered quantitative arbitrage engine achieving sub-second telemetry across 2s simulation loops with volatility-adjusted position sizing.}
+   \item \desc{Implemented a 4-state risk machine, Z-Score mean reversion, and real-time full-duplex WebSocket order book streaming via FastAPI and Redis.}
+\end{itemize}
+\vspace{1.0pt}
+
+\entry{Enterprise Operations \& Knowledge Platform}{Next.js, Express 5, TypeORM, Jest}
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.6pt]
+   \item \desc{Built full-stack workforce delegation and SOP platform boosting departmental auditing throughput across 5 core operational modules.}
+   \item \desc{Coupled an Express 5 REST API and TypeORM with SWR optimistic state caching, Recharts productivity analytics, and Supertest suites.}
+\end{itemize}
+\vspace{1.0pt}
+
+\entry{Restaurant Operations \& Table Management SaaS}{Next.js, Zustand, Prisma, Zod}
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.6pt]
+   \item \desc{Developed multi-tenant live-ops SaaS with slug isolation, eliminating seating bottlenecks via real-time floor plan coordinate sync.}
+   \item \desc{Engineered an interactive 2D canvas (react-rnd), waitstaff walk-in queues, and multi-table merging validated with Zustand and Zod.}
+\end{itemize}
+\vspace{1.0pt}
+
+\entry{Low-Level Systems \& Architecture Lab}{x86-64, RISC-V, C11, Linux Syscalls}
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.6pt]
+   \item \desc{Benchmarked ILP compiler flags (-O0 to -Ofast) with zero standard library overhead across Apple Silicon and RISC-V extensions.}
+   \item \desc{Authored raw x86-64 assembly syscall schedulers, bare-metal RV32I flight pathfinding on Spike (.ld memory maps), and a modular C11 Unix shell.}
+\end{itemize}
+\vspace{1.0pt}
+
+\entry{Linux IPC Game Subsystem}{C11, POSIX FIFOs, Pthreads, Signals}
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.6pt]
+   \item \desc{Sustained deterministic 60 FPS frame rates and sub-millisecond controller response with zero process drops across game loops.}
+   \item \desc{Decoupled modular game execution via non-blocking FIFOs (O\_NONBLOCK), POSIX signals, lock-free ring buffers, and dlopen hot-swapping.}
+\end{itemize}
+\vspace{1.0pt}
+
+\entry{Financial Analytics Dashboard}{FastAPI, Next.js, SQLAlchemy, OpenAI}
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.6pt]
+   \item \desc{Delivered automated multi-asset diversification scoring and cash-flow analytics with 100\% deterministic fallback reliability.}
+   \item \desc{Engineered a full-stack Next.js 14 and FastAPI platform with SQLAlchemy, PostgreSQL, and context-aware OpenAI advisory pipelines.}
+\end{itemize}
+\vspace{1.0pt}
+
+\entry{Cross-Platform \& WebAssembly Game Lab}{C++17, Qt6, WASM, React Native}
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.6pt]
+   \item \desc{Eliminated web execution latency and prevented mobile call-stack overflows during massive board state cascade clears.}
+   \item \desc{Compiled C++17/Qt6 2048 to WebAssembly via Emscripten with infinite undo, and built React Native Minesweeper with iterative BFS.}
+\end{itemize}
+\vspace{1.0pt}
+
+\entry{Advanced Data Structures \& Algorithms Suite}{Java, Python, Algorithms, Graph Theory}
+\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.6pt]
+   \item \desc{Resolved complex scheduling and graph challenges with optimal $O(V+E)$ linear time and $O(\log N)$ priority guarantees.}
+   \item \desc{Implemented Tarjan's SCC analyzer, indexed max-heaps, deterministic FSM engines, and an AST functional language interpreter.}
 \end{itemize}
 
 \sechead{Technical Skills}
 
-\begin{itemize}[leftmargin=1.1em, itemsep=1.8pt, parsep=0pt, topsep=1.5pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=0.8pt, parsep=0pt, topsep=0.8pt]
     \item \desc{\textbf{Programming Languages:} Python, Java, C, C++, TypeScript, JavaScript, SQL, Assembly (x86-64, RISC-V)}
     \item \desc{\textbf{Technologies \& Frameworks:} Next.js, React Native, Quarkus, FastAPI, Express, Tailwind CSS, Prisma, TypeORM, PostgreSQL, Redis, Docker, WebSockets, WebAssembly, Qt6}
     \item \desc{\textbf{Developer Tools:} Git/GitHub, Linux/POSIX, CI/CD (GitHub Actions), Jest, Pytest, Grafana, AI-Assisted Development}
