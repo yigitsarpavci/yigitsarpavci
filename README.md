@@ -50,10 +50,10 @@ My focus spans the entire computing stack—from low-level systems programming a
   - Features a live-ops console for waitstaff with walk-in queues and multi-table merging, powered by Zustand global state and end-to-end Zod validation.
   - **Tech Stack:** `Next.js 16`, `TypeScript`, `Prisma`, `PostgreSQL`, `Zustand`, `Tailwind CSS`, `react-rnd`, `Zod`
 
-- **[Enterprise Admin Dashboard](https://github.com/yigitsarpavci/enterprise-admin-dashboard)** — Internal Operations & Employee Task Management Console
-  - Full-stack company operations console for delegating strategic employee tasks, tracking daily progress, and logging routine checklists and work hours.
-  - Implements department-level productivity comparisons (Recharts), granular RBAC (Admin vs. User) via HTTP-only JWT cookies (`jose`), and user lifecycle workflows.
-  - **Tech Stack:** `Next.js 16`, `TypeScript`, `Prisma`, `SQLite`, `Tailwind CSS`, `Framer Motion`, `Recharts`, `jose (JWT)`, `bcryptjs`
+- **[Enterprise Operations & Knowledge Platform](https://github.com/yigitsarpavci/enterprise-admin-dashboard)** — Operations, Workforce Delegation & Knowledge Base Platform
+  - Full-stack enterprise platform coupling workforce task delegation and work-logging with a decoupled Express 5 REST API and Knowledge Base (SOP/FAQ) engine.
+  - Implements department productivity comparisons (Recharts), TypeORM DataMapper with in-memory SQLite isolation, SWR optimistic updates, and end-to-end Supertest API integration suites.
+  - **Tech Stack:** `Next.js 16`, `Express 5`, `TypeScript`, `TypeORM`, `Prisma`, `SWR`, `Jest`, `Supertest`, `Recharts`, `Tailwind CSS`, `jose (JWT)`
 
 #### Quantitative FinTech & Real-Time Trading
 
