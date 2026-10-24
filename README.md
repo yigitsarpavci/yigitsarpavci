@@ -1,6 +1,6 @@
 # Yiğit Sarp Avcı
 
-I am a Computer Engineering student at **Boğaziçi University** and Backend Developer Intern at **DefineX**, previously interning at **Akbank** (SRE) and **Smash Mate** (Software Engineering).
+I am a Computer Engineering student at **Boğaziçi University**, Junior Consultant at **180 Degrees Consulting - Boğaziçi Branch**, and Backend Developer Intern at **DefineX | Consulting, Technology & Labs**, previously interning at **Akbank** (SRE) and **Smash Mate** (Software Engineering).
 
 My focus spans the entire computing stack—from low-level systems programming and processor architecture to scalable enterprise backends and algorithmic FinTech platforms—combining strong theoretical computer science foundations with modern, AI-assisted product development.
 
@@ -19,7 +19,10 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 ### Experience
 
-- **Backend Developer Intern** — **DefineX** *(09/2026 – Present)*
+- **Junior Consultant** — **180 Degrees Consulting - Boğaziçi Branch** *(10/2026 – Present)*
+  - Delivering strategic advisory for social enterprises and non-profits, uncovering key growth and efficiency opportunities through data-driven market research and stakeholder benchmarking.
+  - Formulating structured operational roadmaps and financial impact models, enhancing resource allocation efficiency and project reach by conducting qualitative and quantitative analyses.
+- **Backend Developer Intern** — **DefineX | Consulting, Technology & Labs** *(09/2026 – Present)*
   - Developing internal data processing platforms and Model Context Protocol (MCP) integrations, streamlining operational workflows for corporate teams by automating enterprise data extraction and RESTful backend pipelines.
   - Leveraging modern AI-assisted engineering workflows to accelerate enterprise backend feature delivery, implementing robust data validation schemas and optimizing API request throughput.
 - **Site Reliability Engineering Intern** — **Akbank** *(07/2026 – 09/2026)*
