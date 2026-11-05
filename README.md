@@ -9,7 +9,7 @@ My focus spans the entire computing stack—from low-level systems programming a
 ### Education
 
 - **Boğaziçi University** — B.Sc. in Computer Engineering *(09/2023 – Expected 06/2028)*
-  - **Extracurriculars & Athletics:** Executive Board Member & DJ at Radyo Boğaziçi; Regional Organizational Team Member at ESTIEM; Work and Travel USA participant; Student-Athlete (sailing, skiing & windsurfing).
+  - **Extracurriculars & Athletics:** Executive Board Member & DJ at Radyo Boğaziçi; Active Member at ESTIEM; Work and Travel USA participant; Student-Athlete (sailing, skiing & windsurfing).
   - **Volunteering & Mentorship:** Volunteering Division Member at Industrial Engineering Club (BÜYAK); Educational Mentor to high school students.
 - **Kabataş Boys' High School** *(09/2018 – 06/2023 · GPA: 3.78/4.00)*
   - **Extracurriculars:** Debate, Model United Nations (MUN), Entrepreneurship, and Coding Clubs.
@@ -20,11 +20,11 @@ My focus spans the entire computing stack—from low-level systems programming a
 ### Experience
 
 - **Junior Consultant** — **180 Degrees Consulting - Boğaziçi Branch** *(10/2026 – Present)*
-  - Delivering strategic advisory for social enterprises and non-profits, uncovering key growth and efficiency opportunities through data-driven market research and stakeholder benchmarking.
-  - Formulating structured operational roadmaps and financial impact models, enhancing resource allocation efficiency and project reach by conducting qualitative and quantitative analyses.
+  - Delivering strategic advisory for social enterprises and non-profits, uncovering growth opportunities via data-driven market research and stakeholder benchmarking.
+  - Formulating operational roadmaps and financial impact models, optimizing resource allocation and project reach through qualitative and quantitative analyses.
 - **Backend Developer Intern** — **DefineX | Consulting, Technology & Labs** *(09/2026 – Present)*
   - Developing internal data processing platforms and Model Context Protocol (MCP) integrations, streamlining operational workflows for corporate teams by automating enterprise data extraction and RESTful backend pipelines.
-  - Leveraging modern AI-assisted engineering workflows to accelerate enterprise backend feature delivery, implementing robust data validation schemas and optimizing API request throughput.
+  - Leveraging AI-assisted engineering workflows to accelerate enterprise backend feature delivery, implementing schema validation and API throughput optimization.
 - **Site Reliability Engineering Intern** — **Akbank** *(07/2026 – 09/2026)*
   - Maintained high availability for mission-critical core banking infrastructure by designing real-time observability dashboards and proactive alerting thresholds in Dynatrace and Grafana.
   - Engaged in Linux systems engineering, server health diagnostics, and log analysis to accelerate incident detection and root-cause resolution across high-throughput production nodes.
