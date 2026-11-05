@@ -72,9 +72,9 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 #### Systems Programming & Computer Architecture
 
-- **[Low-Level Systems & Computer Architecture Lab](https://github.com/yigitsarpavci/low-level-systems-lab)** — Zero-Libc x86-64 Scheduler, Bare-Metal RISC-V, C11 Shell, CoreMark & RTL Pipeline Hazards
-  - Unified systems programming and computer architecture laboratory featuring a zero-libc x86-64 process scheduler (direct Linux syscalls), bare-metal RV32I flight pathfinding on Spike simulator (`.ld` memory mapping), and a modular C11 Unix shell with grammar backtracking.
-  - Includes empirical EEMBC CoreMark profiling across compiler flags (`-O0` to `-Ofast`) and RISC-V extensions, alongside cycle-accurate **CORE-V Wally (`rv32i`)** 5-stage RTL pipeline verification (`Verilator` & `GTKWave`) analyzing `W -> E` RAW forwarding, load-use interlocks (`StallF`/`StallD`), and branch flushing (`FlushD`/`FlushE`).
+- **[Low-Level Systems & Computer Architecture Lab](https://github.com/yigitsarpavci/low-level-systems-lab)** — x86-64 Scheduler, Bare-Metal RISC-V, C11 Shell, CoreMark & RTL Pipeline
+  - Unified systems and architecture laboratory featuring a zero-libc x86-64 process scheduler (direct Linux syscalls), bare-metal RV32I flight pathfinding on Spike (`.ld` memory mapping), and a modular C11 Unix shell with grammar backtracking.
+  - Combines EEMBC CoreMark compiler and ILP profiling (`-O0` to `-Ofast`) across Apple Silicon and RISC-V extensions with cycle-accurate CORE-V Wally (`rv32i`) 5-stage RTL pipeline hazard verification (`Verilator`, `GTKWave`) for RAW forwarding and load-use stalls.
   - **Tech Stack:** `x86-64 Assembly`, `RISC-V (RV32I/IM/IMC/GC)`, `CORE-V Wally RTL`, `Verilator`, `GTKWave`, `ARM64`, `C11`, `Linux Syscalls`, `Spike Simulator`, `Clang/LLVM`, `GNU Toolchain`
 
 - **[Linux IPC Game Subsystem](https://github.com/yigitsarpavci/linux-ipc-game-subsystem)** — Real-Time POSIX IPC Subsystem & Game Architecture
