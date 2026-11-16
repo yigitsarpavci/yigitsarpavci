@@ -72,9 +72,9 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 #### Systems Programming & Computer Architecture
 
-- **[Low-Level Systems & Computer Architecture Lab](https://github.com/yigitsarpavci/low-level-systems-lab)** — x86-64 Scheduler, Bare-Metal RISC-V, C11 Shell, CoreMark & Pipeline Simulation
+- **[Low-Level Systems & Computer Architecture Lab](https://github.com/yigitsarpavci/low-level-systems-lab)** — x86-64 Scheduler, Bare-Metal RISC-V, C11 Shell, CoreMark, Pipeline & Cache Hierarchy
   - Unified systems and architecture laboratory featuring a zero-libc x86-64 process scheduler (direct Linux syscalls), bare-metal RV32I flight pathfinding on Spike (`.ld` memory mapping), and a modular C11 Unix shell with grammar backtracking.
-  - Combines CoreMark compiler optimization profiling (`-O0` to `-Ofast`) across Apple Silicon and RISC-V extensions with 5-stage RISC-V processor pipeline simulation (`Verilator`, `GTKWave`) analyzing data forwarding, load-use stalls, and branch flushing.
+  - Combines CoreMark compiler optimization profiling (`-O0` to `-Ofast`) across Apple Silicon and RISC-V extensions with 5-stage RISC-V processor pipeline simulation (`Verilator`, `GTKWave`) and set-associative L1/L2 write-back cache hierarchy analysis.
   - **Tech Stack:** `x86-64 Assembly`, `RISC-V`, `C11`, `Linux Syscalls`, `Verilator`, `Spike Simulator`, `ARM64`, `Clang/LLVM`, `GNU Toolchain`
 
 - **[Linux IPC Game Subsystem](https://github.com/yigitsarpavci/linux-ipc-game-subsystem)** — Real-Time POSIX IPC Subsystem & Game Architecture
