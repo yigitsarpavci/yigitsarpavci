@@ -60,10 +60,10 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 #### Biometric Telemetry & Sports Analytics
 
-- **[Garmin Athlete Analytics Platform](https://github.com/yigitsarpavci/garmin-athlete-analytics-platform)** — Biometric Telemetry, Model Context Protocol (MCP) & Firstbeat ACWR Engine
-  - End-to-end telemetry and athletic intelligence platform processing 93 days ($N=93$ days, 49 activities, 88 sleep/HRV nights, 124 gym sets) of raw Garmin Connect sensor data via Model Context Protocol (MCP).
-  - Implements Gabbett Acute:Chronic Workload Ratio (ACWR) injury risk tracking, dynamic 4-tier periodization, an interactive Chart.js/FastAPI dashboard, and automated 9-page executive LaTeX report generation.
-  - **Tech Stack:** `Python 3.12`, `FastAPI`, `Garmin Connect MCP`, `Firstbeat ACWR`, `Chart.js`, `LaTeX / Tectonic`, `Pytest (29 Suites)`
+- **[Garmin Athlete Analytics Platform](https://github.com/yigitsarpavci/garmin-athlete-analytics-platform)** — Biometric Telemetry, Model Context Protocol (MCP) & Performance Analytics Engine
+  - End-to-end biometric telemetry platform ingesting multi-sport activity, sleep, HRV, and strength-training sensor data from Garmin Connect via the Model Context Protocol (MCP).
+  - Combines Acute:Chronic Workload Ratio (ACWR) injury-risk modeling and deterministic workout periodization with an async FastAPI and Chart.js dashboard, LLM coaching fallbacks, and automated LaTeX PDF report generation.
+  - **Tech Stack:** `Python 3.12`, `FastAPI`, `Model Context Protocol (MCP)`, `NumPy / SciPy`, `Chart.js`, `LaTeX / Tectonic`, `Unittest`
 
 #### Full-Stack SaaS & Enterprise Backends
 
