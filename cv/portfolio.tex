@@ -1,0 +1,132 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{sourcesanspro}
+\usepackage[a4paper, margin=0.72cm, top=0.52cm, bottom=0.52cm]{geometry}
+\setlength{\paperwidth}{210mm}
+\setlength{\paperheight}{297mm}
+\sloppy
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[hidelinks, pdfstartview={FitH}, pdfpagemode={UseNone}]{hyperref}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\newcommand{\sechead}[1]{%
+    \vspace{4.2pt}%
+    {\centering\fontsize{10.0}{11.8}\textbf{\MakeUppercase{#1}}\par}%
+    \vspace{1.4pt}%
+    {\color{black!35}\hrule height 0.45pt}%
+    \vspace{2.8pt}%
+}
+
+\newcommand{\projentry}[4]{%
+    {\fontsize{9.0}{11.0}\textbf{\href{#3}{#1}} \enspace{\fontsize{7.5}{9.2}\selectfont\color{black!70}[\href{#3}{#2}]}} \hfill {\fontsize{8.0}{9.8}\selectfont\textbf{#4}} \par
+}
+
+\newcommand{\desc}[1]{%
+    {\fontsize{7.7}{9.6}\selectfont #1}%
+}
+
+\renewcommand{\labelitemi}{\fontsize{5.8}{7.2}\selectfont\textbullet}
+
+\begin{document}
+
+{\centering
+    {\fontsize{20.5}{23.5}\bfseries Yi\u{g}it Sarp Avc\i{} \textnormal{--- Technical Project Portfolio}} \\[0.24em]
+    {\fontsize{8.6}{10.8}\selectfont B.Sc. in Computer Engineering @ Bo\u{g}azi\c{c}i University \enspace$\vert$\enspace Istanbul, Turkey \enspace$\vert$\enspace +90 535 361 71 91 \enspace$\vert$\enspace \href{mailto:yigitsarpavci@gmail.com}{yigitsarpavci@gmail.com}} \\[0.16em]
+    {\fontsize{8.4}{10.5}\selectfont \href{https://github.com/yigitsarpavci}{github.com/yigitsarpavci} \enspace$\vert$\enspace \href{https://linkedin.com/in/yigitsarpavci}{linkedin.com/in/yigitsarpavci} \enspace$\vert$\enspace \textbf{Focus:} Systems \& Architecture $\cdot$ Quantitative FinTech $\cdot$ Biometric MCP $\cdot$ Full-Stack SaaS} \par
+}
+\vspace{0.14em}
+
+% ==============================================================================
+% 1. QUANTITATIVE FINTECH & BIOMETRIC TELEMETRY PLATFORMS
+% ==============================================================================
+\sechead{Quantitative FinTech \& Biometric Telemetry Engines}
+
+\projentry{Algorithmic Trading \& Execution Engine (AlphaTrigger V8)}{algorithmic-trading-simulator}{https://github.com/yigitsarpavci/algorithmic-trading-simulator}{Python 3.11, FastAPI, Next.js 14, SQLAlchemy 2.0, WebSockets}
+\begin{itemize}[leftmargin=1.08em, itemsep=0.6pt, parsep=0pt, topsep=0.6pt]
+    \item \desc{\textbf{Autonomous 2s HFT Loop \& 6-Factor Z-Score Engine:} Engineered an \texttt{asyncio} market orchestrator maintaining 120-tick in-memory ring buffers across a 5-asset crypto universe; triggers entries at $\ge 4/6$ score ($Z > 1.5\sigma / 2.5\sigma$ mean reversion, 2-tick momentum, $>0.03\%$ volatility range, BTC leader confirmation, $>10\text{k}$ volume delta).}
+    \item \desc{\textbf{Volatility-Normalized Sizing \& 4-State Exit FSM:} Scales dynamic stop-loss $\text{SL\%} = \max(0.8\%, 3\sigma)$ and take-profit $\text{TP\%} = 2\times\text{SL\%}$ ($0.25\%$ equity risk/trade), governing exits via a deterministic FSM (\textit{Hard Stop}, 45s \textit{No-Follow-Through}, $0.5R$ \textit{Break-Even}, $0.8R$ \textit{Trailing}, 300s \textit{Timeout}) with full-duplex WebSocket streaming.}
+\end{itemize}
+\vspace{2.8pt}
+
+\projentry{Garmin Athlete Analytics Platform}{garmin-athlete-analytics-platform}{https://github.com/yigitsarpavci/garmin-athlete-analytics-platform}{Python 3.12, MCP, Binary .FIT Parser, NumPy/Pandas, Chart.js}
+\begin{itemize}[leftmargin=1.08em, itemsep=0.6pt, parsep=0pt, topsep=0.6pt]
+    \item \desc{\textbf{IoT Sensor \& 1 Hz Binary FIT Ingestion:} Extracts 93-day multi-sport telemetry, 88+ sleep/HRV nights, resistance sets, 5-min overnight HRV RMSSD, and Running Dynamics (GCT, vertical oscillation/ratio, power) via MCP, featuring a binary \texttt{.fit} decoder (\texttt{fit\_stream\_parser.py}) and a 4-min adaptive SSO keep-alive with 24h rolling leases.}
+    \item \desc{\textbf{Exercise Physiology, Flexible Quotas \& 36-Test Suite:} Models Gabbett ACWR ($\text{ATL}_{7\text{d}}/\text{CTL}_{28\text{d}}$, sweet spot $0.80\text{--}1.30$), Cardiac Efficiency ($\text{EF} = \text{Speed}/\text{HR}$), Mifflin-St Jeor TDEE, 5x5 progressive overload, Monday-reset flexible weekly quotas, and 5-point debriefs on a zero-scroll (\texttt{100vh}) dashboard with LLM coaching and 36 tests.}
+\end{itemize}
+\vspace{2.8pt}
+
+\projentry{Financial Analytics \& Portfolio Risk Dashboard}{financial-analytics-dashboard}{https://github.com/yigitsarpavci/financial-analytics-dashboard}{Next.js 14, FastAPI, PostgreSQL, SQLAlchemy, Alembic, OpenAI API, Pytest}
+\begin{itemize}[leftmargin=1.08em, itemsep=0.6pt, parsep=0pt, topsep=0.6pt]
+    \item \desc{\textbf{Multi-Asset Risk \& Limit-Order Matching Engine:} Architected a 7-table PostgreSQL schema (\texttt{users}, \texttt{transactions}, \texttt{assets}, \texttt{portfolio\_holdings}, \texttt{orders}, \texttt{trades}, \texttt{ai\_insights}) with Alembic migrations, limit-order book bid/ask matching, holding concentration alerts, and weighted 0--100 Diversification and Health scoring.}
+    \item \desc{\textbf{Deterministic AI Fallbacks \& CI/CD Verification:} Coupled context-aware OpenAI financial advisory synthesis with $100\%$ deterministic rule-based fallbacks, stateless JWT/\texttt{bcrypt} authentication, a 50-user / 2,000+ transaction seeder, Docker Compose orchestration, and GitHub Actions CI pipelines (100\% core Pytest coverage).}
+\end{itemize}
+
+% ==============================================================================
+% 2. SYSTEMS PROGRAMMING & COMPUTER ARCHITECTURE
+% ==============================================================================
+\sechead{Systems Programming, Silicon Pipeline \& OS Architecture}
+
+\projentry{Low-Level Systems \& Computer Architecture Lab (6 Modules)}{low-level-systems-lab}{https://github.com/yigitsarpavci/low-level-systems-lab}{x86-64 \& RISC-V Assembly, SystemVerilog RTL, C11, Verilator, Spike}
+\begin{itemize}[leftmargin=1.08em, itemsep=0.6pt, parsep=0pt, topsep=0.6pt]
+    \item \desc{\textbf{Zero-Libc x86-64 Scheduler, Bare-Metal RV32I \& C11 Shell:} \textbf{(01)} Built a zero-\texttt{libc} x86-64 CPU scheduler using raw Linux syscalls (\texttt{sys\_read/write/open/exit}) for FCFS, SJF, SRTF, Priority, and Round Robin; \textbf{(02)} authored bare-metal RV32I flight routing on Spike with custom \texttt{.ld} scripts and HTIF I/O; \textbf{(03)} built a C11 recursive-descent shell.}
+    \item \desc{\textbf{CoreMark Profiling, 5-Stage RV32I Hazards \& Cache Hierarchy:} \textbf{(04)} Profiled CoreMark v1.0 (\texttt{-O0} to \texttt{-Ofast}) across Apple M2 ARM64 and CORE-V Wally RISC-V extensions; \textbf{(05)} traced 5-stage pipeline RAW forwarding, 1-cycle load-use stalls, and 2-cycle branch flushes in Verilator; \textbf{(06)} evaluated 4-way $16\text{ KB}$ L1 I\$/D\$ and unified PIPT L2 caches.}
+\end{itemize}
+\vspace{2.8pt}
+
+\projentry{Linux IPC Game Subsystem}{linux-ipc-game-subsystem}{https://github.com/yigitsarpavci/linux-ipc-game-subsystem}{C11, POSIX.1-2008, Named Pipes (FIFOs), Signals, dlopen/dlsym, fork/exec}
+\begin{itemize}[leftmargin=1.08em, itemsep=0.6pt, parsep=0pt, topsep=0.6pt]
+    \item \desc{\textbf{Runtime DSO Linking \& Non-Blocking FIFO Dispatch:} Decoupled a 60 FPS (\texttt{16.66 ms} \texttt{CLOCK\_MONOTONIC} tick) \texttt{ncurses} space-shooter engine from input controllers by loading \texttt{libfifo\_management.so} dynamically via \texttt{dlopen(RTLD\_NOW)} and \texttt{dlsym} with zero link-time coupling over \texttt{O\_RDWR | O\_NONBLOCK} named pipes (\texttt{mkfifo}).}
+    \item \desc{\textbf{Lock-Free Ring Buffer, Signal Safety \& Worker Processes:} Combined an atomic lock-free circular command ring buffer and reentrancy-safe \texttt{sigaction} handlers (\texttt{SIGUSR1}, \texttt{SIGTERM}) with isolated \texttt{fork()} + \texttt{execl()} workers (\texttt{./shield}, \texttt{./gather}) reaped via \texttt{waitpid(-1, WNOHANG)} and driven by an automated Bash controller (\texttt{ctl.sh}).}
+\end{itemize}
+
+% ==============================================================================
+% 3. FULL-STACK SAAS & ENTERPRISE BACKEND ARCHITECTURES
+% ==============================================================================
+\sechead{Full-Stack SaaS \& Enterprise Backend Architectures}
+
+\projentry{Enterprise Operations \& Knowledge Platform (Performo)}{enterprise-admin-dashboard}{https://github.com/yigitsarpavci/enterprise-admin-dashboard}{Next.js 16, Express 5, TypeScript, Prisma, TypeORM, SWR, Jest}
+\begin{itemize}[leftmargin=1.08em, itemsep=0.6pt, parsep=0pt, topsep=0.6pt]
+    \item \desc{\textbf{Unified Next.js 16 + Decoupled Express 5 Dual-ORM Server:} Engineered a custom \texttt{server.ts} runtime bridging Next.js 16 App Router with a modular Express 5 REST API (\texttt{/api/knowledge}, \texttt{/api/faq}), pairing Prisma ORM (workforce delegation, minute-level work logs, compliance) with a TypeORM DataMapper (\texttt{KnowledgeBaseItem} entity).}
+    \item \desc{\textbf{RBAC Security, SWR Optimistic UI \& 3-Tier Test Suite:} Enforced \texttt{ADMIN}/\texttt{USER} role isolation via \texttt{jose} HTTP-only JWT cookies and \texttt{bcryptjs}, SWR stale-while-revalidate optimistic mutations, Recharts department productivity benchmarks, and Jest + Supertest + React Testing Library suites running on in-memory \texttt{better-sqlite3}.}
+\end{itemize}
+\vspace{2.8pt}
+
+\projentry{Restaurant Operations \& Table Management SaaS}{restaurant-floor-plan-saas}{https://github.com/yigitsarpavci/restaurant-floor-plan-saas}{Next.js 16, TypeScript, PostgreSQL, Prisma, Zustand, react-rnd, Zod}
+\begin{itemize}[leftmargin=1.08em, itemsep=0.6pt, parsep=0pt, topsep=0.6pt]
+    \item \desc{\textbf{Multi-Tenant Spatial Floor-Plan Canvas:} Built a slug-isolated multi-tenant SaaS (\texttt{/manage/[tenantSlug]}) with an interactive 2D drag-and-drop and resizable canvas (\texttt{react-rnd}), persisting real-time spatial coordinates (\texttt{x}, \texttt{y}), dimensions, and table geometries (Rectangle, Circle, Square, Booth) to PostgreSQL via Prisma.}
+    \item \desc{\textbf{Live-Ops Queue \& Many-to-Many Table Merging:} Implemented a host live-ops console supporting timed/untimed reservation modes, walk-in queues, 5-stage seating lifecycles (\textit{Pending}, \textit{Confirmed}, \textit{Seated}, \textit{Cleared}, \textit{No-Show}), and relational many-to-many table merging for large parties, backed by Zustand global state and Zod validation.}
+\end{itemize}
+
+% ==============================================================================
+% 4. CROSS-PLATFORM, WEBASSEMBLY & COMPUTATIONAL THEORY
+% ==============================================================================
+\sechead{Cross-Platform WebAssembly, Mobile \& Computational Theory}
+
+\projentry{Cross-Platform \& WebAssembly Game Lab}{cross-platform-game-lab}{https://github.com/yigitsarpavci/cross-platform-game-lab}{C++17, Qt 6.7, WebAssembly (Emscripten), CMake, React Native, Expo}
+\begin{itemize}[leftmargin=1.08em, itemsep=0.6pt, parsep=0pt, topsep=0.6pt]
+    \item \desc{\textbf{C++17/Qt 6 WebAssembly Engine (\href{https://yigitsarpavci.github.io/2048-webassembly-game/}{Live Demo}):} Cross-compiled a C++17/Qt 6 2048 engine to WASM bytecode via Emscripten and CMake with GitHub Pages CI/CD; features canonical $90^\circ/180^\circ/270^\circ$ matrix rotation normalization and an $O(1)$ unbounded undo stack (\texttt{std::stack<GameState>}) storing deep-copy board snapshots.}
+    \item \desc{\textbf{React Native Iterative BFS Minesweeper:} Engineered an iOS/Android mobile engine using an immutable \texttt{useReducer} state architecture and a queue-driven non-recursive $O(V)$ iterative BFS flood-fill (preventing mobile call-stack overflows on cascade clears), paired with safe first-click generation, 16-bit PCM audio, and Expo haptics.}
+\end{itemize}
+\vspace{2.8pt}
+
+\projentry{Advanced Data Structures \& Algorithms Suite (5 Modules)}{data-structures-and-algorithms-suite}{https://github.com/yigitsarpavci/data-structures-and-algorithms-suite}{Java 17, Python 3, Tarjan SCC, Max-Heap, FSM, AST}
+\begin{itemize}[leftmargin=1.08em, itemsep=0.6pt, parsep=0pt, topsep=0.6pt]
+    \item \desc{\textbf{Linear-Time Graph SCC, Indexed Max-Heap \& FSM Engines:} \textbf{(01)} Implemented Tarjan's DFS low-link SCC and articulation-point detector in $O(V+E)$ time using bitset-backed adjacency lists; \textbf{(02)} built an $O(\log N)$ marketplace matcher via an indexed binary max-heap and open-addressing hash tables; \textbf{(03)} built a deterministic FSM card simulator.}
+    \item \desc{\textbf{Functional AST Interpreter \& Closed-Form Complexity Proofs:} \textbf{(04)} Authored a zero-dependency functional language interpreter supporting closures, dynamic lists, and lexical/dynamic scoping; \textbf{(05)} derived closed-form operation counts $B_k(n), W_k(n), A_k(n)$ ($\Theta(n\log n)$ best, $\Theta(n^2)$ avg, $\Theta(n^3)$ worst) verified via $3^n$ and Monte Carlo runs.}
+\end{itemize}
+
+\vspace{4.0pt}
+{\color{black!35}\hrule height 0.45pt}
+\vspace{3.0pt}
+{\centering\fontsize{7.5}{9.2}\selectfont
+\textbf{Architecture \& Verification Summary across 9 Repositories (18 Modules):} \enspace
+\textbf{Languages:} Python 3.12, Java 17, C11, C++17, TypeScript, SQL, x86-64 \& RISC-V Assembly, SystemVerilog \enspace$\vert$\enspace
+\textbf{Runtimes \& QA:} FastAPI, Next.js 16, Express 5, Quarkus, Qt 6/WASM, React Native, Verilator, Spike, Pytest, Jest/Supertest, Playwright, GitHub Actions CI/CD\par}
+
+\end{document}
