@@ -1,5 +1,4 @@
 # LaTeX intermediate build artifacts
-
 *.aux
 *.log
 *.out
@@ -8,7 +7,9 @@
 *.synctex.gz
 *.synctex(busy)
 
-# Ignore extra CVs and personal images
+# Ignore extra CVs, standalone portfolio, and personal images
+portfolio.tex
+portfolio.pdf
 *.docx
 *.JPG
 *.jpg
