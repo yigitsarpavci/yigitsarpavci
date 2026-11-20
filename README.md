@@ -36,10 +36,10 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 ### Technical Skills
 
-- **Programming Languages:** Python, Java, C (C11), C++ (C++17), TypeScript, JavaScript, SQL, Assembly (x86-64, RISC-V), Bash
+- **Programming Languages:** Python, Java, C (C11), C++ (C++17), TypeScript, JavaScript, SQL, Bash, Assembly (x86-64, RISC-V), SystemVerilog
 - **Backend & Systems:** Quarkus, FastAPI, Express, Microservices Architecture, RESTful APIs, WebSockets, Linux Syscalls, POSIX IPC, Multithreading (Pthreads)
 - **Frontend & Mobile:** Next.js (App Router), React, React Native, Expo, WebAssembly (WASM), Qt 6, Tailwind CSS, Zustand
-- **Databases & Storage:** PostgreSQL, SQLite, Redis, Prisma ORM, TypeORM, SQLAlchemy
+- **Databases & Storage:** PostgreSQL, SQLite, Prisma ORM, TypeORM, SQLAlchemy
 - **DevOps, Testing & Tools:** Docker, Docker Compose, Linux/Unix, Git/GitHub, CI/CD (GitHub Actions), Jest, Pytest, Grafana, CMake, Make, AI-Assisted Development
 
 ---
@@ -50,8 +50,8 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 - **[Algorithmic Trading & Execution Engine](https://github.com/yigitsarpavci/algorithmic-trading-simulator)** — Real-Time Quantitative Trading Terminal & Execution Engine
   - Quantitative trading engine running a V8 Risk-First strategy on a 2-second simulation loop with Z-Score mean reversion, dynamic volatility-adjusted sizing, and a 4-state exit machine.
-  - Streams real-time order book depth, execution logs, and P&L metrics to a Next.js terminal UI via full-duplex FastAPI WebSockets, Celery task queues, Redis, and Docker.
-  - **Tech Stack:** `Python 3.11+`, `FastAPI`, `Next.js 14`, `Redis`, `Celery`, `WebSockets`, `Z-Score Strategy`, `Docker`
+  - Streams real-time order book depth, execution logs, and P&L metrics to a Next.js terminal UI via full-duplex FastAPI WebSockets and Docker Compose, with a pytest suite and GitHub Actions CI.
+  - **Tech Stack:** `Python 3.11+`, `FastAPI`, `Next.js 14`, `PostgreSQL`, `WebSockets`, `pytest`, `Z-Score Strategy`, `Docker`
 
 - **[Financial Analytics Dashboard](https://github.com/yigitsarpavci/financial-analytics-dashboard)** — Personal Finance & Portfolio Risk Platform
   - Educational full-stack personal finance and portfolio risk platform built with Next.js 14 (App Router), FastAPI, SQLAlchemy, Alembic, PostgreSQL (`psycopg2`), and Docker Compose.
@@ -62,7 +62,7 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 - **[Garmin Athlete Analytics Platform](https://github.com/yigitsarpavci/garmin-athlete-analytics-platform)** — Biometric Telemetry, Model Context Protocol (MCP) & Performance Analytics Engine
   - End-to-end biometric telemetry platform ingesting 93 days of raw Garmin Connect data, `1 Hz` binary `.fit` sensor streams, 5-min overnight HRV RMSSD, and Running Dynamics via the Model Context Protocol (MCP) with adaptive SSO keep-alive.
-  - Combines Acute:Chronic Workload Ratio (ACWR) injury-risk modeling and flexible weekly quota periodization with a single-screen (`100vh`) deep-forest dark dashboard (`Chart.js`), LLM coaching fallbacks, synthetic demo mode, and a 36-test suite.
+  - Combines Acute:Chronic Workload Ratio (ACWR) injury-risk modeling and flexible weekly quota periodization with a single-screen (`100vh`) deep-forest dark dashboard (`Chart.js`), LLM coaching fallbacks, synthetic demo mode, a native macOS desktop app, and a 99-test suite.
   - **Tech Stack:** `Python 3.12`, `Python HTTP Server`, `Model Context Protocol (MCP)`, `Binary .FIT Parser`, `NumPy / Pandas`, `Chart.js`, `Playwright`, `Unittest`
 
 #### Full-Stack SaaS & Enterprise Backends
