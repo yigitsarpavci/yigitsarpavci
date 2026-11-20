@@ -30,7 +30,7 @@ My focus spans the entire computing stack—from low-level systems programming a
   - Engaged in Linux systems engineering, server health diagnostics, and log analysis to accelerate incident detection and root-cause resolution across high-throughput production nodes.
 - **Software Engineering Intern** — **Smash Mate** *(06/2026 – 07/2026)*
   - Engineered player matchmaking, search discovery, and scoring microservices using Java (Quarkus), designing high-performance RESTful endpoints and core game-matching domain logic.
-  - Developed responsive mobile interfaces in React Native and authored comprehensive unit and integration test suites, delivering a fully functional, zero-defect pre-launch release.
+  - Developed responsive mobile interfaces in React Native and authored comprehensive unit and integration test suites, delivering a fully tested pre-launch release.
 
 ---
 
@@ -111,7 +111,7 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 ### Hobbies & Interests
 
-- Sailing, Skiing, Windsurfing, Wakeboarding, Kiteboarding, Surfing, Bouldering, Running, Traveling
+- Wakeboarding, Kiteboarding, Surfing, Bouldering, Running, Traveling
 
 ### Resume
 
