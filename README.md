@@ -1,5 +1,7 @@
 # Yiğit Sarp Avcı
 
+[LinkedIn](https://linkedin.com/in/yigitsarpavci) · [Email](mailto:yigitsarpavci@gmail.com) · [CV (PDF)](./cv/cv.pdf)
+
 I am a Computer Engineering student at **Boğaziçi University**, Junior Consultant at **180 Degrees Consulting - Boğaziçi Branch**, and Backend Developer Intern at **DefineX | Consulting, Technology & Labs**, previously interning at **Akbank** (SRE) and **Smash Mate** (Software Engineering).
 
 My focus spans the entire computing stack—from low-level systems programming and processor architecture to scalable enterprise backends and algorithmic FinTech platforms—combining strong theoretical computer science foundations with modern, AI-assisted product development.
@@ -69,12 +71,12 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 - **[Enterprise Operations & Knowledge Platform](https://github.com/yigitsarpavci/enterprise-admin-dashboard)** — Operations, Workforce Delegation & Knowledge Base Platform
   - Full-stack enterprise platform coupling workforce task delegation and work-logging with a decoupled Express 5 REST API and Knowledge Base (SOP/FAQ) engine.
-  - Implements department productivity comparisons (Recharts), TypeORM DataMapper with in-memory SQLite isolation, SWR optimistic updates, and end-to-end Supertest API integration suites.
+  - Implements department productivity comparisons (Recharts), TypeORM DataMapper with in-memory SQLite isolation, SWR optimistic updates, and end-to-end Supertest API integration suites. The Express API is protected by the same signed session as the Next.js app (401 unauthenticated, 403 for non-admin writes).
   - **Tech Stack:** `Next.js 16`, `Express 5`, `TypeScript`, `TypeORM`, `Prisma`, `SWR`, `Jest`, `Supertest`, `Recharts`, `Tailwind CSS`, `jose (JWT)`
 
 - **[Restaurant Operations & Table Management SaaS](https://github.com/yigitsarpavci/restaurant-floor-plan-saas)** — Multi-Tenant Table Management & Live-Ops Platform
   - Multi-tenant SaaS platform with slug-based tenant isolation (`/manage/[tenantSlug]`), interactive drag-and-drop floor plan builder (`react-rnd`), and real-time coordinate persistence.
-  - Features a live-ops console for waitstaff with walk-in queues and multi-table merging, powered by Zustand global state and end-to-end Zod validation.
+  - Features a live-ops console for waitstaff with walk-in queues and multi-table merging, powered by Zustand global state and end-to-end Zod validation. Secured with signed httpOnly session cookies, bcrypt password hashing and per-action tenant authorization.
   - **Tech Stack:** `Next.js 16`, `TypeScript`, `Prisma`, `PostgreSQL`, `Zustand`, `Tailwind CSS`, `react-rnd`, `Zod`
 
 #### Systems Programming & Computer Architecture
