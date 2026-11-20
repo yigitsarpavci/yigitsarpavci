@@ -11,7 +11,7 @@ Computer Engineering student at **Boğaziçi University** (B.Sc., expected 06/20
 - **Site Reliability Engineering Intern**, Akbank *(07/2026 – 08/2026)*: Dynatrace and Grafana observability and alerting for core banking services.
 - **Software Engineering Intern**, Smash Mate *(06/2026 – 07/2026)*: Quarkus microservices and a React Native client for a pre-launch product.
 
-Full details in my [CV (PDF)](./cv/cv.pdf).
+Full details in my [CV (PDF)](./cv/Yigit_Sarp_Avci_CV.pdf).
 
 ---
 
@@ -61,4 +61,4 @@ Full details in my [CV (PDF)](./cv/cv.pdf).
 
 ### Resume
 
-- **CV / Resume:** [View / Download (PDF)](./cv/cv.pdf)
+- **CV / Resume:** [View / Download (PDF)](./cv/Yigit_Sarp_Avci_CV.pdf)
