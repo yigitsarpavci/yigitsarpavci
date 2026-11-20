@@ -87,7 +87,7 @@ My focus spans the entire computing stack—from low-level systems programming a
 
 #### Mobile & WebAssembly
 
-- **[Cross-Platform & WebAssembly Game Lab](https://github.com/yigitsarpavci/cross-platform-game-lab)** — C++/Qt6 WASM & React Native Mobile Architecture · [Live Demo](https://yigitsarpavci.github.io/2048-webassembly-game/)
+- **[Cross-Platform & WebAssembly Game Lab](https://github.com/yigitsarpavci/cross-platform-game-lab)** — C++/Qt6 WASM & React Native Mobile Architecture · [Live Demo](https://yigitsarpavci.github.io/cross-platform-game-lab/)
   - Unified game engineering lab featuring a cross-platform 2048 puzzle engine engineered in C++17/Qt 6 compiled to WebAssembly via Emscripten, and an Expo/React Native Minesweeper mobile application.
   - Implements directional grid normalization, an infinite undo history stack (`std::stack`) with deep-copy snapshots, non-recursive iterative BFS flood-fill preventing call-stack overflows, and hardware haptics.
   - **Tech Stack:** `C++17`, `Qt 6`, `WebAssembly (WASM)`, `CMake`, `Emscripten`, `React Native`, `Expo`, `TypeScript`, `Iterative BFS`
