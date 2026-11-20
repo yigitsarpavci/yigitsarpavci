@@ -84,12 +84,8 @@ My focus spans the entire computing stack—from low-level systems programming a
 - **[Low-Level Systems & Computer Architecture Lab](https://github.com/yigitsarpavci/low-level-systems-lab)** — x86-64 Scheduler, Bare-Metal RISC-V, C11 Shell, CoreMark, Pipeline & Cache Hierarchy
   - Unified systems and architecture laboratory featuring a zero-libc x86-64 process scheduler (direct Linux syscalls), bare-metal RV32I flight pathfinding on Spike (`.ld` memory mapping), and a modular C11 Unix shell with grammar backtracking.
   - Combines CoreMark compiler optimization profiling (`-O0` to `-Ofast`) across Apple Silicon and RISC-V extensions with 5-stage RISC-V processor pipeline simulation (`Verilator`, `GTKWave`) and set-associative L1/L2 write-back cache hierarchy analysis.
-  - **Tech Stack:** `x86-64 Assembly`, `RISC-V`, `C11`, `Linux Syscalls`, `Verilator`, `Spike Simulator`, `ARM64`, `Clang/LLVM`, `GNU Toolchain`
-
-- **[Linux IPC Game Subsystem](https://github.com/yigitsarpavci/linux-ipc-game-subsystem)** — Real-Time POSIX IPC Subsystem & Game Architecture
-  - Real-time 60 FPS terminal game architecture cleanly decoupling engine execution from input controllers via non-blocking named pipes (`O_NONBLOCK` FIFOs) and POSIX signals (`SIGUSR1`, `SIGTERM`).
-  - Supports runtime controller hot-swapping via dynamic library loading (`dlopen`/`dlsym`), with monotonic frame timing (`clock_gettime`), lock-free circular ring buffers, and process lifecycle management (`fork`/`exec`, `waitpid`).
-  - **Tech Stack:** `C11`, `Linux / POSIX.1-2008`, `Named Pipes (FIFOs)`, `POSIX Signals`, `dlopen / dlsym`, `Pthreads`, `Make`
+  - Also includes the **[Linux IPC Game Subsystem](https://github.com/yigitsarpavci/linux-ipc-game-subsystem)**: a real-time 60 FPS terminal game decoupled from its input controllers via non-blocking named pipes (`O_NONBLOCK` FIFOs), POSIX signals (`SIGUSR1`, `SIGTERM`), lock-free ring buffers and runtime `dlopen`/`dlsym` hot-swapping, verified by a dependency-free C test suite (443 checks) in CI.
+  - **Tech Stack:** `x86-64 Assembly`, `RISC-V`, `C11`, `Linux Syscalls`, `POSIX IPC`, `Named Pipes`, `dlopen`, `Verilator`, `Spike Simulator`, `ARM64`, `Clang/LLVM`, `GNU Toolchain`
 
 #### Mobile & WebAssembly
 

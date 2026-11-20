@@ -120,17 +120,11 @@
 \end{itemize}
 \vspace{1.5pt}
 
-\entry{\href{https://github.com/yigitsarpavci/low-level-systems-lab}{Low-Level Systems \& Architecture Lab}}{x86-64, RISC-V, C11, Linux Syscalls}
+\entry{\href{https://github.com/yigitsarpavci/low-level-systems-lab}{Low-Level Systems \& Architecture Lab}}{x86-64, RISC-V, C11, POSIX IPC}
 \begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.6pt]
    \item \desc{Profiled CoreMark compiler flags (-O0 to -Ofast), verified 5-stage RISC-V pipeline hazards in Verilator, and analyzed L1/L2 cache hierarchies.}
    \item \desc{Authored raw x86-64 assembly syscall schedulers, bare-metal RV32I flight pathfinding on Spike (.ld memory maps), and a modular C11 Unix shell.}
-\end{itemize}
-\vspace{1.5pt}
-
-\entry{\href{https://github.com/yigitsarpavci/linux-ipc-game-subsystem}{Linux IPC Game Subsystem}}{C11, POSIX FIFOs, Pthreads, Signals}
-\begin{itemize}[leftmargin=1.1em, itemsep=0.5pt, parsep=0pt, topsep=0.6pt]
-   \item \desc{Sustained deterministic 60 FPS frame rates and sub-millisecond controller response with zero process drops across game loops.}
-   \item \desc{Decoupled modular game execution via non-blocking FIFOs (O\_NONBLOCK), POSIX signals, lock-free ring buffers, and dlopen hot-swapping.}
+   \item \desc{Built a 60 FPS POSIX IPC game subsystem with non-blocking FIFOs, signals, lock-free ring buffers, and dlopen hot-swapping, covered by 443 test checks.}
 \end{itemize}
 \vspace{1.5pt}
 
