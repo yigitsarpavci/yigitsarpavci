@@ -1,7 +1,5 @@
 # Yiğit Sarp Avcı
 
-[LinkedIn](https://linkedin.com/in/yigitsarpavci) · [Email](mailto:yigitsarpavci@gmail.com) · [CV (PDF)](./cv/cv.pdf)
-
 I am a Computer Engineering student at **Boğaziçi University**, Junior Consultant at **180 Degrees Consulting - Boğaziçi Branch**, and Backend Developer Intern at **DefineX | Consulting, Technology & Labs**, previously interning at **Akbank** (SRE) and **Smash Mate** (Software Engineering).
 
 My focus spans the entire computing stack—from low-level systems programming and processor architecture to scalable enterprise backends and algorithmic FinTech platforms—combining strong theoretical computer science foundations with modern, AI-assisted product development.
