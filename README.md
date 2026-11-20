@@ -54,9 +54,9 @@ My focus spans the entire computing stack—from low-level systems programming a
   - **Tech Stack:** `Python 3.11+`, `FastAPI`, `Next.js 14`, `PostgreSQL`, `WebSockets`, `pytest`, `Z-Score Strategy`, `Docker`
 
 - **[Financial Analytics Dashboard](https://github.com/yigitsarpavci/financial-analytics-dashboard)** — Personal Finance & Portfolio Risk Platform
-  - Educational full-stack personal finance and portfolio risk platform built with Next.js 14 (App Router), FastAPI, SQLAlchemy, Alembic, PostgreSQL (`psycopg2`), and Docker Compose.
+  - Educational full-stack personal finance and portfolio risk platform built with Next.js 16 (App Router), FastAPI, SQLAlchemy, Alembic, PostgreSQL (`psycopg2`), and Docker Compose.
   - Implements categorical cash-flow analytics, weighted multi-asset diversification scoring, and context-aware AI advisory insights via OpenAI with deterministic rule fallbacks.
-  - **Tech Stack:** `Next.js 14`, `FastAPI`, `Python`, `PostgreSQL (psycopg2)`, `SQLAlchemy`, `Docker / Docker Compose`, `OpenAI API`, `Recharts`
+  - **Tech Stack:** `Next.js 16`, `FastAPI`, `Python`, `PostgreSQL (psycopg2)`, `SQLAlchemy`, `Docker / Docker Compose`, `OpenAI API`, `Recharts`
 
 #### Biometric Telemetry & Sports Analytics
 
