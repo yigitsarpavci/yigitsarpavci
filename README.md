@@ -7,7 +7,7 @@ Computer Engineering student at **Boğaziçi University** (B.Sc., expected 06/20
 ### Experience
 
 - **Backend Developer Intern**, DefineX | Consulting, Technology & Labs *(09/2026 – Present)*: MCP integrations and RESTful pipelines that automate enterprise data extraction.
-- **Junior Consultant**, 180 Degrees Consulting – Boğaziçi Branch *(10/2026 – Present)*: strategic advisory and impact models for social enterprises and non-profits.
+- **Junior Consultant**, 180 Degrees Consulting *(10/2026 – Present)*: strategic advisory and impact models for social enterprises and non-profits.
 - **Site Reliability Engineering Intern**, Akbank *(07/2026 – 08/2026)*: Dynatrace and Grafana observability and alerting for core banking services.
 - **Software Engineering Intern**, Smash Mate *(06/2026 – 07/2026)*: Quarkus microservices and a React Native client for a pre-launch product.
 
