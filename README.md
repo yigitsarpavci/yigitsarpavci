@@ -44,7 +44,6 @@ Full details in my [CV (PDF)](./cv/Yigit_Sarp_Avci_CV.pdf).
 
 - **Boğaziçi University** — B.Sc. in Computer Engineering *(09/2023 – Expected 06/2028)*
   - **Extracurriculars & Athletics:** Executive Board Member & DJ at Radyo Boğaziçi; Active Member at ESTIEM; Work and Travel USA; Student-Athlete (sailing, skiing & windsurfing).
-  - **Volunteering & Mentorship:** Volunteering Division Member at Industrial Engineering Club (BÜYAK); Educational Mentor to high school students.
 - **Kabataş Boys' High School** *(09/2018 – 06/2023 · GPA: 3.78/4.00)*
   - **Extracurriculars:** Debate, Model United Nations (MUN), Entrepreneurship, and Coding Clubs.
   - **Volunteering:** Community Involvement Projects Club and TOÇEV (Tüvana Okuma İstekli Çocuk Eğitim Vakfı).
