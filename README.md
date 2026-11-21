@@ -32,7 +32,7 @@ Full details in my [CV (PDF)](./cv/Yigit_Sarp_Avci_CV.pdf).
 
 ### Technical Skills
 
-- **Languages:** Python, Java, TypeScript, C/C++, SQL; also Bash, JavaScript, x86-64 and RISC-V Assembly
+- **Languages:** Python, Java, TypeScript, C/C++, SQL, Bash, JavaScript, x86-64 and RISC-V Assembly
 - **Backend & Data:** FastAPI, Quarkus, Express, REST APIs, WebSockets, MCP, PostgreSQL, SQLite, SQLAlchemy, Prisma, TypeORM
 - **Frontend & Mobile:** Next.js (App Router), React, React Native, Expo, Tailwind CSS, Zustand, WebAssembly, Qt 6
 - **DevOps & Observability:** Docker, Docker Compose, GitHub Actions, Linux/POSIX, Dynatrace, Grafana, CMake, Make
