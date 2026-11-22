@@ -98,8 +98,8 @@
 \entry{\href{https://github.com/yigitsarpavci/trading-platform}{Trading Platform: Exchange \& Algorithmic Trading Engine}}{Python, FastAPI, PostgreSQL, Next.js, Docker}
 \begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
    \item \desc{Built a FastAPI/PostgreSQL exchange: price-time order book, pre-trade checks, settlement into portfolios, IOC orders and a market maker.}
-   \item \desc{Wrote a 2s-loop trading engine (z-score breakout scoring, stop-distance sizing, 6 exit rules) that trades on the exchange via IOC orders.}
-   \item \desc{Shipped both as one Docker Compose stack with Next.js UIs and 139 tests; CI runs a live engine-to-exchange round trip on every push.}
+   \item \desc{Embedded a 2s-loop trading bot (z-score breakout entries, stop-distance sizing, 6 exit rules) that trades on that book via IOC orders.}
+   \item \desc{Shipped one Next.js app with live Yahoo Finance or synthetic prices, 143 tests, and CI that boots the full Docker stack on every push.}
 \end{itemize}
 \vspace{6.8pt}
 
