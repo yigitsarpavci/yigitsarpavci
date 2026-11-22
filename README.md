@@ -11,8 +11,6 @@ Computer Engineering student at **Boğaziçi University** (B.Sc., expected 06/20
 - **Site Reliability Engineering Intern**, Akbank *(07/2026 – 08/2026)*: Dynatrace and Grafana observability and alerting for core banking services.
 - **Software Engineering Intern**, Smash Mate *(06/2026 – 07/2026)*: Quarkus microservices and a React Native client for a pre-launch product.
 
-Full details in my [CV (PDF)](./cv/Yigit_Sarp_Avci_CV.pdf).
-
 ---
 
 ### Featured Projects
@@ -21,7 +19,7 @@ Full details in my [CV (PDF)](./cv/Yigit_Sarp_Avci_CV.pdf).
 | :-- | :-- | :-- | :-- |
 | **[Garmin Athlete Analytics](https://github.com/yigitsarpavci/garmin-athlete-analytics-platform)** | End-to-end analytics over 1 Hz `.fit` streams and HRV via MCP; ACWR training-load modeling, LLM coaching, native macOS app | Python, MCP, pandas, Chart.js | 100+ tests · 76% coverage · CI · CodeQL |
 | **[Enterprise Operations Platform](https://github.com/yigitsarpavci/enterprise-admin-dashboard)** | Workforce delegation, daily audits and an SOP knowledge base with signed-session RBAC across Next.js and an Express API | Next.js 16, Express 5, Prisma, TypeORM | 18 tests · lint-clean CI · CodeQL |
-| **[Financial Analytics Dashboard](https://github.com/yigitsarpavci/financial-analytics-dashboard)** | Portfolio risk scoring, limit-order matching and OpenAI advisory with a deterministic fallback | FastAPI, Next.js 16, PostgreSQL, SQLAlchemy | 21 tests · Docker CI · CodeQL |
+| **[Financial Analytics Dashboard](https://github.com/yigitsarpavci/financial-analytics-dashboard)** | Portfolio risk scoring, limit-order matching and OpenAI advisory with a deterministic fallback | FastAPI, Next.js 16, PostgreSQL, SQLAlchemy | 22 tests · Docker CI · CodeQL |
 | **[Restaurant Table Management SaaS](https://github.com/yigitsarpavci/restaurant-floor-plan-saas)** | Multi-tenant floor-plan builder, reservation lifecycle and live host console | Next.js 16, Prisma, Zustand, Zod | 21 tests · Docker + CI · CodeQL |
 | **[Algorithmic Trading Engine](https://github.com/yigitsarpavci/algorithmic-trading-simulator)** | Simulated Z-Score mean-reversion engine with volatility-adjusted sizing and a live WebSocket terminal | FastAPI, Next.js 16, PostgreSQL | 85 tests · 60% coverage · CI · CodeQL |
 | **[Low-Level Systems & Architecture Lab](https://github.com/yigitsarpavci/low-level-systems-lab)** | Zero-libc x86-64 scheduler, bare-metal RV32I, C11 shell, CoreMark profiling, RISC-V pipeline/cache analysis, POSIX IPC game subsystem | x86-64, RISC-V, C11, Verilator | CI-graded modules · 443 IPC checks |
@@ -32,10 +30,10 @@ Full details in my [CV (PDF)](./cv/Yigit_Sarp_Avci_CV.pdf).
 
 ### Technical Skills
 
-- **Languages:** Python, Java, TypeScript, C/C++, SQL, Bash, JavaScript, x86-64 and RISC-V Assembly
+- **Languages:** Python, Java, TypeScript, C/C++, SQL, Bash, JavaScript, x86-64 and RISC-V Assembly, SystemVerilog
 - **Backend & Data:** FastAPI, Quarkus, Express, REST APIs, WebSockets, MCP, PostgreSQL, SQLite, SQLAlchemy, Prisma, TypeORM
 - **Frontend & Mobile:** Next.js (App Router), React, React Native, Expo, Tailwind CSS, Zustand, WebAssembly, Qt 6
-- **DevOps & Observability:** Docker, Docker Compose, GitHub Actions, Linux/POSIX, Dynatrace, Grafana, CMake, Make
+- **DevOps & Observability:** Docker, Docker Compose, GitHub Actions, Linux/POSIX, Git, Dynatrace, Grafana, Verilator, CMake, Make
 - **Testing & Security:** pytest, Jest, Vitest, Supertest, Playwright, CodeQL, Dependabot, JWT/bcrypt authentication, RBAC
 
 ---
