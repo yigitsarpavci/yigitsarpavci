@@ -17,7 +17,7 @@
 \setlength{\parindent}{0pt}
 
 \newcommand{\sechead}[1]{%
-    \vspace{10.0pt}%
+    \vspace{12.5pt}%
     {\centering\fontsize{10.2}{12.2}\textbf{\MakeUppercase{#1}}\par}%
     \vspace{4.5pt}%
 }
@@ -50,38 +50,38 @@
 \sechead{Education}
 
 \entry{Bo\u{g}azi\c{c}i University \textnormal{--- B.Sc. in Computer Engineering}}{09/2023 -- Expected 06/2028}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.6pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
     \item \desc{Extracurriculars: Executive Board Member \& DJ at Radyo Bo\u{g}azi\c{c}i; Active Member at ESTIEM; Work and Travel USA; Student-Athlete (sailing, skiing \& windsurfing).}
 \end{itemize}
-\vspace{4.8pt}
+\vspace{6.8pt}
 
 \entry{Kabata\c{s} Boys' High School \textnormal{\desc{--- GPA: 3.78/4.00 $\vert$ Volunteering: CIP Club \& TO\c{C}EV.}}}{09/2018 -- 06/2023}
 
 \sechead{Experience}
 
 \entry{DefineX | Consulting, Technology \& Labs \textnormal{--- Backend Developer Intern}}{09/2026 -- Present}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.6pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
    \item \desc{Building Model Context Protocol (MCP) integrations and RESTful backend pipelines that automate enterprise data extraction for internal teams.}
    \item \desc{Adding request schema validation and throughput tuning to internal REST APIs using AI-assisted development workflows.}
 \end{itemize}
-\vspace{4.8pt}
+\vspace{6.8pt}
 
 \entry{180 Degrees Consulting \textnormal{--- Junior Consultant}}{10/2026 -- Present}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.6pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
    \item \desc{Delivering strategic advisory for social enterprises and non-profits through data-driven market research and stakeholder benchmarking.}
    \item \desc{Building operational roadmaps and financial impact models to optimize resource allocation and project reach, using qualitative and quantitative analysis.}
 \end{itemize}
-\vspace{4.8pt}
+\vspace{6.8pt}
 
 \entry{Akbank \textnormal{--- Site Reliability Engineering Intern}}{07/2026 -- 08/2026}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.6pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
    \item \desc{Designed Dynatrace and Grafana observability dashboards and proactive alerting for core banking services to detect incidents earlier.}
    \item \desc{Triaged production Linux nodes through log analysis and server diagnostics to accelerate root-cause analysis.}
 \end{itemize}
-\vspace{4.8pt}
+\vspace{6.8pt}
 
 \entry{Smash Mate \textnormal{--- Software Engineering Intern}}{06/2026 -- 07/2026}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.6pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
    \item \desc{Engineered player matchmaking, search and scoring microservices in Java (Quarkus) with RESTful endpoints.}
    \item \desc{Developed React Native interfaces and wrote unit and integration tests for the pre-launch release.}
 \end{itemize}
@@ -89,39 +89,35 @@
 \sechead{Technical Projects}
 
 \entry{\href{https://github.com/yigitsarpavci/garmin-athlete-analytics-platform}{Garmin Athlete Analytics Platform}}{Python, MCP, pandas, Swift}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.6pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
    \item \desc{Engineered an end-to-end platform ingesting 93 days of Garmin data (1 Hz .fit streams, 5-min HRV) via MCP to model ACWR training load.}
    \item \desc{Built a one-screen dashboard with LLM coaching, an adaptive Garmin session keep-alive, a native macOS app, and 100+ tests in CI.}
 \end{itemize}
-\vspace{4.8pt}
+\vspace{6.8pt}
+
+\entry{\href{https://github.com/yigitsarpavci/trading-platform}{Trading Platform: Exchange \& Algorithmic Trading Engine}}{Python, FastAPI, PostgreSQL, Next.js, Docker}
+\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
+   \item \desc{Built a FastAPI/PostgreSQL exchange: price-time order book, pre-trade checks, settlement into portfolios, IOC orders and a market maker.}
+   \item \desc{Wrote a 2s-loop trading engine (z-score breakout scoring, stop-distance sizing, 6 exit rules) that trades on the exchange via IOC orders.}
+   \item \desc{Shipped both as one Docker Compose stack with Next.js UIs and 139 tests; CI runs a live engine-to-exchange round trip on every push.}
+\end{itemize}
+\vspace{6.8pt}
 
 \entry{\href{https://github.com/yigitsarpavci/enterprise-admin-dashboard}{Enterprise Operations \& Knowledge Platform}}{Next.js, Express 5, TypeORM, Prisma}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.6pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
    \item \desc{Built a full-stack workforce delegation, daily audit, and SOP knowledge-base platform with department productivity benchmarking.}
    \item \desc{Enforced signed-session RBAC across Next.js middleware and an Express 5 API (SWR optimistic UI); 23 tests and lint-clean CI.}
 \end{itemize}
-\vspace{4.8pt}
+\vspace{6.8pt}
 
-\entry{\href{https://github.com/yigitsarpavci/financial-analytics-dashboard}{Financial Analytics Dashboard}}{FastAPI, Next.js, SQLAlchemy, OpenAI}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.6pt, parsep=0pt, topsep=1.8pt]
-   \item \desc{Architected a portfolio-risk platform on a 10-table schema with a simulated exchange: limit-order book, settlement, market maker.}
-   \item \desc{Integrated OpenAI advisory with a deterministic fallback, JWT/bcrypt auth, a 36-test pytest suite, and Docker-based CI.}
-\end{itemize}
-\vspace{4.8pt}
 
 \entry{\href{https://github.com/yigitsarpavci/restaurant-floor-plan-saas}{Restaurant Operations \& Table Management SaaS}}{Next.js, Zustand, Prisma, Zod}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.6pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
    \item \desc{Developed a multi-tenant restaurant SaaS with a drag-and-drop floor-plan canvas, walk-in queues, and multi-table merging.}
    \item \desc{Secured it with signed sessions, bcrypt, and per-action tenant authorization; Zod validation, unit and Playwright e2e tests in CI.}
 \end{itemize}
-\vspace{4.8pt}
+\vspace{6.8pt}
 
-\entry{\href{https://github.com/yigitsarpavci/algorithmic-trading-simulator}{Algorithmic Trading \& Execution Engine}}{Python, FastAPI, Next.js, PostgreSQL}
-\begin{itemize}[leftmargin=1.1em, itemsep=1.6pt, parsep=0pt, topsep=1.8pt]
-   \item \desc{Built a 2s-loop trading engine over 5 crypto assets with stop-distance sizing, routing IOC orders to the Financial Dashboard's exchange.}
-   \item \desc{Designed a 6-rule risk-first exit engine (hard, trailing, break-even and time stops) with live WebSocket trade streaming; 102 pytest tests.}
-\end{itemize}
-\vspace{4.8pt}
 
 \entry{Additional Projects}{}
 
@@ -133,7 +129,7 @@
 
 \sechead{Technical Skills}
 
-\begin{itemize}[leftmargin=1.1em, itemsep=1.6pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
     \item \desc{\textbf{Programming Languages:} Python, Java, TypeScript, C/C++, SQL, Bash, JavaScript, x86-64 \& RISC-V Assembly, SystemVerilog}
     \item \desc{\textbf{Backend \& Data:} FastAPI, Quarkus, Express, REST APIs, WebSockets, MCP, PostgreSQL, SQLite, SQLAlchemy, Prisma, TypeORM}
     \item \desc{\textbf{Frontend \& Tooling:} Next.js, React, React Native, Tailwind, Linux, Git, Docker, GitHub Actions, Dynatrace, Grafana, Verilator, pytest, Jest, Vitest}
