@@ -2,7 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[default]{sourcesanspro}
-\usepackage[a4paper, margin=0.75cm, top=0.85cm, bottom=0.80cm]{geometry}
+\usepackage[a4paper, margin=0.75cm, top=0.75cm, bottom=0.70cm]{geometry}
 \setlength{\paperwidth}{210mm}
 \setlength{\paperheight}{297mm}
 \sloppy
@@ -17,9 +17,9 @@
 \setlength{\parindent}{0pt}
 
 \newcommand{\sechead}[1]{%
-    \vspace{12.5pt}%
+    \vspace{9.5pt}%
     {\centering\fontsize{10.2}{12.2}\textbf{\MakeUppercase{#1}}\par}%
-    \vspace{4.5pt}%
+    \vspace{4.0pt}%
 }
 
 \newcommand{\entry}[2]{%
@@ -27,7 +27,7 @@
 }
 
 \newcommand{\desc}[1]{%
-    {\fontsize{8.2}{10.8}\selectfont #1}%
+    {\fontsize{8.0}{10.3}\selectfont #1}%
 }
 
 \renewcommand{\labelitemi}{\fontsize{6}{7.5}\selectfont\textbullet}
@@ -50,39 +50,43 @@
 \sechead{Education}
 
 \entry{Bo\u{g}azi\c{c}i University \textnormal{--- B.Sc. in Computer Engineering}}{09/2023 -- Expected 06/2028}
-\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.2pt]
     \item \desc{Ranked 314th out of 3.5M students in the National University Entrance Exam (YKS).}
     \item \desc{Extracurriculars: Executive Board Member \& DJ at Radyo Bo\u{g}azi\c{c}i; Active Member at ESTIEM; Work and Travel USA; Student-Athlete (sailing, skiing \& windsurfing).}
+    \item \desc{Volunteering: Volunteering Division Member at Industrial Engineering Club (B\"{U}YAK); Educational Mentor to high school students.}
 \end{itemize}
-\vspace{6.8pt}
+\vspace{5.0pt}
 
-\entry{Kabata\c{s} Boys' High School \textnormal{\desc{--- GPA: 3.78/4.00 $\vert$ Volunteering: CIP Club \& TO\c{C}EV.}}}{09/2018 -- 06/2023}
+\entry{Kabata\c{s} Boys' High School}{09/2018 -- 06/2023}
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.2pt]
+    \item \desc{GPA: 3.78/4.00 $\vert$ Extracurriculars: Debate, Model United Nations, Entrepreneurship, Coding Clubs $\vert$ Volunteering: CIP Club \& TO\c{C}EV.}
+\end{itemize}
 
 \sechead{Experience}
 
 \entry{DefineX | Consulting, Technology \& Labs \textnormal{--- Backend Developer Intern}}{09/2026 -- Present}
-\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.2pt]
    \item \desc{Building Model Context Protocol (MCP) integrations and RESTful backend pipelines that automate enterprise data extraction for internal teams.}
    \item \desc{Adding request schema validation and throughput tuning to internal REST APIs using AI-assisted development workflows.}
 \end{itemize}
-\vspace{6.8pt}
+\vspace{5.0pt}
 
 \entry{180 Degrees Consulting \textnormal{--- Junior Consultant}}{10/2026 -- Present}
-\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.2pt]
    \item \desc{Delivering strategic advisory for social enterprises and non-profits through data-driven market research and stakeholder benchmarking.}
    \item \desc{Building operational roadmaps and financial impact models to optimize resource allocation and project reach, using qualitative and quantitative analysis.}
 \end{itemize}
-\vspace{6.8pt}
+\vspace{5.0pt}
 
 \entry{Akbank \textnormal{--- Site Reliability Engineering Intern}}{07/2026 -- 08/2026}
-\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.2pt]
    \item \desc{Designed Dynatrace and Grafana observability dashboards and proactive alerting for core banking services to detect incidents earlier.}
    \item \desc{Triaged production Linux nodes through log analysis and server diagnostics to accelerate root-cause analysis.}
 \end{itemize}
-\vspace{6.8pt}
+\vspace{5.0pt}
 
 \entry{Smash Mate \textnormal{--- Software Engineering Intern}}{06/2026 -- 07/2026}
-\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.2pt]
    \item \desc{Engineered player matchmaking, search and scoring microservices in Java (Quarkus) with RESTful endpoints.}
    \item \desc{Developed React Native interfaces and wrote unit and integration tests for the pre-launch release.}
 \end{itemize}
@@ -90,39 +94,39 @@
 \sechead{Technical Projects}
 
 \entry{\href{https://github.com/yigitsarpavci/garmin-athlete-analytics-platform}{Garmin Athlete Analytics Platform}}{Python, MCP, pandas, Swift}
-\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.2pt]
    \item \desc{Engineered an end-to-end platform ingesting 93 days of Garmin data (1 Hz .fit streams, 5-min HRV) via MCP to model ACWR training load.}
    \item \desc{Built a one-screen dashboard with LLM coaching, an adaptive Garmin session keep-alive, a native macOS app, and 100+ tests in CI.}
 \end{itemize}
-\vspace{6.8pt}
+\vspace{5.0pt}
 
 \entry{\href{https://github.com/yigitsarpavci/trading-platform}{Trading Platform: Exchange \& Algorithmic Trading Engine}}{Python, FastAPI, PostgreSQL, Next.js, Docker}
-\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.2pt]
    \item \desc{Built a FastAPI/PostgreSQL exchange: price-time order book, pre-trade checks, settlement into portfolios, IOC orders and a market maker.}
    \item \desc{Embedded a 2s-loop trading bot (z-score breakout entries, stop-distance sizing, 6 exit rules) that trades on that book via IOC orders.}
    \item \desc{Shipped a Next.js 16 app with portfolio-risk \& AI advisory, live Yahoo Finance or synthetic feeds, 143 tests (75\% coverage), and Docker CI.}
 \end{itemize}
-\vspace{6.8pt}
+\vspace{5.0pt}
 
 \entry{\href{https://github.com/yigitsarpavci/enterprise-admin-dashboard}{Enterprise Operations \& Knowledge Platform}}{Next.js, Express 5, TypeORM, Prisma}
-\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.2pt]
    \item \desc{Built a full-stack workforce delegation, daily audit, and SOP knowledge-base platform with department productivity benchmarking.}
    \item \desc{Enforced signed-session RBAC across Next.js middleware and an Express 5 API (SWR optimistic UI); 23 tests and lint-clean CI.}
 \end{itemize}
-\vspace{6.8pt}
+\vspace{5.0pt}
 
 
 \entry{\href{https://github.com/yigitsarpavci/restaurant-floor-plan-saas}{Restaurant Operations \& Table Management SaaS}}{Next.js, Zustand, Prisma, Zod}
-\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.2pt]
    \item \desc{Developed a multi-tenant restaurant SaaS with a drag-and-drop floor-plan canvas, walk-in queues, and multi-table merging.}
    \item \desc{Secured it with signed sessions, bcrypt, and per-action tenant authorization; Zod validation, unit and Playwright e2e tests in CI.}
 \end{itemize}
-\vspace{6.8pt}
+\vspace{5.0pt}
 
 
 \entry{Additional Projects}{}
 
-\begin{itemize}[leftmargin=1.1em, itemsep=2.0pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.2pt]
     \item \desc{\textbf{\href{https://github.com/yigitsarpavci/low-level-systems-lab}{Low-Level Systems \& Architecture Lab}} (x86-64, RISC-V, C11, POSIX IPC): Profiled CoreMark, analyzed L1/L2 caches and 5-stage RISC-V hazards in Verilator, built an x86-64 scheduler, bare-metal RV32I pathfinding, a C11 shell, and a 60 FPS POSIX IPC engine (443 checks).}
     \item \desc{\textbf{\href{https://github.com/yigitsarpavci/data-structures-and-algorithms-suite}{Advanced Data Structures \& Algorithms Suite}} (Java, Python): Built Tarjan's SCC in $O(V+E)$, $O(\log N)$ indexed max-heaps, an AST interpreter with lexical/dynamic scoping, and closed-form/probabilistic complexity bounds verified exhaustively.}
     \item \desc{\textbf{\href{https://github.com/yigitsarpavci/cross-platform-game-lab}{Cross-Platform \& WebAssembly Game Lab}} (C++17, Qt6, WASM, React Native): Compiled a C++17/Qt6 2048 engine to WebAssembly (GitHub Pages) with \mbox{unbounded} undo and 372 checks, plus a React Native Minesweeper with iterative BFS flood-fill (14 tests, CI).}
@@ -130,11 +134,12 @@
 
 \sechead{Technical Skills}
 
-\begin{itemize}[leftmargin=1.1em, itemsep=2.4pt, parsep=0pt, topsep=1.8pt]
+\begin{itemize}[leftmargin=1.1em, itemsep=1.2pt, parsep=0pt, topsep=1.2pt]
     \item \desc{\textbf{Programming Languages:} Python, Java, TypeScript, C/C++, SQL, Bash, JavaScript, x86-64 \& RISC-V Assembly, SystemVerilog}
     \item \desc{\textbf{Backend \& Data:} FastAPI, Quarkus, Express, REST APIs, WebSockets, MCP, PostgreSQL, SQLite, SQLAlchemy, Prisma, TypeORM}
     \item \desc{\textbf{Frontend \& Tooling:} Next.js, React, React Native, Tailwind, Linux, Git, Docker, GitHub Actions, Dynatrace, Grafana, Verilator, pytest, Jest, Vitest, Playwright}
     \item \desc{\textbf{Languages:} Turkish (Native), English (Advanced), German (Beginner)}
+    \item \desc{\textbf{Hobbies:} Wakeboarding, Kiteboarding, Surfing, Bouldering, Running, Traveling}
 \end{itemize}
 
 \end{document}
