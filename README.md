@@ -43,7 +43,7 @@ Computer Engineering student at **Boğaziçi University** (B.Sc., expected 06/20
   - **Honors:** Ranked 314th out of 3.5M students in the National University Entrance Exam (YKS).
   - **Extracurriculars:** Executive Board Member & DJ at Radyo Boğaziçi; Active Member at ESTIEM; Work and Travel USA; Student-Athlete (sailing, skiing & windsurfing).
   - **Volunteering:** Volunteering Open Call Member at Industrial Engineering Club (BÜYAK); Educational Mentor to high school students.
-- **Kabataş Boys' High School** *(09/2018 – 06/2023 · GPA: 3.78/4.00)*
+- **Kabataş Boys' High School** *(09/2018 – 06/2023 · GPA: 3.78/4.00, High Honors)*
   - **Extracurriculars:** Debate, Model United Nations (MUN), Entrepreneurship, and Coding Clubs.
   - **Volunteering:** Community Involvement Projects Club and TOÇEV (Tüvana Okuma İstekli Çocuk Eğitim Vakfı).
 
