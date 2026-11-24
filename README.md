@@ -41,8 +41,8 @@ Computer Engineering student at **Boğaziçi University** (B.Sc., expected 06/20
 
 - **Boğaziçi University** — B.Sc. in Computer Engineering *(09/2023 – Expected 06/2028)*
   - **Honors:** Ranked 314th out of 3.5M students in the National University Entrance Exam (YKS).
-  - **Extracurriculars & Athletics:** Executive Board Member & DJ at Radyo Boğaziçi; Active Member at ESTIEM; Work and Travel USA; Student-Athlete (sailing, skiing & windsurfing).
-  - **Volunteering & Mentorship:** Volunteering Division Member at Industrial Engineering Club (BÜYAK); Educational Mentor to high school students.
+  - **Extracurriculars:** Executive Board Member & DJ at Radyo Boğaziçi; Active Member at ESTIEM; Work and Travel USA; Student-Athlete (sailing, skiing & windsurfing).
+  - **Volunteering:** Volunteering Division Member at Industrial Engineering Club (BÜYAK); Educational Mentor to high school students.
 - **Kabataş Boys' High School** *(09/2018 – 06/2023 · GPA: 3.78/4.00)*
   - **Extracurriculars:** Debate, Model United Nations (MUN), Entrepreneurship, and Coding Clubs.
   - **Volunteering:** Community Involvement Projects Club and TOÇEV (Tüvana Okuma İstekli Çocuk Eğitim Vakfı).
