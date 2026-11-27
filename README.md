@@ -23,7 +23,7 @@ Computer Engineering student at **Boğaziçi University** (B.Sc., expected 06/20
 | **[Restaurant Table Management SaaS](https://github.com/yigitsarpavci/restaurant-floor-plan-saas)** | Multi-tenant floor-plan builder, reservation lifecycle and live host console | Next.js 16, Prisma, Zustand, Zod | 21 unit + Playwright e2e tests · 98% security coverage · Docker · CodeQL |
 | **[Low-Level Systems & Architecture Lab](https://github.com/yigitsarpavci/low-level-systems-lab)** | Zero-libc x86-64 scheduler, bare-metal RV32I, C11 shell, CoreMark profiling, RISC-V pipeline/cache analysis, POSIX IPC game subsystem | x86-64, RISC-V, C11, Verilator | CI-graded modules · 443 IPC checks |
 
-**More:** [Cross-Platform & WebAssembly Game Lab](https://github.com/yigitsarpavci/cross-platform-game-lab) (C++17/Qt6 2048 compiled to WebAssembly with a [live demo](https://yigitsarpavci.github.io/cross-platform-game-lab/), React Native Minesweeper; 372 + 14 tests) · [Data Structures & Algorithms Suite](https://github.com/yigitsarpavci/data-structures-and-algorithms-suite) (Tarjan SCC, indexed max-heaps, an AST interpreter and closed-form complexity analysis with exhaustive verification; CI).
+**More:** [Cross-Platform & WebAssembly Game Lab](https://github.com/yigitsarpavci/cross-platform-game-lab) (C++17/Qt6 2048 compiled to WebAssembly with a [live demo](https://yigitsarpavci.github.io/cross-platform-game-lab/), React Native Minesweeper; 372 + 14 tests) · [Data Structures & Algorithms Suite](https://github.com/yigitsarpavci/data-structures-and-algorithms-suite) (Tarjan SCC, indexed max-heaps, an AST interpreter, closed-form complexity analysis with exhaustive verification, and an MPI genome motif search with a task pool and pipelines; CI).
 
 ---
 
